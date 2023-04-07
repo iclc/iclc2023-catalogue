@@ -74,12 +74,12 @@ def master_schedule_event(slug):
             obj = store[title[1:]]
             
             if item.get("venue", None):
-                item_venue = f"<br><br>Venue: <em>{item['venue']}</em>"
+                item_venue = f"<br><br><span style='position:relative;top:-10px;'>Venue: <em>{item['venue']}</em></span>"
             
             title = f"<em>{obj['title']}</em>"
 
             if obj["type"] == "video":
-                item_venue = "<br>(Video Screening)"
+                item_venue = "<br><br><span style='position:relative;top:-10px;'>(Video Screening)</span>"
 
             for contributor in obj["contributors"]:
                 if authors != "":
@@ -101,7 +101,7 @@ def master_schedule_event(slug):
             vis_person = store[vis_cont]
             vis_auth = render_name(vis_person)
 
-            c = c + f"<tr><td></td><td>Visuals: <strong><em>{vis['title']}</em></strong>{item_venue}</td><td>{vis_auth}</td></tr>\n"
+            c = c + f"<tr style='position:relative;top:-12px;'><td></td><td>Visuals: <strong><em>{vis['title']}</em></strong>{item_venue}</td><td>{vis_auth}</td></tr>\n"
 
 
     c = c + "<tr><td style='padding-bottom: 50px;'></td></tr>\n"
@@ -122,7 +122,7 @@ def render_master_schedule():
             if venue == None:
                 venue = ""
             else:
-                venue = ", <em>" + venue + "</em>"
+                venue = "<br><br><span style='position:relative;top:-10px;'>Venue: <em>" + venue + "</em></span>"
 
             c = c + f"<tr><td style='padding-bottom: 50px;'>{sanitize_time(item['time'])}</td><td colspan='2'><strong>{item['title']}</strong>{venue}</td></tr>"
     

@@ -49,7 +49,7 @@ schedule:
     -   $workshops-3
     -   time: t18:00
         hidden: True
-        venue: Restaurant de Kas
+        venue: de Kas
         title: Contributors Dinner
     -   $algorave
     
