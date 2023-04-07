@@ -8,13 +8,13 @@ date_time: Friday, April 21st, 15:30&#8209;17:30
 schedule:
     -   time: t15:30&#8209;17:30
         item: $the-craft-of-algorave-documentation
-        venue: Vogelfrei
+        venue: VOGELFREI
     -   time: t15:30&#8209;17:30
         item: $nodysseus-three-live-lowcoding-three-js-visuals-in-the-browser
-        venue: Vogelfrei
+        venue: VOGELFREI
     -   time: t15:30&#8209;17:30
         item: $easy-stochastic-live-coding-with-megra-3
-        venue: 'Vogelfrei'
+        venue: 'VOGELFREI'
     -   time: t15:30&#8209;17:30
         item: $introduction-to-nix-for-live-coding-software-packaging
         venue: 'Nijverheid, Kadeboot'

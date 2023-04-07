@@ -3,7 +3,7 @@ slug: keynote-3
 type: event
 event_type: Keynote
 title: Keynote 3 & Closing Words
-venue: Vogelfrei
+venue: VOGELFREI
 date_time: Friday, April 21st, 14:00
 schedule:
     -   time: t14:00

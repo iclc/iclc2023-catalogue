@@ -3,7 +3,7 @@ slug: choreographic-coding
 type: event
 event_type: Concert
 title: Choreographic Coding
-venue: Het Huis
+venue: Het Huis Utrecht
 date_time: 'Wednesday, April 19th, Doors 19:30 / Show: 20:00'
 schedule:
     -   time: t19:30

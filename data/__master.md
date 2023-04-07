@@ -3,14 +3,14 @@ slug: __master
 type: master
 schedule:
     - Wednesday, April 19th 2023
-    -   venue: Vogelfrei
+    -   venue: VOGELFREI
         time: t09:00
         title: Registration
     -   $paper-session-1
     -   time: t11:15
         title: Short Break
     -   $paper-session-2
-    -   venue: Nar Café der Kunsten
+    -   venue: NAR - Café der Kunsten
         time: t12:45
         title: Lunch
     -   $keynote-1

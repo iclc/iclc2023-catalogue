@@ -3,7 +3,7 @@ slug: alternative-algorithms
 type: event
 event_type: Concert
 title: Alternative Algorithms
-venue: Ekko
+venue: EKKO
 date_time: 'Thursday, April 20th, Doors 19:30 / Show: 20:00'
 schedule:
     -   time: t19:30

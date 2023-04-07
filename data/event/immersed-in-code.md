@@ -3,7 +3,7 @@ slug: immersed-in-code
 type: event
 event_type: Concert
 title: Immersed in Code
-venue: Pieter Baan Centrum
+venue: Former Pieter Baan Centrum
 date_time: 'Friday, April 21st, Pre-Show 19:30 / Show: 20:00'
 schedule:
     -   time: t19:30

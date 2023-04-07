@@ -3,7 +3,7 @@ slug: paper-session-2
 type: event
 event_type: Paper Session
 title: Paper Session 2
-venue: Vogelfrei
+venue: VOGELFREI
 date_time: Wednesday, April 19th, 11:30
 schedule:
     -   time: t11:30

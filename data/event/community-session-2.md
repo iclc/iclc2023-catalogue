@@ -3,7 +3,7 @@ slug: community-session-2
 type: event
 event_type: Community Session
 title: Community Session 2
-venue: Vogelfrei
+venue: VOGELFREI
 date_time: Friday, April 21st, 11:15
 schedule:
     -   time: t11:15

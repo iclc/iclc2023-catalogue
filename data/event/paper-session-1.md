@@ -3,7 +3,7 @@ slug: paper-session-1
 type: event
 event_type: Paper Session
 title: Welcome & Paper Session 1
-venue: Vogelfrei
+venue: VOGELFREI
 date_time: Wednesday, April 19th, 09:45
 schedule:
     -   time: t09:45

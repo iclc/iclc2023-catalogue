@@ -3,7 +3,7 @@ slug: lunch-concert-1
 type: event
 event_type: Concert
 title: Lunch & Concert 1
-venue: Nar Café der Kunsten
+venue: NAR - Café der Kunsten
 date_time: 'Thursday, April 20th, Doors 12:45 / Show: 13:00'
 schedule:
     -   time: t12:45

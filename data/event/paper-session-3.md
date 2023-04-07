@@ -3,7 +3,7 @@ slug: paper-session-3
 type: event
 event_type: Paper Session
 title: Paper Session 3
-venue: Vogelfrei
+venue: VOGELFREI
 date_time: Wednesday, April 19th, 15:15
 schedule:
     -   time: t15:15

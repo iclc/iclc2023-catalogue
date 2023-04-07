@@ -3,7 +3,7 @@ slug: algorave
 type: event
 event_type: Concert
 title: Algorave
-venue: TivoliVredenberg - Pandora
+venue: TivoliVredenburg
 date_time: 'Saturday, April 22nd, Doors: 21:45 / Show: 22:00'
 schedule:
     -   time: t21:45
