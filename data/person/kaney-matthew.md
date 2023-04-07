@@ -5,7 +5,7 @@ last_name: Kaney
 first_name: Matthew
 alias: null
 affiliations:
-- Livecode.NYC
+- LiveCode.NYC
 ---
 
 Matthew Kaney is a performer and technologist interested in synthesizers, MIDI and web-based tools for creative expression. He frequently performs music and visuals with the LiveCode.NYC collective, where he has also helped organize recent shows.

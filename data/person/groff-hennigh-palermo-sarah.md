@@ -4,8 +4,7 @@ type: person
 last_name: Groff Hennigh-Palermo
 first_name: Sarah
 alias: null
-affiliations:
-- Independent Artist
+affiliations: []
 ---
 
 When not live-coding, Sarah makes large-scale video art and computer programs in Berlin. She has shown work at Pioneer Works (US), Westbeth Gallery (US), and Nomas* Gallery (UK).
