@@ -1,6 +1,6 @@
 ---
 slug: commuta-a-cross-adaptive-laptop-ensemble
-title: 'Commuta: a Cross Adaptive Laptop Ensemble'
+title: 'Commuta: A Cross Adaptive Laptop Ensemble'
 type: performance
 submission_type: Performance
 contributors:

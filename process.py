@@ -104,7 +104,7 @@ def master_schedule_event(slug):
             c = c + f"<tr><td></td><td>Visuals: <strong><em>{vis['title']}</em></strong>{item_venue}</td><td>{vis_auth}</td></tr>\n"
 
 
-    c = c + "<tr><td style='margin-bottom: 30px'></td></tr>\n"
+    c = c + "<tr><td style='padding-bottom: 50px;'></td></tr>\n"
     return c
 
 def render_master_schedule():
@@ -124,7 +124,7 @@ def render_master_schedule():
             else:
                 venue = ", <em>" + venue + "</em>"
 
-            c = c + f"<tr><td>{sanitize_time(item['time'])}</td><td colspan='2'><strong>{item['title']}</strong>{venue}</td></tr>"
+            c = c + f"<tr><td style='padding-bottom: 50px;'>{sanitize_time(item['time'])}</td><td colspan='2'><strong>{item['title']}</strong>{venue}</td></tr>"
     
     with open("templates/master.html", "r") as file:
         master_template = file.read()

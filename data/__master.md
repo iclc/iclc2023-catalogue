@@ -47,6 +47,10 @@ schedule:
 
     - Saturday, April 22nd 2023
     -   $workshops-3
+    -   time: t18:00
+        hidden: True
+        venue: Restaurant de Kas
+        title: Contributors Dinner
     -   $algorave
     
     - Sunday, April 23rd 2023

@@ -5,7 +5,7 @@ type: paper
 submission_type: Paper-Long
 contributors:
 - person: $candra-rini-peni
-- person: $rangga-purnama-aji
+- person: $purnama-aji-rangga
 - person: $sewell-sen
 - person: $strohschein-heather
 - person: $van-der-walt-j-simon
