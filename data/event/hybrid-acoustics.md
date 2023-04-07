@@ -16,6 +16,8 @@ schedule:
         item: $khipukoding
     -   time: t17:20
         item: $listening-to-the-future-landscape
+    -   time: t17:30
+        item: $neowise-5-8-v-e
     -   time: t18:00
         item: $saaz-sz
     -   time: t18:20
