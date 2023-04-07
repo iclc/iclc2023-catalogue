@@ -1,6 +1,6 @@
 ---
 slug: colorscape-dipincode
-title: 'ColorScape : DipInCode'
+title: 'ColorScape: DipInCode'
 type: performance
 submission_type: Performance
 contributors:
