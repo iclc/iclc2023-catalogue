@@ -1,7 +1,7 @@
 ---
 slug: m-martins-fellipe
 type: person
-last_name: M Martins
+last_name: M. Martins
 first_name: Fellipe
 alias: null
 affiliations:
