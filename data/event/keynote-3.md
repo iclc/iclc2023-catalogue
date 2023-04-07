@@ -7,7 +7,7 @@ venue: VOGELFREI
 date_time: Friday, April 21st, 14:00
 schedule:
     -   time: t14:00
-        item: "Keynote: Click Nilson"
+        item: $keynote-click-nilson
     -   time: t15:00
         item: "Closing Words"
 ---

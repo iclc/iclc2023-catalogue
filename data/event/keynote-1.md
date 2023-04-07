@@ -9,5 +9,5 @@ schedule:
     -   time: t13:45
         item: Official Opening
     -   time: t14:00
-        item: "Keynote: Kate Sicchio"
+        item: $keynote-kate-sicchio
 ---

@@ -7,5 +7,5 @@ venue: VOGELFREI
 date_time: Thursday, April 20th, 14:00
 schedule:
     -   time: t14:00
-        item: "Keynote: Marije Baalman"
+        item: $keynote-marije-baalman
 ---
