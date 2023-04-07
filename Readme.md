@@ -1,7 +1,7 @@
-Running process.py with Python 3 should create .html files in the output folder.
+In case you want to run process.py yourself use Python 3 - it should create .html files in the output folder.
 
-You will need:
+You would need:
 * PyYAML - https://pyyaml.org/wiki/PyYAMLDocumentation
 
-If you want to also run the import.py script then you will also need:
+If you want to also run the import.py script then you would also need:
 * python-slugify - https://pypi.org/project/python-slugify/
