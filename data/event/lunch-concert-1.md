@@ -12,6 +12,7 @@ schedule:
         item: $this-is-not-a-piano
     -   time: t13:20
         item: $variations-on-kandinsky
-    -   time: t13:40
+        hide_time: True
+    -   time: t~ 13:40
         item: End of Concert
 ---

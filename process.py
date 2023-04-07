@@ -5,6 +5,7 @@ import yaml
 import os
 
 EXPORT_MAIL = False
+MASTER_SCHEDULE_DO_HIDE = True
 
 store = {}
 emails = {}
@@ -67,13 +68,20 @@ def master_schedule_event(slug):
     for item in event["schedule"]:
         title = item['item']
         authors = ""
+        time = item['time']
+
+        if item.get('hide_time'):
+            time = ""
     
         item_venue = ""
+
+        if item.get('hidden') and MASTER_SCHEDULE_DO_HIDE:
+            continue
 
         if title.startswith("$"):
             obj = store[title[1:]]
             
-            if item.get("venue", None):
+            if item.get("venue", None) and MASTER_SCHEDULE_DO_HIDE:
                 item_venue = f"<br><br><span style='position:relative;top:-10px;'>Venue: <em>{item['venue']}</em></span>"
             
             title = f"<em>{obj['title']}</em>"
@@ -92,8 +100,9 @@ def master_schedule_event(slug):
                     authors += contributor["person"]
         else:
             title = f"{title}"
+
         
-        c = c + f"<tr><td>{item['time']}</td><td><strong>{title}</strong>{item_venue}</td><td>{authors}</td></tr>\n"
+        c = c + f"<tr><td>{time}</td><td><strong>{title}</strong>{item_venue}</td><td>{authors}</td></tr>\n"
 
         if item.get("visuals", None):
             vis = store[item["visuals"][1:]]
@@ -117,6 +126,9 @@ def render_master_schedule():
             else:
                 c = c + master_schedule_event(item[1:])
         else:
+            if item.get('hidden') and MASTER_SCHEDULE_DO_HIDE:
+                continue
+
             venue = item.get('venue')
 
             if venue == None:

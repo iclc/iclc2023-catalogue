@@ -12,19 +12,26 @@ schedule:
         item: $commuta-a-cross-adaptive-laptop-ensemble
     -   time: t16:20
         item: $shall-we-intercorporealities
+        hide_time: True
     -   time: t16:50
         item: $khipukoding
+        hide_time: True
     -   time: t17:20
         item: $listening-to-the-future-landscape
+        hide_time: True
     -   time: t17:30
         item: $neowise-5-8-v-e
+        hide_time: True
     -   time: t18:00
         item: $saaz-sz
+        hide_time: True
     -   time: t18:20
         item: $live-set
+        hide_time: True
     -   time: t18:40
         item: Headroom
         hidden: True
-    -   time: t19:00
-        item: End
+        hide_time: True
+    -   time: t~ 19:00
+        item: End of Concert
 ---

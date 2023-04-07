@@ -12,6 +12,7 @@ schedule:
         item: $colorscape-dipincode
     -   time: t13:20
         item: $codeklavier-the-nieuw-ballet
-    -   time: t13:35
+        hide_time: True
+    -   time: t~ 13:35
         item: End of Concert
 ---

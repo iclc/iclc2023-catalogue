@@ -12,15 +12,20 @@ schedule:
         item: $serendipitous-liquidators
     -   time: t20:30
         item: $blocking-behaviours
+        hide_time: True
     -   time: t20:50
         item: $arrays-of-disarray
+        hide_time: True
     -   time: t21:10
         item: $grim-grim-grim-grimberg
+        hide_time: True
     -   time: t21:40
         item: $piraran-algorithmic-acid-music
+        hide_time: True
     -   time: t22:10
         item: Headroom
+        hide_time: True
         hidden: True
-    -   time: t22:30
-        item: End
+    -   time: t~ 22:30
+        item: End of Concert
 ---
