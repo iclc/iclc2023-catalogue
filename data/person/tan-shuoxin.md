@@ -5,7 +5,7 @@ last_name: Tan
 first_name: Shuoxin
 alias: null
 affiliations:
-- Institute for Music and Media, Robert Schumann Hochschule, Düsseldorf, Germany
+- Institute for Music and Media, Robert Schumann Hochschule Düsseldorf
 ---
 
 Shuoxin Tan, born in Beijing, now living and working as a freelance composer and sound artist in Cologne. Since April 2020 she studies Epistemic Media at Institute for

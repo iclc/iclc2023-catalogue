@@ -5,7 +5,7 @@ last_name: Jaudzems
 first_name: Kaspars
 alias: null
 affiliations:
-- Institute for Music Informatics and Musicology University of Music Karlsruhe
+- Institute for Music Informatics and Musicology, University of Music Karlsruhe
 - TOPLAP Karlsruhe
 ---
 

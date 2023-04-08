@@ -3,8 +3,8 @@ slug: cortes-malitzin
 type: person
 last_name: Cortés
 first_name: Malitzin
-alias: null
+alias: CNDSD
 affiliations:
-- Toplap Mexico, CNDSD
+- Toplap Mexico
 ---
 
