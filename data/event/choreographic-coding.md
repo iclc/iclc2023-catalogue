@@ -18,7 +18,6 @@ schedule:
         hide_time: True
     -   time: t21:30
         item: Break
-        hidden: True
         hide_time: True
     -   time: t22:05
         item: $poetry-attack-01

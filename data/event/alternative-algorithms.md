@@ -17,7 +17,7 @@ schedule:
         item: $grim-grim-grim-grimberg
         hide_time: True
     -   time: t21:20
-        item: $arrays-of-dissary
+        item: $arrays-of-disarray
         hide_time: True
     -   time: t21:40
         item: $piraran-algorithmic-acid-music

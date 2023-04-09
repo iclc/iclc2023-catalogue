@@ -9,7 +9,8 @@ import unicodedata
 
 EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
-CAT_OUT_PATH = 'output/2023/catalogue/'
+CAL_FOLDER = "catalogue/"
+CAT_OUT_PATH = 'output/2023/' + CAL_FOLDER
 
 TYPES = {
     "keynote": "Keynote",
@@ -96,6 +97,73 @@ for slug in store.keys():
             if schedule_item.get('item'):
                 if schedule_item['item'].startswith("$"):
                     store[schedule_item['item'][1:]]["event"] = item
+                if schedule_item.get('visuals'):
+                    store[schedule_item['visuals'][1:]]["event"] = item
+
+def render_schedule(event, do_hide=True, do_link=True):
+    c = ""
+
+    for item in event["schedule"]:
+        title = item['item']
+        authors = ""
+        time = item['time']
+
+        if item.get('hide_time'):
+            time = ""
+    
+        item_venue = ""
+
+        if item.get('hidden') and do_hide:
+            continue
+
+        if title.startswith("$"):
+            obj = store[title[1:]]
+            
+            if item.get("venue", None) and do_hide:
+                item_venue = f"<br><br><span style='position:relative;top:-10px;'>Venue: <em>{item['venue']}</em></span>"
+            
+            title = f"<em>{obj['title']}</em>"
+
+            if do_link:
+                title = link_to_item(title, obj)
+
+            if obj["type"] == "video":
+                item_venue = "<br><br><span style='position:relative;top:-10px;'>(Video Screening)</span>"
+
+            for contributor in obj["contributors"]:
+                if authors != "":
+                    authors += "<br>"
+                
+                if contributor["person"].startswith("$"):
+                    author = store[contributor["person"][1:]]
+                    author_text = render_name(author)
+
+                    if do_link:
+                        author_text = link_to_item(author_text, author)
+
+                    authors += author_text
+                else:
+                    authors += contributor["person"]
+        else:
+            title = f"{title}"
+
+        c = c + f"<tr><td>{time}</td><td><strong>{title}</strong>{item_venue}</td><td>{authors}</td></tr>\n"
+
+        if item.get("visuals", None):
+            vis = store[item["visuals"][1:]]
+            vis_cont = vis["contributors"][0]["person"][1:]
+            vis_person = store[vis_cont]
+            vis_auth = render_name(vis_person)
+
+            vis_title = vis['title']
+
+            if do_link:
+                vis_title = link_to_item(vis_title, vis)
+                vis_auth = link_to_item(vis_auth, vis_person)
+
+            c = c + f"<tr style='position:relative;top:-12px;'><td></td><td>Visuals: <strong><em>{vis_title}</em></strong>{item_venue}</td><td>{vis_auth}</td></tr>\n"
+        
+    return c
 
 def master_schedule_event(slug):
     print("Master Schedule - processing: " + slug)
@@ -107,53 +175,8 @@ def master_schedule_event(slug):
         venue = f", <em>{event['venue']}</em>"
 
     c = c + f"<tr><td colspan='3'><h3>{event['title']}</h3>\n{event['date_time']}{venue}</td></tr>"
-    for item in event["schedule"]:
-        title = item['item']
-        authors = ""
-        time = item['time']
 
-        if item.get('hide_time'):
-            time = ""
-    
-        item_venue = ""
-
-        if item.get('hidden') and MASTER_SCHEDULE_DO_HIDE:
-            continue
-
-        if title.startswith("$"):
-            obj = store[title[1:]]
-            
-            if item.get("venue", None) and MASTER_SCHEDULE_DO_HIDE:
-                item_venue = f"<br><br><span style='position:relative;top:-10px;'>Venue: <em>{item['venue']}</em></span>"
-            
-            title = f"<em>{obj['title']}</em>"
-
-            if obj["type"] == "video":
-                item_venue = "<br><br><span style='position:relative;top:-10px;'>(Video Screening)</span>"
-
-            for contributor in obj["contributors"]:
-                if authors != "":
-                    authors += "<br>"
-                
-                if contributor["person"].startswith("$"):
-                    author = store[contributor["person"][1:]]
-                    authors += render_name(author)
-                else:
-                    authors += contributor["person"]
-        else:
-            title = f"{title}"
-
-        
-        c = c + f"<tr><td>{time}</td><td><strong>{title}</strong>{item_venue}</td><td>{authors}</td></tr>\n"
-
-        if item.get("visuals", None):
-            vis = store[item["visuals"][1:]]
-            vis_cont = vis["contributors"][0]["person"][1:]
-            vis_person = store[vis_cont]
-            vis_auth = render_name(vis_person)
-
-            c = c + f"<tr style='position:relative;top:-12px;'><td></td><td>Visuals: <strong><em>{vis['title']}</em></strong>{item_venue}</td><td>{vis_auth}</td></tr>\n"
-
+    c = c + render_schedule(event, MASTER_SCHEDULE_DO_HIDE, False)
 
     c = c + "<tr><td style='padding-bottom: 50px;'></td></tr>\n"
     return c
@@ -215,26 +238,28 @@ def write_cat_html(path, title, content):
     html = cat_template
     html = html.replace("$TITLE", title)
     html = html.replace("$MAINCONTENT", content)
+    html = html.replace("$PATH", path.replace(CAT_OUT_PATH, ""))
+
     with open(path, "w") as file:
         file.write(html)
     print("Wrote: " + path)
 
 def url_for_item(item):
-    return item["type"] + "/" + item["slug"] + ".html"
+    return CAL_FOLDER + item["type"] + "/" + item["slug"] + ".html"
 
 def path_for_item(item):
-    return CAT_OUT_PATH + url_for_item(item)
+    return CAT_OUT_PATH + item["type"] + "/" + item["slug"] + ".html"
 
 def title_for_item(item, include_type=False):
     ret = ""
-    pre = ""
+    post = ""
     if include_type:
-        pre = type_description_for_item(item) + ": "
+        post = " (" + type_description_for_item(item) + ")"
     
     if item["type"] == "person": ret = render_name(item)
     else: ret = item["title"]
 
-    return pre + ret
+    return ret + post
 
 def link_to_item(text, item):
     return f"<a href='{url_for_item(item)}'>{text}</a>"
@@ -303,7 +328,7 @@ def content_for_performance(item):
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>
-        <h4 style="margin-top: 35px;">Program Notes</h4>
+        <h4>Program Notes</h4>
         {transform_body(body)}
     """
 
@@ -316,8 +341,44 @@ def content_for_paper(item):
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>
-        <h4 style="margin-top: 35px;">Abstract</h4>
+        <h4>Abstract</h4>
         {transform_body(body)}
+    """
+
+def content_for_keynote(item):
+    body = item["body"]
+
+    return f"""
+        <p><strong>{build_contributors_list(item, ", ")}</strong></p>
+        <p><em>Put time/place here</em></p>
+        {transform_body(body)}
+    """
+
+def content_for_workshop(item):
+    body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
+
+    return f"""
+        <p><strong>{build_contributors_list(item, ", ")}</strong></p>
+        <p><em>Put time/place here</em></p>
+        {transform_body(body)}
+        <p><em>Put requirements here</em></p>
+    """
+
+def content_for_event(item):
+    body = item["body"]
+
+    schedule = render_schedule(item, True, True)
+    schedule = f"<table>{schedule}</table>"
+
+    schedule_title = "Schedule"
+    if item["event_type"] == "Concert": schedule_title = "Line-Up"
+
+    return f"""
+        <p><strong>{item["date_time"]}<br>
+        Venue: <em>{item["venue"]}</em></strong></p>
+        {transform_body(body)}
+        <h4>{schedule_title}</h4>
+        {schedule}
     """
 
 def type_description_for_item(item):
@@ -329,6 +390,11 @@ def content_for_item(item):
     if item["type"] == "person": return content_for_person(item)
     if item["type"] == "performance": return content_for_performance(item)
     if item["type"] == "paper": return content_for_paper(item)
+    if item["type"] == "keynote": return content_for_keynote(item)
+    if item["type"] == "workshop": return content_for_workshop(item)
+    if item["type"] == "event": return content_for_event(item)
+
+
     return "<h2>No Content</h2>"
 
 def render_item(item):
