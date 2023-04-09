@@ -9,7 +9,7 @@ contributors:
 
 # $PROGRAM_NOTE
 
-A livecoding performance with one person, one laptop, a digital feedback patch, and hundreds of wav files (most of which are drum loops). The audio will be a blend of algorave, hardcore breaks, industrial hip-hop, and harsh noise. Feel free both to dance and/or lay on the ground in front of the subwoofer.
+A livecoding performance with one person, one laptop, a digital feedback patch, and hundreds of .wav files (most of which are drum loops). The audio will be a blend of algorave, hardcore breaks, industrial hip-hop, and harsh noise. Feel free both to dance and/or lay on the ground in front of the subwoofer.
 
 # $ABSTRACT
 
