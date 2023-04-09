@@ -26,7 +26,7 @@ schedule:
         item: $saaz-sz
         hide_time: True
     -   time: t18:20
-        item: $live-set
+        item: $flux
         hide_time: True
     -   time: t18:40
         item: Headroom
