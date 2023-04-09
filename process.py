@@ -4,6 +4,7 @@ import os
 import random
 from datetime import datetime
 import markdown
+import unicodedata
 
 
 EXPORT_MAIL = False
@@ -30,6 +31,11 @@ emails = {}
 if EXPORT_MAIL:
     with open("data/secret/emails.yaml", 'r') as file:
         emails = yaml.safe_load(file.read())
+
+
+def clean_cell(cell):
+    if cell.strip() == "NULL": cell = ""
+    return unicodedata.normalize("NFC", cell.strip()).replace("\r", "")
 
 
 def sanitize_time(time):
@@ -83,6 +89,13 @@ for slug in store.keys():
             person = contributor["person"]
             if person.startswith("$"):
                 link_item(item, store[person[1:]], "contributions")
+    
+    if item.get("schedule"):
+        for schedule_item in item["schedule"]:
+            if type(schedule_item) == str: continue
+            if schedule_item.get('item'):
+                if schedule_item['item'].startswith("$"):
+                    store[schedule_item['item'][1:]]["event"] = item
 
 def master_schedule_event(slug):
     print("Master Schedule - processing: " + slug)
@@ -229,18 +242,25 @@ def link_to_item(text, item):
 def transform_body(md):
     return markdown.markdown(md)
 
+def get_body_chunk(body, chunk):
+    tokens = body.split(chunk)
+    if len(tokens) == 1: return body
+    token = tokens[1]
+    return clean_cell(token.split("# $")[0])
+
+
 def content_for_person(item):
     affiliations = ""
     num_affiliations = len(item["affiliations"])
     if num_affiliations == 1:
         affiliations = f"<p>Affiliation: <strong>{item['affiliations'][0]}</strong></p>"
     if num_affiliations > 1:
-        affiliations = "<p style='margin-bottom: 5px'>Affiliations:</p><ul>"
+        affiliations = "<p class='list-header'>Affiliations:</p><ul>"
         for affiliation in item["affiliations"]:
             affiliations += f"<li><strong>{affiliation}</strong></li>"
         affiliations += "</ul>"
 
-    contributions = "<p style='margin-bottom: 5px'>Contributions:</p><ul>"
+    contributions = "<p class='list-header'>Contributions:</p><ul>"
     for contribution in item["contributions"]:
         contributions += "<li><strong>" + link_to_item(title_for_item(contribution, True), contribution) + "</strong></li>"
     contributions += "</ul>"
@@ -252,6 +272,41 @@ def content_for_person(item):
         {transform_body(item["body"])}
     """
 
+def build_contributors_list(item, seperator=", "):
+    contributors = ""
+    for contributor in item["contributors"]:
+        if contributors != "": contributors += ", "
+        person = contributor["person"]
+        if person.startswith("$"):
+            person = store[person[1:]]
+            contributors += link_to_item(render_name(person), person)
+        else:
+            contributors += person
+    
+    return contributors
+
+def render_associated_event(item):
+    if not item.get("event"): return ""
+    event = item["event"]
+    event_text = f"""
+        <strong>{event['title']}</strong><br>
+        {event['date_time']}, <em>{event['venue']}</em>
+    """
+    return link_to_item(event_text, event)
+
+def content_for_performance(item):
+    body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
+
+    return f"""
+        <p><strong>{build_contributors_list(item, ", ")}</strong></p>
+        <p class="list-header">Will be performed at:</p>
+        <ul>
+            <li>{render_associated_event(item)}</li>
+        </ul>
+        <h4 style="margin-top: 35px;">Program Notes</h4>
+        {transform_body(body)}
+    """
+
 def type_description_for_item(item):
     t = item.get("submission_type")
     if not t: t = item.get("type")
@@ -259,6 +314,7 @@ def type_description_for_item(item):
 
 def content_for_item(item):
     if item["type"] == "person": return content_for_person(item)
+    if item["type"] == "performance": return content_for_performance(item)
     return "<h2>No Content</h2>"
 
 def render_item(item):
