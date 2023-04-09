@@ -45,8 +45,12 @@ def sanitize_time(time):
     else:
         return time
 
-def render_name(person, use_alias=True):
+def render_name(person, use_alias=True, reverse=False):
     ret = person["first_name"] + " " + person["last_name"]
+
+    if reverse:
+        ret = "<strong>" + person["last_name"] + "</strong>, " + person["first_name"]
+
     if use_alias and person.get("alias", None):
         ret = f"{ret} ({person['alias']})"
     
@@ -310,14 +314,20 @@ def build_contributors_list(item, seperator=", "):
     
     return contributors
 
+def render_event_info(event, display_venue=True):
+    venue = ", <em>" + event['venue'] + "</em>"
+    if not display_venue: venue = ""
+
+    event_text = f"""
+        <strong>{event['title']}</strong><br>
+        {event['date_time']}{venue}
+    """
+    return link_to_item(event_text, event)
+
 def render_associated_event(item):
     if not item.get("event"): return ""
     event = item["event"]
-    event_text = f"""
-        <strong>{event['title']}</strong><br>
-        {event['date_time']}, <em>{event['venue']}</em>
-    """
-    return link_to_item(event_text, event)
+    return render_event_info(event)
 
 def content_for_performance(item):
     body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
@@ -403,3 +413,51 @@ def render_item(item):
 
 for slug in store.keys():
     render_item(store[slug])
+
+
+# CATALOGUE INDEX
+
+with open("templates/catalogue-index.html", "r") as file:
+    cat_index_template = file.read()
+
+def render_event_list(title, list):
+    ret = ""
+    ret += "<h4>" + title + "</h4>\n"
+    ret += "<ul>\n"
+    for slug in list:
+        ret += "<li>"
+        ret += render_event_info(store[slug], False)
+        ret += "</li>"
+    ret += "</ul>\n"
+    return ret
+
+def render_catalogue_index():
+    c = ""
+
+    c += "<p>Todo: Add Keynotes, Workshops and finally also videos. Also do a more sensible overview of papers and community reports.</p>"
+
+    c += render_event_list("Paper Presentations", ["paper-session-1", "paper-session-2", "paper-session-3", "paper-session-4", "paper-session-5"])
+
+    c += render_event_list("Community Reports", ["community-session-1", "community-session-2"])
+
+    c += render_event_list("Concerts", ["choreographic-coding", "lunch-concert-1", "alternative-algorithms", "lunch-concert-2", "immersed-in-code", "algorave", "hybrid-acoustics"])
+
+    c += "<br><br><h3>Contributor Overview</h3>\n"
+
+    persons = []
+    for slug in store.keys():
+        if store[slug]["type"] == "person":
+            persons.append([render_name(store[slug], True, True), slug])
+    
+    persons.sort(key=lambda x: x[0])
+
+    c += "<ul>"
+    for person in persons:
+        c += "<li>" + link_to_item(person[0], store[person[1]]) + "</li>"
+    c += "</ul>"
+
+    with open(CAT_OUT_PATH + "index.html", "w") as file:
+        file.write(cat_index_template.replace("$MAINCONTENT", c))
+
+
+render_catalogue_index()
