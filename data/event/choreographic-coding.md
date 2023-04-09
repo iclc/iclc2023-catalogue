@@ -10,33 +10,29 @@ schedule:
         item: Doors
     -   time: t20:00
         item: $botbop-integers-strings
-    -   time: t20:30
+    -   time: t20:35
         item: $codes-for-a-dance
         hide_time: True
-    -   time: t20:50
+    -   time: t21:00
         item: $the-machine-is-learning
         hide_time: True
-    -   time: t21:15
-        item: Changeover
+    -   time: t21:30
+        item: Break
         hidden: True
         hide_time: True
-    -   time: t21:45
+    -   time: t22:05
         item: $poetry-attack-01
         hide_time: True
-    -   time: t22:15
+    -   time: t22:40
         item: $we-all-begin-in-abstraction
         hide_time: True
-    -   time: t22:35
+    -   time: t23:05
         item: $human-computer-counter-choreographies-beta
         hide_time: True
-    -   time: t22:55
+    -   time: t23:30
         item: $the-cuckoo-s-nest
         hide_time: True
-    -   time: t23:15
-        item: Headroom
-        hidden: True
-        hide_time: True
-    -   time: t~ 23:30
+    -   time: t~ 24:00
         item: End of Concert
 ---
 

@@ -14,10 +14,10 @@ schedule:
         item: $blocking-behaviours
         hide_time: True
     -   time: t20:50
-        item: $arrays-of-disarray
-        hide_time: True
-    -   time: t21:10
         item: $grim-grim-grim-grimberg
+        hide_time: True
+    -   time: t21:20
+        item: $arrays-of-dissary
         hide_time: True
     -   time: t21:40
         item: $piraran-algorithmic-acid-music

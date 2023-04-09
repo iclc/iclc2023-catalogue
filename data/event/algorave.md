@@ -26,7 +26,7 @@ schedule:
         item: $happy-algorave-performance
         visuals: $nodysseus-three
         hide_time: True
-    -   time: t00:30
+    -   time: t00:20
         item: $epiploke
         hide_time: True
     -   time: t00:50
