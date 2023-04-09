@@ -50,3 +50,5 @@ schedule:
     -   time: t~ 03:00
         item: End of Algorave
 ---
+
+During this club night, the raw edges of raves come together with futuristic sounds, having the crowd dance to algorithms! Algoraves are a new movement in club culture. The artists, who take center stage, create their beats and visuals by writing code in real-time. This will be the biggest Algorave in Utrecht so far with a line-up packed with international artists from the livecoding community. Come and experience it yourself!

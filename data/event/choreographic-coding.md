@@ -39,3 +39,5 @@ schedule:
     -   time: t~ 23:30
         item: End of Concert
 ---
+
+The future of dance and choreography comes alive at Choreographic Coding April 19th. Discover how technology and electronics will change the dance industry forever and experience the fusion of body and code - man and machine - software and sentient.

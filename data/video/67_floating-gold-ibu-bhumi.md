@@ -5,7 +5,7 @@ type: video
 submission_type: Video-Short
 contributors:
 - person: $candra-rini-peni
-- person: $rangga-purnama-aji
+- person: $purnama-aji-rangga
 - person: $sewell-sen
 - person: $strohschein-heather
 - person: $van-der-walt-j-simon

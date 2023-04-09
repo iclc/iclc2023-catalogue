@@ -35,3 +35,5 @@ schedule:
     -   time: t~ 19:00
         item: End of Concert
 ---
+
+After a busy weekend, there's nothing like unwinding at a relaxing, laid-back instrumental concert. Come to the Nikolaï Church on Sunday, April 23, for just that: electro-acoustic and instrumental musicians will take the stage and help you end the weekend with a cozy feel.
