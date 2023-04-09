@@ -307,6 +307,19 @@ def content_for_performance(item):
         {transform_body(body)}
     """
 
+def content_for_paper(item):
+    body = get_body_chunk(item["body"], "$ABSTRACT")
+
+    return f"""
+        <p><strong>{build_contributors_list(item, ", ")}</strong></p>
+        <p class="list-header">Will be presented at:</p>
+        <ul>
+            <li>{render_associated_event(item)}</li>
+        </ul>
+        <h4 style="margin-top: 35px;">Abstract</h4>
+        {transform_body(body)}
+    """
+
 def type_description_for_item(item):
     t = item.get("submission_type")
     if not t: t = item.get("type")
@@ -315,6 +328,7 @@ def type_description_for_item(item):
 def content_for_item(item):
     if item["type"] == "person": return content_for_person(item)
     if item["type"] == "performance": return content_for_performance(item)
+    if item["type"] == "paper": return content_for_paper(item)
     return "<h2>No Content</h2>"
 
 def render_item(item):
