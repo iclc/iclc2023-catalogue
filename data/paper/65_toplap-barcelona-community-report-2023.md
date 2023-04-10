@@ -14,4 +14,9 @@ contributors:
 
 # $ABSTRACT
 
-(...)
+Barcelona has developed an active community of live coders.
+This report traces back the history and development of the
+TOPLAP Barcelona node, from its predecessors and roots, through
+its founding as a collective, to the present day.
+In addition, it presents its ongoing activities and how they shape
+the character of the community as we can see it today.
