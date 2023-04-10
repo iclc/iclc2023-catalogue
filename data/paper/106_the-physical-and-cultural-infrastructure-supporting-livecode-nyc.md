@@ -1,5 +1,6 @@
 ---
 slug: the-physical-and-cultural-infrastructure-supporting-livecode-nyc
+status: proof
 title: 'The Physical and Cultural Infrastructure Supporting LiveCode.NYC: A Community
   Report'
 type: paper

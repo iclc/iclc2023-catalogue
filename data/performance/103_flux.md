@@ -1,5 +1,6 @@
 ---
 slug: flux
+status: proof
 title: flux
 type: performance
 submission_type: Performance
