@@ -1,5 +1,6 @@
 ---
 slug: blocking-behaviours
+status: proof
 title: Blocking Behaviours
 type: performance
 submission_type: Performance
