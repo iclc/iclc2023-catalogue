@@ -48,6 +48,12 @@ def sanitize_time(time):
     else:
         return time
 
+def url_for_item(item):
+    return CAL_FOLDER + item["type"] + "/" + item["slug"] + ".html"
+
+def path_for_item(item):
+    return CAT_OUT_PATH + item["type"] + "/" + item["slug"] + ".html"
+
 def render_name(person, use_alias=True, reverse=False):
     ret = person["first_name"] + " " + person["last_name"]
 
@@ -241,7 +247,7 @@ def render_status_overview():
             else:
                 title = entry["title"]
 
-            entries.append([entry["type"], slug, title, entry.get("status", "n/a")])
+            entries.append([entry["type"], slug, title, entry.get("status", "n/a"), entry])
     
     entries.sort(key=lambda x: (x[0] + x[1]).lower())
 
@@ -252,9 +258,11 @@ def render_status_overview():
         if entry[3] == "proof": color = "orange"
         if entry[3] == "ready": color = "green"
 
-        c += f"<tr style='background-color: {color};'><td>{entry[0]}</td><td>{entry[1]}</td><td>{entry[2]}</td><td><strong>{entry[3]}</strong></tr>\n"
+        url = url_for_item(entry[4])
 
-    with open("output/status-overview.html", "w") as file:
+        c += f"<tr style='background-color: {color};'><td>{entry[0]}</td><td>{entry[1]}</td><td><a href='../{url}'>{entry[2]}</a></td><td><strong>{entry[3]}</strong></tr>\n"
+
+    with open("output/2023/catalogue/status-overview.html", "w") as file:
         file.write(status_template.replace("$CONTENT", c).replace("$VERSION", now.strftime('%d.%m.%Y')))
 
 render_status_overview()    
@@ -286,12 +294,6 @@ def write_cat_html(path, title, content):
     with open(path, "w") as file:
         file.write(html)
     print("Wrote: " + path)
-
-def url_for_item(item):
-    return CAL_FOLDER + item["type"] + "/" + item["slug"] + ".html"
-
-def path_for_item(item):
-    return CAT_OUT_PATH + item["type"] + "/" + item["slug"] + ".html"
 
 def title_for_item(item, include_type=False):
     ret = ""
