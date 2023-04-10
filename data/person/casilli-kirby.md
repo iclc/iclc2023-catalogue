@@ -1,11 +1,11 @@
 ---
 slug: casilli-kirby
+status: proof
 type: person
 last_name: Casilli
 first_name: Kirby
 alias: null
-affiliations:
-
+affiliations: []
 ---
 
 **Kirby Casilli** is a socio-spatial entity working within various channels of durational
