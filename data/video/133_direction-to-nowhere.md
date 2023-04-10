@@ -1,7 +1,7 @@
 ---
 slug: direction-to-nowhere
+status: proof
 title: Direction To NoWhere
-status: ready
 type: video
 submission_type: Video-Long
 contributors:
