@@ -1,5 +1,6 @@
 ---
 slug: a-quad-entropic-conversation
+status: proof
 title: A Quad Entropic Conversation
 type: video
 submission_type: Video-Long
