@@ -9,7 +9,7 @@ schedule:
     -   time: t19:30
         item: $p5live-cocoding
     -   time: t20:00
-        item: $waves-and-what-lies-within
+        item: $vortex-reresik
     -   time: t20:15
         item: $underscore-underscore-underscore
         hide_time: True
