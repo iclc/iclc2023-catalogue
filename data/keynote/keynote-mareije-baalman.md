@@ -2,7 +2,7 @@
 slug: keynote-marije-baalman
 title: 'Keynote'
 type: keynote
-status: proof
+status: pending title
 contributors:
 - person: $baalman-marije
 ---

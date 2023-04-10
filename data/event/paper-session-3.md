@@ -4,6 +4,7 @@ type: event
 event_type: Paper Session
 title: Paper Session 3
 venue: VOGELFREI
+status: ready
 date_time: Wednesday, April 19th, 15:15
 schedule:
     -   time: t15:15

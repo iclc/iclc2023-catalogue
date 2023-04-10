@@ -2,6 +2,7 @@
 slug: alternative-algorithms
 type: event
 event_type: Concert
+status: ready
 title: Alternative Algorithms
 venue: EKKO
 date_time: 'Thursday, April 20th, Doors 19:30 / Show: 20:00'
@@ -25,5 +26,3 @@ schedule:
     -   time: t~ 22:15
         item: End of Concert
 ---
-
-Discover the combination of modern electronic sounds and traditional music instruments at this electronic pop concert Alternative Algorithms in EKKO. This lineup full of international musicians will show you how electronics and code can be used to create compelling and emotional performances. Get carried away by melancholic vocals, listen to the interplay of code and piano, and lose yourself in powerful sounds like you've never heard before.

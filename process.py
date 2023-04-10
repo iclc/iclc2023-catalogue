@@ -253,10 +253,10 @@ def render_status_overview():
 
 
     for entry in entries:
-        color = "pink"
+        color = "#ff80ff"
         if entry[3] == "n/a": color = "white"
-        if entry[3] == "proof": color = "orange"
-        if entry[3] == "ready": color = "green"
+        if entry[3] == "proof": color = "#FFD580"
+        if entry[3] == "ready": color = "#7CFC00"
 
         url = url_for_item(entry[4])
 

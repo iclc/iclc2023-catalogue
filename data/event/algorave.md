@@ -2,6 +2,7 @@
 slug: algorave
 type: event
 event_type: Concert
+status: ready
 title: Algorave
 venue: TivoliVredenburg
 date_time: 'Saturday, April 22nd, Doors: 21:50 / Show: 22:00'

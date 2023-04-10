@@ -2,6 +2,7 @@
 slug: community-session-2
 type: event
 event_type: Community Report Session
+status: ready
 title: Community Report Session 2
 venue: VOGELFREI
 date_time: Friday, April 21st, 11:15

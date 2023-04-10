@@ -2,6 +2,7 @@
 slug: hybrid-acoustics
 type: event
 event_type: Concert
+status: ready
 title: Hybrid Acoustics
 venue: Nikolaïkerk
 date_time: 'Sunday, April 23rd, Doors 15:30 / Show: 16:00'
