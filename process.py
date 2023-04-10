@@ -29,6 +29,9 @@ TYPES = {
 store = {}
 emails = {}
 
+now = datetime.now()
+
+
 if EXPORT_MAIL:
     with open("data/secret/emails.yaml", 'r') as file:
         emails = yaml.safe_load(file.read())
@@ -211,7 +214,6 @@ def render_master_schedule():
         master_template = file.read()
 
     master_content = master_template.replace("$CONTENT", c)
-    now = datetime.now()
     master_content = master_content.replace("$VERSION", now.strftime('%d.%m.%Y'))
 
     with open("output/master-schedule.html", "w") as file:
@@ -219,6 +221,43 @@ def render_master_schedule():
 
 render_master_schedule()
 
+
+# ---
+# *** Render Status OVerview
+# ---
+
+with open("templates/status.html", "r") as file:
+    status_template = file.read()
+
+def render_status_overview():
+    c = ""
+    entries = []
+    for slug in store.keys():
+        entry = store[slug]
+        if entry["type"] != "master":
+            title = ""
+            if entry["type"] == "person":
+                title = render_name(entry)
+            else:
+                title = entry["title"]
+
+            entries.append([entry["type"], slug, title, entry.get("status", "n/a")])
+    
+    entries.sort(key=lambda x: (x[0] + x[1]).lower())
+
+
+    for entry in entries:
+        color = "pink"
+        if entry[3] == "n/a": color = "white"
+        if entry[3] == "proof": color = "orange"
+        if entry[3] == "ready": color = "green"
+
+        c += f"<tr style='background-color: {color};'><td>{entry[0]}</td><td>{entry[1]}</td><td>{entry[2]}</td><td><strong>{entry[3]}</strong></tr>\n"
+
+    with open("output/status-overview.html", "w") as file:
+        file.write(status_template.replace("$CONTENT", c).replace("$VERSION", now.strftime('%d.%m.%Y')))
+
+render_status_overview()    
 
 # ---
 # *** CATALOUGE
@@ -449,7 +488,7 @@ def render_catalogue_index():
         if store[slug]["type"] == "person":
             persons.append([render_name(store[slug], True, True), slug])
     
-    persons.sort(key=lambda x: x[0])
+    persons.sort(key=lambda x: x[0].lower())
 
     c += "<ul>"
     for person in persons:
