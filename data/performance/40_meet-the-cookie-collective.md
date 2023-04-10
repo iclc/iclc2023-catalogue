@@ -1,5 +1,6 @@
 ---
 slug: meet-the-cookie-collective
+status: pending author revision
 title: Meet the Cookie Collective
 type: performance
 submission_type: Performance

@@ -1,5 +1,6 @@
 ---
 slug: underscore-underscore-underscore
+status: proof
 title: '[ _  _  _ ]'
 type: performance
 submission_type: Performance
