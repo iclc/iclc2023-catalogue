@@ -10,4 +10,9 @@ contributors:
 
 # $ABSTRACT
 
-(...)
+LivecodeNYC is New York City's community of nerds and artists writing
+software on stage to make music, visuals, games and other live art in
+front of audiences. This community report offers a look into the various
+factors that make up the ground reality of running a live coding
+community in New York City, and how it influences our ways of working,
+successes and challenges.

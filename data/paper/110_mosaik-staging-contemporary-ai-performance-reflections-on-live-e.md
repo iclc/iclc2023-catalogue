@@ -14,4 +14,13 @@ contributors:
 
 # $ABSTRACT
 
-(...)
+This paper introduces our collective work ``Patterns in Between
+Intelligences'', a performance piece that builds an artistic practice
+between live coding sounds and coding through dance, mediated and shaped
+through e-textile sensors. This creates a networked system of which both
+live coded processes and human bodies are part. The paper describes in
+detail the implementations of technology used in the prototype
+performance performed at No Bounds Festival in Sheffield UK, October
+2022, as well as discussions and concerns the team had related to the
+use of AI technology on stage. The paper concludes with a narrative
+reflection on the Sheffield performance, and reflections on it.
