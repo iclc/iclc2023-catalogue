@@ -1,5 +1,6 @@
 ---
 slug: codie
+status: proof
 title: Codie
 type: performance
 submission_type: Performance
