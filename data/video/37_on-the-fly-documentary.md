@@ -1,5 +1,6 @@
 ---
 slug: on-the-fly-documentary
+status: proof
 title: on-the-fly Documentary
 type: video
 submission_type: Community-Video
