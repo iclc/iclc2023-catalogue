@@ -1,7 +1,7 @@
 ---
 slug: vortex-reresik
-status: proof
-title: Vortex\: Reresik
+status: pending fix
+title: Vortex': Reresik
 type: performance
 submission_type: Performance
 contributors:
