@@ -1,5 +1,6 @@
 ---
 slug: piraran-algorithmic-acid-music
+status: proof
 title: Pirarán – Algorithmic Acid Music
 type: performance
 submission_type: Performance
