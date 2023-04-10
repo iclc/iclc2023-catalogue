@@ -35,7 +35,3 @@ schedule:
     -   time: t~ 23:30
         item: End of Concert
 ---
-
-This evening's artists are not afraid of a challenge: each will create both music and visuals in real time for their performances. This seamless collaboration between sound and visuals will transport you into imaginary worlds and sensational adventures.
-
-Thanks to the Quad audio system - set up especially for this A/V night - you will not only hear the music, but feel it in your bones.

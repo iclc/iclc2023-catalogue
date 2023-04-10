@@ -22,11 +22,7 @@ schedule:
     -   time: t21:40
         item: $piraran-algorithmic-acid-music
         hide_time: True
-    -   time: t22:10
-        item: Headroom
-        hide_time: True
-        hidden: True
-    -   time: t~ 22:30
+    -   time: t~ 22:15
         item: End of Concert
 ---
 
