@@ -1,5 +1,5 @@
 ---
-slug: ___
+slug: underscore-underscore-underscore
 title: '[ _  _  _ ]'
 type: performance
 submission_type: Performance

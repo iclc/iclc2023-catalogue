@@ -11,7 +11,7 @@ schedule:
     -   time: t20:00
         item: $waves-and-what-lies-within
     -   time: t20:15
-        item: $___
+        item: $underscore-underscore-underscore
         hide_time: True
     -   time: t20:45
         item: $autoconstruccion 
