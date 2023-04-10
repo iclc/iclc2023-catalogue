@@ -6,6 +6,8 @@ type: performance
 submission_type: Performance
 contributors:
 - person: $knotts-shelly
+- person: $bahng-sojung
+- person: $casilli-kirby
 ---
 
 # $PROGRAM_NOTE
