@@ -10,7 +10,7 @@ contributors:
 
 # $PROGRAM_NOTE
 
-The performance the *machine is learning* is a theatrical performance
+The performance *the machine is learning* is a theatrical performance
 highlighting the process of training a machine with realtime gestures: the
 labour that is absent from most dialogues on machine learning. In an
 attempt to livecode with gestures, the performer finds herself directed by
