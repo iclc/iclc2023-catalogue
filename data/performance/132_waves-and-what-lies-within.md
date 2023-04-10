@@ -1,7 +1,7 @@
 ---
 slug: vortex-reresik
 status: proof
-title: Vortex: Reresik
+title: Vortex\: Reresik
 type: performance
 submission_type: Performance
 contributors:
@@ -15,7 +15,7 @@ contributors:
 
 # $PROGRAM_NOTE
 
-This work tries to interpret the existence of garbage that has accumulated physically and its analogy in the conception of the mind. The lyrics in this work try to describe the tightness, confusion, and depression caused by the awareness of the murkiness within the human mind and how the influence of garbage can strongly impact the saturation of this condition..
+This work tries to interpret the existence of garbage that has accumulated physically and its analogy in the conception of the mind. The lyrics in this work try to describe the tightness, confusion, and depression caused by the awareness of the murkiness within the human mind and how the influence of garbage can strongly impact the saturation of this condition.
 
 # $ABSTRACT
 
