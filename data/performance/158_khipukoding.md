@@ -1,5 +1,6 @@
 ---
 slug: khipukoding
+status: pending author revision
 title: KhipuKoding 2.0 + The Neokhipukamayok Manifesto
 type: performance
 submission_type: Performance
