@@ -1,5 +1,6 @@
 ---
 slug: codeklavier-the-nieuw-ballet
+status: proof
 title: 'CodeKlavier: The Nieuw Ballet'
 type: performance
 submission_type: Performance
