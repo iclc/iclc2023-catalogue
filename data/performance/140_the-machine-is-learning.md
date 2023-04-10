@@ -1,5 +1,6 @@
 ---
 slug: the-machine-is-learning
+status: proof
 title: the machine is learning
 type: performance
 submission_type: Performance
