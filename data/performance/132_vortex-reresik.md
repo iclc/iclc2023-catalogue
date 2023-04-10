@@ -1,6 +1,6 @@
 ---
 slug: vortex-reresik
-status: pending fix
+status: proof
 title: 'Vortex: Reresik'
 type: performance
 submission_type: Performance
