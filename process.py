@@ -339,7 +339,7 @@ def content_for_person(item):
     return f"""
         {affiliations}
         {contributions}
-        <h4 style="margin-top: 35px;">Biography</h4>
+        <h4>Biography</h4>
         {transform_body(item["body"])}
     """
 
