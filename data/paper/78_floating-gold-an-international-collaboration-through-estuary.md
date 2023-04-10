@@ -1,5 +1,6 @@
 ---
 slug: floating-gold-an-international-collaboration-through-estuary
+status: proof
 title: 'Floating Gold: An International Collaboration through Estuary'
 type: paper
 submission_type: Paper-Long

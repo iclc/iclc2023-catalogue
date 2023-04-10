@@ -1,5 +1,6 @@
 ---
 slug: strudel-live-coding-patterns-on-the-web
+status: proof
 title: 'Strudel: Live Coding Patterns on the Web'
 type: paper
 submission_type: Paper-Long

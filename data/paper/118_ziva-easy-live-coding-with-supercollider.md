@@ -1,5 +1,6 @@
 ---
 slug: ziva-easy-live-coding-with-supercollider
+status: proof
 title: 'Živa: Easy Live Coding With SuperCollider'
 type: paper
 submission_type: Paper-Long

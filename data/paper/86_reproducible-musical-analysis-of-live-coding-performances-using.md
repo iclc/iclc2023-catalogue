@@ -1,5 +1,6 @@
 ---
 slug: reproducible-musical-analysis-of-live-coding-performances-using
+status: proof
 title: 'Reproducible Musical Analysis of Live Coding Performances Using Information
   Retrieval: A Case Study on the Algorave 10th Anniversary'
 type: paper

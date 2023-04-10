@@ -1,5 +1,6 @@
 ---
 slug: toplap-barcelona-community-report-2023
+status: proof
 title: TOPLAP Barcelona Community Report 2023
 type: paper
 submission_type: Community-Written

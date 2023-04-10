@@ -1,5 +1,6 @@
 ---
 slug: live-coding-and-education-a-practical-experience
+status: proof
 title: 'Live Coding and Education: A Practical Experience'
 type: paper
 submission_type: Paper-Long

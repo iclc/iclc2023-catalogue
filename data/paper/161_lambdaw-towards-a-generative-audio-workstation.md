@@ -1,5 +1,6 @@
 ---
 slug: lambdaw-towards-a-generative-audio-workstation
+status: proof
 title: 'LambDAW: Towards a Generative Audio Workstation'
 type: paper
 submission_type: Paper-Long

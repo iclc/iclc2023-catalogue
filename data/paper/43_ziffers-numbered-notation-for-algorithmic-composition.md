@@ -1,5 +1,6 @@
 ---
 slug: ziffers-numbered-notation-for-algorithmic-composition
+status: proof
 title: 'Ziffers: Numbered Notation for Algorithmic Composition'
 type: paper
 submission_type: Paper-Long

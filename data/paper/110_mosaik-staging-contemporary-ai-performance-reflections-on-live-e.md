@@ -1,5 +1,6 @@
 ---
 slug: mosaik-staging-contemporary-ai-performance-reflections-on-live-e
+status: proof
 title: 'Mosaik: Staging Contemporary AI Performance - Reflections on Connecting Live
   Coding, e-Textile and Movement'
 type: paper
