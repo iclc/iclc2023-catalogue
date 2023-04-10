@@ -11,6 +11,7 @@ EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
 CAL_FOLDER = "catalogue/"
 CAT_OUT_PATH = 'output/2023/' + CAL_FOLDER
+PROOF_INCLUDE_ABSTRACTS = True
 
 TYPES = {
     "keynote": "Keynote",
@@ -370,8 +371,16 @@ def render_associated_event(item):
     event = item["event"]
     return render_event_info(event)
 
+proof_abstract_disclaimer = "<p><em><br>The abstract is displayed here for proof-reading and will only be part of the published proceedings, not of the final version of this web catalogue.</em></p>"
+
 def content_for_performance(item):
     body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
+
+    proof_abstract = ""
+    if PROOF_INCLUDE_ABSTRACTS:
+        proof_abstract += "<h4>Abstract</h4>"
+        proof_abstract += proof_abstract_disclaimer
+        proof_abstract += transform_body(get_body_chunk(item["body"], "$ABSTRACT"))
 
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
@@ -381,6 +390,7 @@ def content_for_performance(item):
         </ul>
         <h4>Program Notes</h4>
         {transform_body(body)}
+        {proof_abstract}
     """
 
 def content_for_paper(item):
@@ -408,11 +418,28 @@ def content_for_keynote(item):
 def content_for_workshop(item):
     body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
 
+    proof_abstract = ""
+    if PROOF_INCLUDE_ABSTRACTS:
+        proof_abstract += "<h4>Abstract</h4>"
+        proof_abstract += proof_abstract_disclaimer
+        proof_abstract += transform_body(get_body_chunk(item["body"], "$ABSTRACT"))
+
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
         <p><em>Put time/place here</em></p>
         {transform_body(body)}
-        <p><em>Put requirements here</em></p>
+        <p><em>Put requirements here (???)</em></p>
+        {proof_abstract}
+    """
+
+def content_for_video(item):
+    body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
+
+    return f"""
+        <p><strong>{build_contributors_list(item, ", ")}</strong></p>
+        <p><em>Still put video-related info here + the video of course ...</em></p>
+        <h4>Description</h4>
+        {transform_body(body)}
     """
 
 def content_for_event(item):
@@ -444,6 +471,7 @@ def content_for_item(item):
     if item["type"] == "keynote": return content_for_keynote(item)
     if item["type"] == "workshop": return content_for_workshop(item)
     if item["type"] == "event": return content_for_event(item)
+    if item["type"] == "video": return content_for_video(item)
 
 
     return "<h2>No Content</h2>"
