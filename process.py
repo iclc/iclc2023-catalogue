@@ -33,6 +33,13 @@ emails = {}
 now = datetime.now()
 
 
+# prepare folders for output
+for folder in ["performance", "person", "workshop", "video", "paper", "keynote", "event"]:
+    path = CAT_OUT_PATH + folder + "/"
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+
 if EXPORT_MAIL:
     with open("data/secret/emails.yaml", 'r') as file:
         emails = yaml.safe_load(file.read())
@@ -55,7 +62,7 @@ def url_for_item(item):
 def path_for_item(item):
     return CAT_OUT_PATH + item["type"] + "/" + item["slug"] + ".html"
 
-def render_name(person, use_alias=True, reverse=False):
+def render_name(person, use_alias=True, reverse=False, alias_only=False):
     ret = person["first_name"] + " " + person["last_name"]
 
     if reverse:
@@ -63,6 +70,9 @@ def render_name(person, use_alias=True, reverse=False):
 
     if use_alias and person.get("alias", None):
         ret = f"{ret} ({person['alias']})"
+
+    if alias_only:
+        ret = person['alias']
     
     if EXPORT_MAIL:
         email = emails.get(person['slug'])
@@ -150,7 +160,8 @@ def render_schedule(event, do_hide=True, do_link=True):
                 
                 if contributor["person"].startswith("$"):
                     author = store[contributor["person"][1:]]
-                    author_text = render_name(author)
+
+                    author_text = render_name(author, True, False, item.get("alias_only"))
 
                     if do_link:
                         author_text = link_to_item(author_text, author)
@@ -279,12 +290,6 @@ with open("templates/catalogue.html", "r") as file:
     cat_template = file.read()
 
 cat_template = cat_template.replace("$CACHEBUST", str(random.randint(10000, 99999)))
-
-# prepare folders for output
-for folder in ["performance", "person", "workshop", "video", "paper", "keynote", "event"]:
-    path = CAT_OUT_PATH + folder + "/"
-    if not os.path.exists(path):
-        os.makedirs(path)
 
 def write_cat_html(path, title, content):
     html = cat_template

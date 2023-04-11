@@ -1,6 +1,6 @@
 ---
-slug: grim-grim-grim-grimberg
-title: Grim! Grim! Grim! – Grimberg
+slug: grim-grim-grim
+title: Grim! Grim! Grim!
 type: performance
 submission_type: Performance
 contributors:

@@ -2,9 +2,9 @@
 slug: bahng-sojung
 status: proof
 type: person
-last_name: Bahng (방소정)
+last_name: Bahng
 first_name: Sojung
-alias: null
+alias: 방소정
 affiliations: []
 ---
 

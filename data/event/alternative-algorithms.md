@@ -15,7 +15,8 @@ schedule:
         item: $blocking-behaviours
         hide_time: True
     -   time: t20:50
-        item: $grim-grim-grim-grimberg
+        item: $grim-grim-grim
+        alias_only: True
         hide_time: True
     -   time: t21:20
         item: $arrays-of-disarray
