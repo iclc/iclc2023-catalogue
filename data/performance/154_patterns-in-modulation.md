@@ -1,6 +1,6 @@
 ---
 slug: patterns-in-modulation
-status: pending author revision (title already updated)
+status: pending author revision (title already updated by PB)
 title: patterns in modulation
 type: performance
 submission_type: Performance
