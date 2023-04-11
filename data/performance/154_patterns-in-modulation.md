@@ -1,7 +1,7 @@
 ---
-slug: shall-we-intercorporealities
-status: pending author revision
-title: Shall we? Intercorporealities
+slug: patterns-in-modulation
+status: pending author revision (title already updated)
+title: patterns in modulation
 type: performance
 submission_type: Performance
 contributors:

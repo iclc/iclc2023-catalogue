@@ -12,7 +12,7 @@ schedule:
     -   time: t16:00
         item: $commuta-a-cross-adaptive-laptop-ensemble
     -   time: t16:20
-        item: $shall-we-intercorporealities
+        item: $patterns-in-modulation
         hide_time: True
     -   time: t16:50
         item: $khipukoding
