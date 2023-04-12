@@ -11,9 +11,7 @@ schedule:
         item: Doors & Grab Lunch
     -   time: t13:10
         item: $colorscape-dipincode
-    -   time: t13:30
-        item: $codeklavier-the-nieuw-ballet
         hide_time: True
-    -   time: t~ 13:45
+    -   time: t~ 13:30
         item: End of Concert
 ---

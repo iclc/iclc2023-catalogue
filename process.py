@@ -99,7 +99,7 @@ def load_md(path):
 # load all data
 for root, dirs, files in os.walk("data"):
     for file in files:
-        if file.endswith('.md'):
+        if file.endswith('.md') and not "__unused" in root:
             load_md(root + "/" + file)
 
 def link_item(item, to, what):
