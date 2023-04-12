@@ -1,7 +1,7 @@
 ---
 slug: brickwork-destroy
 status: proof
-title: BRICKWORK: DESTROY
+title: "BRICKWORK: DESTROY"
 type: performance
 submission_type: Performance
 contributors:
