@@ -21,7 +21,7 @@ schedule:
         item: $meet-the-cookie-collective
         hide_time: True
     -   time: t23:40
-        item: $brickwork
+        item: $brickwork-destroy
         hide_time: True
     -   time: t00:00
         item: $happy-algorave-performance
