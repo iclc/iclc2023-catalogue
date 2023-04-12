@@ -42,7 +42,7 @@ schedule:
         hide_time: True
     -   time: t02:20
         item: $c-robo
-        visuals: $live-collaboration
+        visuals: $new-ways-of-collaboration
         hide_time: True
     -   time: t02:50
         item: Headroom
