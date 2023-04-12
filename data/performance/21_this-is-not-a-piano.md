@@ -29,4 +29,4 @@ Due to the small amount of data, the results are not a 1-to-1 reproduction of th
 In the end, it’s more about the interaction and dialog with the algorithm rather than trying to beat benchmarks.[^2]
 
 [^1]: https://github.com/the-drunk-coder/megra.rs
-[^2]: The Megra System - Small Data Music Composition and Live Coding Performance
+[^2]: The Megra System - Small Data Music Composition and Live Coding Performance (https://doi.org/10.5281/zenodo.3939154)

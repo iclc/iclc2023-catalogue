@@ -29,4 +29,8 @@ Algraves were invented, or so live coding lore has it, to take live coding out o
 The sets also reflect the development of my language, Mégra,[^2] a lisp-like DSL for live coding sound and music. Over time, I externalized enough of my live coding experience into the language, and it became abstract (or concise) enough to allow me to (typically) start from scratch or with little prepared code. Its affordances, many of which reflect the “small data” idea presented at a previous ICLC,[^3] help me with letting the sets reflect the rhythms, sounds and styles that I’m interested in at the time. The sets freely mix samples and synths, sometimes using samples I found and recorded “in the wild”, sometimes using completely artificial samples resulting from not-so-successful experiments with neural networks (i.e. [here](https://soundcloud.com/parkellipsen/ravegan)).
 
 [^2]: https://github.com/the-drunk-coder/megra.rs
-[^3]: The Megra System - Small Data Music Composition and Live Coding Performance
+[^3]: The Megra System - Small Data Music Composition and Live Coding Performance (https://doi.org/10.5281/zenodo.3939154)
+
+
+
+
