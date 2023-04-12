@@ -316,7 +316,7 @@ def link_to_item(text, item):
     return f"<a href='{url_for_item(item)}'>{text}</a>"
 
 def transform_body(md):
-    return markdown.markdown(md)
+    return markdown.markdown(md, extensions=['footnotes'])
 
 def get_body_chunk(body, chunk):
     tokens = body.split(chunk)
