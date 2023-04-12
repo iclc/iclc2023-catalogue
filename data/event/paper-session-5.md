@@ -14,5 +14,5 @@ schedule:
     -   time: t12:10
         item: $the-meaning-of-live-from-art-without-audience-to-programs-users
     -   time: t12:30
-        item: Questions
+        item: Questions & Discussion
 ---

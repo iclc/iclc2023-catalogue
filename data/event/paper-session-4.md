@@ -14,5 +14,5 @@ schedule:
     -   time: t10:40
         item: $asymmetric-performance-in-virtual-reality-and-code
     -   time: t11:00
-        item: Questions
+        item: Questions & Discussion
 ---

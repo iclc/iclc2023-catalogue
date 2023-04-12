@@ -16,5 +16,5 @@ schedule:
     -   time: t16:15
         item: $addressing-accessibility-for-blind-and-visually-impaired-live
     -   time: t16:30
-        item: Questions
+        item: Questions & Discussion
 ---

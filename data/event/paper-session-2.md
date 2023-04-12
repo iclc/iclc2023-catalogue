@@ -14,5 +14,5 @@ schedule:
     -   time: t12:10
         item: $be-brief-convergences-and-possibilities-of-live-coding-and
     -   time: t12:30
-        item: Questions
+        item: Questions & Discussion
 ---

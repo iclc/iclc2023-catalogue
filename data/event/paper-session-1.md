@@ -16,5 +16,5 @@ schedule:
     -   time: t10:40
         item: $ziva-easy-live-coding-with-supercollider
     -   time: t11:00
-        item: Questions
+        item: Questions & Discussion
 ---
