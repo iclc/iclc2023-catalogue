@@ -18,6 +18,6 @@ schedule:
     -   time: t16:35
         item: Questions & Discussion
     -   time: t16:55
-        item: Announcement of NIME 2024 in Utrecht
+        item: Announcement of NIME 2024
         person: Dianne Verdonk
 ---
