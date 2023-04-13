@@ -1,5 +1,6 @@
 ---
 slug: briede-ilze
+status: proof
 type: person
 last_name: Briede
 first_name: Ilze

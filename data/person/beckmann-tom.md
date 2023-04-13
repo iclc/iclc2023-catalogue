@@ -1,5 +1,6 @@
 ---
 slug: beckmann-tom
+status: proof
 type: person
 last_name: Beckmann
 first_name: Tom

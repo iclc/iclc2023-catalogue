@@ -1,5 +1,6 @@
 ---
 slug: borgeat-patrick
+status: proof
 type: person
 last_name: Borgeat
 first_name: Patrick

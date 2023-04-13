@@ -1,5 +1,6 @@
 ---
 slug: armitage-jack
+status: proof
 type: person
 last_name: Armitage
 first_name: Jack
