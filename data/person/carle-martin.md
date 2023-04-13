@@ -1,5 +1,6 @@
 ---
 slug: carle-martin
+status: proof
 type: person
 last_name: Carlé
 first_name: Martin
