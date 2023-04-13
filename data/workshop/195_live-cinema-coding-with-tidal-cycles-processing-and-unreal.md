@@ -45,7 +45,7 @@ redirection and flexible visual consequence in Processing, Unreal Engine or DMX 
     ue_camera = pF "ue_camera"
     ue_camerablendtime = pF "ue_camerablendtime"
 
-<span class="caption">**Example: Custom haskell functions within Tidal Cycles**</span>
+<span class="caption">*Example: Custom haskell functions within Tidal Cycles*</span>
 
 For the workshop it is necessary to have Tidal Cycles (supercollider), Processing and Unreal Engine already
 installed and the student will be explained the resources that will be available on GitHub.
