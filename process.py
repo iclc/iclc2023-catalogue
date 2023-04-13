@@ -5,6 +5,8 @@ import random
 from datetime import datetime
 import markdown
 import unicodedata
+import shutil 
+
 
 
 EXPORT_MAIL = False
@@ -39,6 +41,9 @@ for folder in ["performance", "person", "workshop", "video", "paper", "keynote",
     if not os.path.exists(path):
         os.makedirs(path)
 
+# copy assets
+shutil.rmtree(CAT_OUT_PATH + "assets/")
+shutil.copytree("data/assets/", CAT_OUT_PATH + "assets/")
 
 if EXPORT_MAIL:
     with open("data/secret/emails.yaml", 'r') as file:
