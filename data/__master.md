@@ -49,7 +49,7 @@ schedule:
     -   $workshops-3
     -   time: t18:00
         hidden_in_web: True
-        venue: de Kas
+        venue: PEUZEL (De Nijverheid)
         title: Contributors Dinner
     -   $algorave
     
