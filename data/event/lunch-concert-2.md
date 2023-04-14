@@ -11,7 +11,6 @@ schedule:
         item: Doors & Grab Lunch
     -   time: t13:10
         item: $colorscape-dipincode
-        hide_time: True
     -   time: t~ 13:30
         item: End of Concert
 ---

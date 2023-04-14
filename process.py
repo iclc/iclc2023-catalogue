@@ -294,7 +294,10 @@ if not os.path.exists(CAT_OUT_PATH): os.makedirs(CAT_OUT_PATH)
 with open("templates/catalogue.html", "r") as file:
     cat_template = file.read()
 
-cat_template = cat_template.replace("$CACHEBUST", str(random.randint(10000, 99999)))
+
+cache_bust = "9944"
+
+cat_template = cat_template.replace("$CACHEBUST", cache_bust)
 
 def write_cat_html(path, title, content):
     html = cat_template
@@ -449,9 +452,9 @@ def content_for_workshop(item):
 
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
-        <p><em>Put time/place here</em></p>
+        <!-- <p><em>Put time/place here</em></p> -->
         {transform_body(body)}
-        <p><em>Put requirements here (???)</em></p>
+        <!-- <p><em>Put requirements here (???)</em></p> -->
         {proof_abstract}
     """
 
@@ -555,8 +558,10 @@ def render_catalogue_index():
         c += "<li>" + link_to_item(person[0], store[person[1]]) + "</li>"
     c += "</ul>"
 
+    cat_index_template_t = cat_index_template.replace("$CACHEBUST", cache_bust)
+
     with open(CAT_OUT_PATH + "index.html", "w") as file:
-        file.write(cat_index_template.replace("$MAINCONTENT", c))
+        file.write(cat_index_template_t.replace("$MAINCONTENT", c))
 
 
 render_catalogue_index()
