@@ -32,6 +32,6 @@ schedule:
     -   time: t22:45
         item: $the-cuckoo-s-nest
         hide_time: True
-    -   time: t~ 23:00
+    -   time: t~&nbsp;23:00
         item: End of Concert
 ---

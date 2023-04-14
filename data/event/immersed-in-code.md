@@ -33,6 +33,6 @@ schedule:
     -   time: t22:55
         item: $conversational-learning
         hide_time: True
-    -   time: t~ 23:30
+    -   time: t~&nbsp;23:30
         item: End of Concert
 ---

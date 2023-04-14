@@ -24,6 +24,6 @@ schedule:
     -   time: t21:40
         item: $piraran-algorithmic-acid-music
         hide_time: True
-    -   time: t~ 22:15
+    -   time: t~&nbsp;22:15
         item: End of Concert
 ---

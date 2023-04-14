@@ -29,6 +29,6 @@ schedule:
     -   time: t18:20
         item: $flux
         hide_time: True
-    -   time: t~ 18:45
+    -   time: t~&nbsp;18:45
         item: End of Concert
 ---

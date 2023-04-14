@@ -48,6 +48,6 @@ schedule:
         item: Headroom
         hidden: True
         hide_time: True
-    -   time: t~ 03:00
+    -   time: t~&nbsp;03:00
         item: End of Algorave
 ---
