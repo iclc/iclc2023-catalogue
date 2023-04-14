@@ -1,5 +1,6 @@
 ---
 slug: corvi-francesco
+status: proof
 type: person
 last_name: Corvi
 first_name: Francesco
