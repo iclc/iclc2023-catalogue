@@ -5,6 +5,9 @@ event_type: Concert
 status: ready
 title: Alternative Algorithms
 venue: EKKO
+venue_url: https://ekko.nl/
+venue_address: Bemuurde Weerd Westzijde 3, 3513 BH Utrecht
+tickets_url: https://ekko.nl/event/alternative-algorithms/
 date_time: 'Thursday, April 20th, Doors 19:30 / Show: 20:00'
 schedule:
     -   time: t19:30

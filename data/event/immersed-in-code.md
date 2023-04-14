@@ -5,6 +5,8 @@ event_type: Concert
 status: ready
 title: Immersed in Code
 venue: Former Pieter Baan Centrum
+venue_address: Gansstraat 162, 3582 EP Utrecht
+tickets_link: https://ccu.stager.nl/web/tickets/111275268
 date_time: 'Friday, April 21st, Pre-Show 19:30 / Show: 20:00'
 schedule:
     -   time: t19:30

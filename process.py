@@ -386,6 +386,7 @@ def render_event_info(event, display_venue=True):
     
     if not display_venue: venue = ""
 
+
     event_text = f"""
         <strong>{event['title']}</strong><br>
         {event['date_time']}{venue}
@@ -479,11 +480,24 @@ def content_for_event(item):
 
     venue_string = ""
     if item.get("venue"):
-        venue_string = f"Venue: <em>{item.get('venue')}</em>"
+        venue = item.get('venue')
+        
+        if item.get('venue_url'):
+            venue = f"<a href={item['venue_url']}>{venue}</a>"
+        
+        venue_string = f"<strong>Venue: <em>{venue}</em></strong>"
+
+        if item.get("venue_address"):
+            venue_string = f"{venue_string} ({item['venue_address']})"
+            
+    
+    tickets_string = ""
+    if item.get('tickets_url'):
+        tickets_string = f"<br><br><strong><a href='{item['tickets_url']}'>Tickets</strong></a>"
 
     return f"""
-        <p><strong>{item["date_time"]}<br>
-        {venue_string}</strong></p>
+        <p><strong>{item["date_time"]}</strong><br>
+        {venue_string}{tickets_string}</p>
         {transform_body(body)}
         <h4>{schedule_title}</h4>
         {schedule}

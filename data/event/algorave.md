@@ -5,6 +5,9 @@ event_type: Concert
 status: ready
 title: Algorave
 venue: TivoliVredenburg
+venue_url: https://www.tivolivredenburg.nl/
+venue_address: Vredenburgkade 11, 3511 WC Utrecht
+tickets_url: https://www.tivolivredenburg.nl/agenda/algorave-afterparty-international-conference-on-live-coding-22-04-2023/
 date_time: 'Saturday, April 22nd, Doors: 21:50 / Show: 22:00'
 schedule:
     -   time: t21:50
