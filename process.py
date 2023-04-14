@@ -317,8 +317,16 @@ def title_for_item(item, include_type=False):
 
     return ret + post
 
-def link_to_item(text, item):
-    return f"<a href='{url_for_item(item)}'>{text}</a>"
+def link_to_item(text, item, always_link=False):
+    do_link = True
+    if not always_link:
+        status = item.get("status", "not")
+        do_link = status.startswith("ready")
+    
+    if do_link:
+        return f"<a href='{url_for_item(item)}'>{text}</a>"
+    else:
+        return text
 
 def transform_body(md):
     return markdown.markdown(md, extensions=['footnotes'])
@@ -367,7 +375,12 @@ def build_contributors_list(item, seperator=", "):
     return contributors
 
 def render_event_info(event, display_venue=True):
-    venue = ", <em>" + event['venue'] + "</em>"
+    venue = event.get('venue', "")
+    if not venue: venue = ""
+
+    if venue != "":
+        venue = ", <em>" + venue + "</em>"
+    
     if not display_venue: venue = ""
 
     event_text = f"""
@@ -461,9 +474,13 @@ def content_for_event(item):
     schedule_title = "Schedule"
     if item["event_type"] == "Concert": schedule_title = "Line-Up"
 
+    venue_string = ""
+    if item.get("venue"):
+        venue_string = f"Venue: <em>{item.get('venue')}</em>"
+
     return f"""
         <p><strong>{item["date_time"]}<br>
-        Venue: <em>{item["venue"]}</em></strong></p>
+        {venue_string}</strong></p>
         {transform_body(body)}
         <h4>{schedule_title}</h4>
         {schedule}
@@ -502,7 +519,7 @@ with open("templates/catalogue-index.html", "r") as file:
 def render_event_list(title, list):
     ret = ""
     ret += "<h4>" + title + "</h4>\n"
-    ret += "<ul>\n"
+    ret += "<ul class='event-list'>\n"
     for slug in list:
         ret += "<li>"
         ret += render_event_info(store[slug], False)
@@ -513,13 +530,16 @@ def render_event_list(title, list):
 def render_catalogue_index():
     c = ""
 
-    c += "<p>Todo: Add Keynotes, Workshops and finally also videos. Also do a more sensible overview of papers and community reports.</p>"
-
     c += render_event_list("Paper Presentations", ["paper-session-1", "paper-session-2", "paper-session-3", "paper-session-4", "paper-session-5"])
 
     c += render_event_list("Community Reports", ["community-session-1", "community-session-2"])
 
+    c += render_event_list("Keynote Sessions", ["keynote-1", "keynote-2", "keynote-3"])
+
     c += render_event_list("Concerts", ["choreographic-coding", "lunch-concert-1", "alternative-algorithms", "lunch-concert-2", "immersed-in-code", "algorave", "hybrid-acoustics"])
+
+    c += render_event_list("Workshop Blocks", ["workshops-1", "workshops-2", "workshops-3"])
+
 
     c += "<br><br><h3>Contributor Overview</h3>\n"
 

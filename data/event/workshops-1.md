@@ -1,6 +1,7 @@
 ---
 slug: workshops-1
 type: event
+status: ready
 event_type: Workshops
 title: Workshops 1
 venue: null
