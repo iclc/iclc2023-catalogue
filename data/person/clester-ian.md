@@ -1,5 +1,6 @@
 ---
 slug: clester-ian
+status: proof
 type: person
 last_name: Clester
 first_name: Ian
