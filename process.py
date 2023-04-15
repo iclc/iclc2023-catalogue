@@ -67,16 +67,25 @@ def url_for_item(item):
 def path_for_item(item):
     return CAT_OUT_PATH + item["type"] + "/" + item["slug"] + ".html"
 
-def render_name(person, use_alias=True, reverse=False, alias_only=False):
+def render_name(person, display="default"):
+
+    if not display: display = "default"
+
     ret = person["first_name"] + " " + person["last_name"]
+
+    reverse = "reverse" in display
 
     if reverse:
         ret = "<strong>" + person["last_name"] + "</strong>, " + person["first_name"]
 
+    use_alias = not "no_alias" in display
+
     if use_alias and person.get("alias", None):
         ret = f"{ret} ({person['alias']})"
 
-    if alias_only:
+    only_alias = "only_alias" in display
+
+    if only_alias:
         ret = person['alias']
     
     if EXPORT_MAIL:
@@ -166,7 +175,7 @@ def render_schedule(event, do_hide=True, do_link=True):
                 if contributor["person"].startswith("$"):
                     author = store[contributor["person"][1:]]
 
-                    author_text = render_name(author, True, False, item.get("alias_only"))
+                    author_text = render_name(author, contributor.get("display"))
 
                     if do_link:
                         author_text = link_to_item(author_text, author)
@@ -183,7 +192,7 @@ def render_schedule(event, do_hide=True, do_link=True):
             vis = store[item["visuals"][1:]]
             vis_cont = vis["contributors"][0]["person"][1:]
             vis_person = store[vis_cont]
-            vis_auth = render_name(vis_person)
+            vis_auth = render_name(vis_person, vis["contributors"][0].get("display"))
 
             vis_title = vis['title']
 
@@ -371,7 +380,7 @@ def build_contributors_list(item, seperator=", "):
         person = contributor["person"]
         if person.startswith("$"):
             person = store[person[1:]]
-            contributors += link_to_item(render_name(person), person)
+            contributors += link_to_item(render_name(person, contributor.get("display")), person)
         else:
             contributors += person
     
@@ -563,7 +572,7 @@ def render_catalogue_index():
     persons = []
     for slug in store.keys():
         if store[slug]["type"] == "person":
-            persons.append([render_name(store[slug], True, True), slug])
+            persons.append([render_name(store[slug], "reverse"), slug])
     
     persons.sort(key=lambda x: x[0].lower())
 

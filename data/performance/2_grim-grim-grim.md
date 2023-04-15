@@ -6,6 +6,7 @@ type: performance
 submission_type: Performance
 contributors:
 - person: $ganz-axel
+  display: only_alias
 ---
 
 # $PROGRAM_NOTE
