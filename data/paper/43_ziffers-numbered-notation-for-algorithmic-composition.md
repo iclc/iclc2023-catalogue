@@ -7,6 +7,7 @@ submission_type: Paper-Long
 contributors:
 - person: $alonen-miika
 - person: $forment-raphael-maurice
+  display: no_alias
 ---
 
 # $ABSTRACT

@@ -5,6 +5,7 @@ type: paper
 submission_type: Paper-Long
 contributors:
 - person: $forment-raphael-maurice
+  display: no_alias
 - person: $armitage-jack
 ---
 

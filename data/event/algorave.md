@@ -21,7 +21,7 @@ schedule:
         item: $broken-bond
         hide_time: True
     -   time: t23:10
-        item: $meet-the-cookie-collective
+        item: $sardine-x-ziffers-new-tools-for-algorithmic-expression
         hide_time: True
     -   time: t23:40
         item: $brickwork-destroy
