@@ -160,7 +160,10 @@ def render_schedule(event, do_hide=True, do_link=True):
             if item.get("venue", None) and do_hide:
                 item_venue = f"<br><br><span style='position:relative;top:-10px;'>Venue: <em>{item['venue']}</em></span>"
             
-            title = f"<em>{obj['title']}</em>"
+            list_title = obj.get('list_title')
+            if not list_title: list_title = obj['title']
+
+            title = f"<em>{list_title}</em>"
 
             if do_link:
                 title = link_to_item(title, obj)
