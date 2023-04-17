@@ -12,7 +12,7 @@ schedule:
     -   time: t15:35
         item: $ziffers-numbered-notation-for-algorithmic-composition
     -   time: t15:55
-        item: $designing-and-exploring-a-live-coding-interface-for-generative
+        item: $genny-designing-and-exploring-a-live-coding-interface-for-generative-models
     -   time: t16:15
         item: $addressing-accessibility-for-blind-and-visually-impaired-live
     -   time: t16:35
