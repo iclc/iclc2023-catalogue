@@ -143,7 +143,7 @@ for slug in store.keys():
                 if schedule_item.get('visuals'):
                     store[schedule_item['visuals'][1:]]["event"] = item
 
-def render_schedule(event, do_hide=True, do_link=True, no_time=False):
+def render_schedule(event, do_hide=True, do_link=True, no_time=False, no_small=False):
     c = ""
 
     for item in event["schedule"]:
@@ -204,6 +204,8 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
         if authors_sm != "":
             authors_sm = f"<div class='d-md-block mt-0 d-lg-none' style='margin-bottom: 6px;'>{authors_sm}</div>"
 
+        if no_small: authors_sm = ""
+
         c = c + f"<tr>{time_cell}<td>{authors_sm}<strong>{title}</strong>{item_venue}</td><td class='d-md-none d-sm-none d-none d-lg-table-cell'>{authors}</td></tr>\n"
 
         if item.get("visuals", None):
@@ -215,6 +217,9 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
             vis_title = vis['title']
 
             vis_auth_sm = f"<span class='d-md-inline mt-0 d-lg-none' style='margin-bottom: 6px;'><br>{vis_auth} &ndash; </span>"
+
+            if no_small: vis_auth_sm = ""
+
 
             if do_link:
                 vis_title = link_to_item(vis_title, vis)
@@ -233,9 +238,14 @@ def master_schedule_event(slug):
     if event['venue']:
         venue = f", <em>{event['venue']}</em>"
 
-    c = c + f"<tr><td colspan='3'><h3>{event['title']}</h3>\n{event['date_time']}{venue}</td></tr>"
+    chair_string = ""
+    if event.get('chair'):
+        chair = store[event['chair'][1:]]
+        chair_string = f"<br><br>Chair: {link_to_item(render_name(chair, 'no_alias'), chair)}"
 
-    c = c + render_schedule(event, MASTER_SCHEDULE_DO_HIDE, False)
+    c = c + f"<tr><td colspan='3'><h3>{event['title']}</h3>\n{event['date_time']}{venue}{chair_string}</td></tr>"
+
+    c = c + render_schedule(event, MASTER_SCHEDULE_DO_HIDE, False, False, True)
 
     c = c + "<tr><td style='padding-bottom: 50px;'></td></tr>\n"
     return c
@@ -270,8 +280,6 @@ def render_master_schedule():
 
     with open("output/master-schedule.html", "w") as file:
         file.write(master_content)
-
-render_master_schedule()
 
 
 # ---
@@ -640,4 +648,5 @@ def render_catalogue_index():
         file.write(cat_index_template_t.replace("$MAINCONTENT", c))
 
 
+render_master_schedule()
 render_catalogue_index()
