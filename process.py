@@ -36,7 +36,7 @@ now = datetime.now()
 
 
 # prepare folders for output
-for folder in ["performance", "person", "workshop", "video", "paper", "keynote", "event"]:
+for folder in ["performance", "person", "workshop", "video", "paper", "keynote", "event", "video-gallery", "assets"]:
     path = CAT_OUT_PATH + folder + "/"
     if not os.path.exists(path):
         os.makedirs(path)
@@ -138,7 +138,7 @@ for slug in store.keys():
                 if schedule_item.get('visuals'):
                     store[schedule_item['visuals'][1:]]["event"] = item
 
-def render_schedule(event, do_hide=True, do_link=True):
+def render_schedule(event, do_hide=True, do_link=True, no_time=False):
     c = ""
 
     for item in event["schedule"]:
@@ -168,7 +168,7 @@ def render_schedule(event, do_hide=True, do_link=True):
             if do_link:
                 title = link_to_item(title, obj)
 
-            if obj["type"] == "video":
+            if item.get("screening"):
                 item_venue = "<br><br><span style='position:relative;top:-10px;'>(Video Screening)</span>"
 
             for contributor in obj["contributors"]:
@@ -189,7 +189,10 @@ def render_schedule(event, do_hide=True, do_link=True):
         else:
             title = f"{title}"
 
-        c = c + f"<tr><td>{time}</td><td><strong>{title}</strong>{item_venue}</td><td>{authors}</td></tr>\n"
+        time_cell = f"<td>{time}</td>"
+        if no_time: time_cell = ""
+
+        c = c + f"<tr>{time_cell}<td><strong>{title}</strong>{item_venue}</td><td>{authors}</td></tr>\n"
 
         if item.get("visuals", None):
             vis = store[item["visuals"][1:]]
@@ -474,9 +477,16 @@ def content_for_workshop(item):
 def content_for_video(item):
     body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
 
+    presented = ""
+    if item["submission_type"] == "Community-Video":
+        presented = f"""<p class="list-header">Will be presented at:</p>
+        <ul>
+            <li>{render_associated_event(item)}</li>
+        </ul>"""
+
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
-        <p><em>Still put video-related info here + the video of course ...</em></p>
+        {presented}
         <h4>Description</h4>
         {transform_body(body)}
     """
@@ -515,6 +525,19 @@ def content_for_event(item):
         {schedule}
     """
 
+def content_for_video_gallery(item):
+    body = item["body"]
+
+    schedule = render_schedule(item, True, True, True)
+    schedule = f"<table>{schedule}</table>"
+
+    return f"""
+        {transform_body(body)}
+        <br>
+        <!-- <h4>Videos</h4> -->
+        {schedule}
+    """
+
 def type_description_for_item(item):
     t = item.get("submission_type")
     if not t: t = item.get("type")
@@ -527,6 +550,7 @@ def content_for_item(item):
     if item["type"] == "keynote": return content_for_keynote(item)
     if item["type"] == "workshop": return content_for_workshop(item)
     if item["type"] == "event": return content_for_event(item)
+    if item["type"] == "video-gallery": return content_for_video_gallery(item)
     if item["type"] == "video": return content_for_video(item)
 
 
@@ -568,6 +592,8 @@ def render_catalogue_index():
     c += render_event_list("Concerts", ["choreographic-coding", "lunch-concert-1", "alternative-algorithms", "lunch-concert-2", "immersed-in-code", "algorave", "hybrid-acoustics"])
 
     c += render_event_list("Workshop Blocks", ["workshops-1", "workshops-2", "workshops-3"])
+
+    c += "<h4 class='mt-5'><a href='catalogue/video-gallery/video-gallery.html'>Video Gallery</a></h4>";
 
 
     c += "<br><br><h3>Contributor Overview</h3>\n"

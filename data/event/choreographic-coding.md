@@ -17,9 +17,6 @@ schedule:
     -   time: t20:30
         item: $codes-for-a-dance
         hide_time: True
-    -   time: t20:50
-        item: $the-machine-is-learning
-        hide_time: True
     -   time: t21:15
         item: Break
         hide_time: True
