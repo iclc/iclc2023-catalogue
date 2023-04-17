@@ -169,10 +169,10 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
             list_title = obj.get('list_title')
             if not list_title: list_title = obj['title']
 
-            title = f"<em>{list_title}</em>"
+            title = list_title
 
             if do_link and not item.get("no_link"):
-                title = link_to_item(title, obj)
+                title = link_to_item(f"<em>{title}</em>", obj)
 
             if item.get("screening"):
                 item_venue = "<br><br><span style='position:relative;top:-10px;'>(Video Screening)</span>"
