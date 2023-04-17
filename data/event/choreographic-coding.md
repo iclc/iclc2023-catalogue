@@ -13,23 +13,23 @@ schedule:
     -   time: t19:30
         item: Doors
     -   time: t20:00
-        item: $botbop-integers-strings
-    -   time: t20:30
         item: $codes-for-a-dance
-        hide_time: True
-    -   time: t21:15
-        item: Break
-        hide_time: True
-    -   time: t21:45
-        item: $poetry-attack-01
-        hide_time: True
-    -   time: t22:05
-        item: $we-all-begin-in-abstraction
-        hide_time: True
-    -   time: t22:25
+    -   time: t20:20
         item: $human-computer-counter-choreographies-beta
         hide_time: True
-    -   time: t22:45
+    -   time: t20:40
+        item: $botbop-integers-strings
+        hide_time: True
+    -   time: t21:10
+        item: Break
+        hide_time: True
+    -   time: t21:40
+        item: $poetry-attack-01
+        hide_time: True
+    -   time: t22:10
+        item: $we-all-begin-in-abstraction
+        hide_time: True
+    -   time: t22:30
         item: $the-cuckoo-s-nest
         hide_time: True
     -   time: t~&nbsp;23:00
