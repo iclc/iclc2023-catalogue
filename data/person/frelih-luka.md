@@ -1,7 +1,7 @@
 ---
 slug: frelih-luka
 type: person
-status: requested bio via Telegram
+status: pending, requested bio via Telegram
 last_name: Frelih
 first_name: Luka
 alias: null
