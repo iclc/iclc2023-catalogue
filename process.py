@@ -19,6 +19,7 @@ TYPES = {
     "keynote": "Keynote",
     "event": "Event",
     "person": "Person",
+    'committee': "Committee",
     "Performance": "Performance",
     "Paper-Long": "Paper",
     "Paper-Short": "Paper",
@@ -62,7 +63,10 @@ def sanitize_time(time):
         return time
 
 def url_for_item(item):
-    return CAL_FOLDER + item["type"] + "/" + item["slug"] + ".html"
+    if item.get("external"):
+        return item['external']
+    else:
+        return CAL_FOLDER + item["type"] + "/" + item["slug"] + ".html"
 
 def path_for_item(item):
     return CAT_OUT_PATH + item["type"] + "/" + item["slug"] + ".html"
@@ -165,7 +169,7 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
 
             title = f"<em>{list_title}</em>"
 
-            if do_link:
+            if do_link and not item.get("no_link"):
                 title = link_to_item(title, obj)
 
             if item.get("screening"):
@@ -357,6 +361,7 @@ def get_body_chunk(body, chunk):
 
 
 def content_for_person(item):
+    print("Rendering person: " + item['slug'])
     affiliations = ""
     num_affiliations = len(item["affiliations"])
     if num_affiliations == 1:
@@ -557,7 +562,10 @@ def content_for_item(item):
 
 def render_item(item):
     if not item["type"] == "master":
-        write_cat_html(path_for_item(item), title_for_item(item), content_for_item(item))
+        if item.get("external"):
+            print("Skipping resource with external URL: " + item["external"])
+        else:
+            write_cat_html(path_for_item(item), title_for_item(item), content_for_item(item))
 
 for slug in store.keys():
     render_item(store[slug])
@@ -593,6 +601,8 @@ def render_catalogue_index():
     c += render_event_list("Workshop Blocks", ["workshops-1", "workshops-2", "workshops-3"])
 
     c += "<h4 class='mt-5'><a href='catalogue/other/video-gallery.html'>Video Gallery</a></h4>";
+
+    c += "<h4 class='mt-5'><a href='catalogue/other/programming-committee.html'>Programming Committee</a></h4>";
 
 
     c += "<br><br><h3>Contributor Overview</h3>\n"
