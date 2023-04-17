@@ -3,7 +3,7 @@ slug: mclaughlin-tyler
 type: person
 last_name: McLaughlin
 first_name: Tyler
-alias: null
+alias: R Tyler
 affiliations:
 - AV Club SF
 ---

@@ -3,6 +3,7 @@ slug: marques-da-costa-joenio
 type: person
 last_name: Marques Da Costa
 first_name: Joenio
+status: proof
 alias: null
 affiliations:
 - CorTexT platform

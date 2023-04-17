@@ -20,4 +20,4 @@ architectural and urban installation.
 His work is included in public and private collections as FEMSA, CINTAS Foundation, Museo Extremeño e 
 Iberoamericano de Arte Contemporáneo. He has received grants like The Prix Ars Electronica (Linz, Austria); 
 the CINTAS Foundation Award in Visual Arts, the National System of Art Creators of FONCA (2012–2014), 
-2011–2012 and 2021 -2024.
+2011–2012 and 2021-2024.
