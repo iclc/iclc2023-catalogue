@@ -148,6 +148,7 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
     for item in event["schedule"]:
         title = item['item']
         authors = ""
+        authors_sm = ""
         time = item['time']
 
         if item.get('hide_time'):
@@ -178,6 +179,7 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
             for contributor in obj["contributors"]:
                 if authors != "":
                     authors += "<br>"
+                    authors_sm += ", "
                 
                 if contributor["person"].startswith("$"):
                     author = store[contributor["person"][1:]]
@@ -188,15 +190,20 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
                         author_text = link_to_item(author_text, author)
 
                     authors += author_text
+                    authors_sm += author_text
                 else:
                     authors += contributor["person"]
+                    authors_sm += contributor["person"]
         else:
             title = f"{title}"
 
         time_cell = f"<td>{time}</td>"
         if no_time: time_cell = ""
 
-        c = c + f"<tr>{time_cell}<td><strong>{title}</strong>{item_venue}</td><td>{authors}</td></tr>\n"
+        if authors_sm != "":
+            authors_sm = f"<div class='d-md-block mt-0 d-lg-none' style='margin-bottom: 6px;'>{authors_sm}</div>"
+
+        c = c + f"<tr>{time_cell}<td>{authors_sm}<strong>{title}</strong>{item_venue}</td><td class='d-md-none d-sm-none d-none d-lg-table-cell'>{authors}</td></tr>\n"
 
         if item.get("visuals", None):
             vis = store[item["visuals"][1:]]
@@ -206,11 +213,13 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False):
 
             vis_title = vis['title']
 
+            vis_auth_sm = f"<span class='d-md-inline mt-0 d-lg-none' style='margin-bottom: 6px;'><br>{vis_auth} &ndash; </span>"
+
             if do_link:
                 vis_title = link_to_item(vis_title, vis)
                 vis_auth = link_to_item(vis_auth, vis_person)
 
-            c = c + f"<tr style='position:relative;top:-12px;'><td></td><td>Visuals: <strong><em>{vis_title}</em></strong>{item_venue}</td><td>{vis_auth}</td></tr>\n"
+            c = c + f"<tr style='position:relative;top:-12px;'><td></td><td>Visuals: {vis_auth_sm}<strong><em>{vis_title}</em></strong>{item_venue}</td><td class='d-md-none d-sm-none d-none d-lg-table-cell'>{vis_auth}</td></tr>\n"
         
     return c
 
