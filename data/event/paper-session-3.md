@@ -18,6 +18,6 @@ schedule:
     -   time: t16:35
         item: Questions & Discussion
     -   time: t16:55
-        item: Brief Announcement of NIME 2024
-        person: Dianne Verdonk
+        item: $nime-2024
+        no_link: True
 ---
