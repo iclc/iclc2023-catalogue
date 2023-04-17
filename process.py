@@ -36,7 +36,7 @@ now = datetime.now()
 
 
 # prepare folders for output
-for folder in ["performance", "person", "workshop", "video", "paper", "keynote", "event", "video-gallery", "assets"]:
+for folder in ["performance", "person", "workshop", "video", "paper", "keynote", "event", "other", "assets"]:
     path = CAT_OUT_PATH + folder + "/"
     if not os.path.exists(path):
         os.makedirs(path)
@@ -525,7 +525,7 @@ def content_for_event(item):
         {schedule}
     """
 
-def content_for_video_gallery(item):
+def content_for_other(item):
     body = item["body"]
 
     schedule = render_schedule(item, True, True, True)
@@ -534,7 +534,6 @@ def content_for_video_gallery(item):
     return f"""
         {transform_body(body)}
         <br>
-        <!-- <h4>Videos</h4> -->
         {schedule}
     """
 
@@ -550,7 +549,7 @@ def content_for_item(item):
     if item["type"] == "keynote": return content_for_keynote(item)
     if item["type"] == "workshop": return content_for_workshop(item)
     if item["type"] == "event": return content_for_event(item)
-    if item["type"] == "video-gallery": return content_for_video_gallery(item)
+    if item["type"] == "other": return content_for_other(item)
     if item["type"] == "video": return content_for_video(item)
 
 
@@ -593,7 +592,7 @@ def render_catalogue_index():
 
     c += render_event_list("Workshop Blocks", ["workshops-1", "workshops-2", "workshops-3"])
 
-    c += "<h4 class='mt-5'><a href='catalogue/video-gallery/video-gallery.html'>Video Gallery</a></h4>";
+    c += "<h4 class='mt-5'><a href='catalogue/other/video-gallery.html'>Video Gallery</a></h4>";
 
 
     c += "<br><br><h3>Contributor Overview</h3>\n"

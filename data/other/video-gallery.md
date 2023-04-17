@@ -1,7 +1,6 @@
 ---
 slug: video-gallery
-type: video-gallery
-event_type: Video Gallery
+type: other
 status: ready
 title: Video Gallery
 schedule:
