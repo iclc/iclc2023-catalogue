@@ -1,8 +1,8 @@
 ---
 slug: keynote-marije-baalman
-title: 'Keynote'
+title: 'Thinking Inside the Box: Instant Composition, Folded Structures and Beyond the Screen'
 type: keynote
-status: pending title
+status: proof (but should be ready)
 contributors:
 - person: $baalman-marije
 ---
