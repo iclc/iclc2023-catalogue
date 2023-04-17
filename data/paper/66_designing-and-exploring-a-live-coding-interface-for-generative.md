@@ -1,6 +1,6 @@
 ---
 slug: designing-and-exploring-a-live-coding-interface-for-generative
-title: Designing and Exploring a Live Coding Interface for Generative Models
+title: Genny: Designing and Exploring a Live Coding Interface for Generative Models
 type: paper
 status: proof
 submission_type: Paper-Long
