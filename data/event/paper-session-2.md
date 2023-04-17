@@ -6,6 +6,7 @@ title: Paper Session 2
 venue: VOGELFREI
 status: ready
 date_time: Wednesday, April 19th, 11:30
+chair: $paz-ivan
 schedule:
     -   time: t11:30
         item: $floating-gold-an-international-collaboration-through-estuary

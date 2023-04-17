@@ -6,6 +6,7 @@ status: ready
 title: Community Report Session 1
 venue: VOGELFREI
 date_time: Friday, April 21st, 10:00
+chair: $sousa-santos-raphael
 schedule:
     -   time: t10:00
         item: $on-the-fly-documentary

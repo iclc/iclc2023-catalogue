@@ -531,9 +531,14 @@ def content_for_event(item):
     if item.get('tickets_url'):
         tickets_string = f"<br><br><strong><a href='{item['tickets_url']}'>Tickets</strong></a>"
 
+    chair_string = ""
+    if item.get('chair'):
+        chair = store[item['chair'][1:]]
+        chair_string = f"<br><br>Chair: {link_to_item(render_name(chair, 'no_alias'), chair)}"
+
     return f"""
         <p><strong>{item["date_time"]}</strong><br>
-        {venue_string}{tickets_string}</p>
+        {venue_string}{tickets_string}{chair_string}</p>
         {transform_body(body)}
         <h4>{schedule_title}</h4>
         {schedule}

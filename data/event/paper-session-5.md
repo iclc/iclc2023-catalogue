@@ -6,6 +6,7 @@ title: Paper Session 5
 venue: VOGELFREI
 status: ready
 date_time: Thursday, April 19th, 11:30
+chair: $bautista-rodriguez-lina
 schedule:
     -   time: t11:30
         item: $live-coding-and-education-a-practical-experience

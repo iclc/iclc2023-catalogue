@@ -6,6 +6,7 @@ title: Paper Session 4
 venue: VOGELFREI
 status: ready
 date_time: Thursday, April 19th, 10:00
+chair: $borgeat-patrick
 schedule:
     -   time: t10:00
         item: $useq-a-modular-sequencer-for-eurorack-with-a-livecodable

@@ -6,6 +6,7 @@ status: ready
 title: Community Report Session 2
 venue: VOGELFREI
 date_time: Friday, April 21st, 11:15
+chair: $sousa-santos-raphael
 schedule:
     -   time: t11:15
         item: $livecode-nyc-over-the-years-a-community-portrait

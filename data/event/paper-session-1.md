@@ -6,6 +6,7 @@ title: Welcome & Paper Session 1
 venue: VOGELFREI
 status: ready
 date_time: Wednesday, April 19th, 09:45
+chair: $reppel-niklas
 schedule:
     -   time: t09:45
         item: Welcome
