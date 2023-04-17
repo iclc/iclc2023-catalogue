@@ -17,15 +17,16 @@ PROOF_INCLUDE_ABSTRACTS = True
 
 TYPES = {
     "keynote": "Keynote",
+    "panel": "Discussion",
     "event": "Event",
     "person": "Person",
     'committee': "Committee",
     "Performance": "Performance",
     "Paper-Long": "Paper",
     "Paper-Short": "Paper",
-    "Community-Written": "Community Report (Paper)",
+    "Community-Written": "Community Report Paper",
     "Workshop": "Workshop",
-    "Community-Video": "Community Report (Video)",
+    "Community-Video": "Community Report Video",
     "Video-Long": "Video",
     "Video-Short": "Video"
 }

@@ -19,5 +19,6 @@ schedule:
     -   time: t11:45
         item: $livecodera-community-report
     -   time: t11:55&#8209;12:45
-        item: Panel Discussion
+        item: $community-report-panel
+        no_link: True
 ---
