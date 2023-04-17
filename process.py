@@ -313,8 +313,8 @@ def render_status_overview():
         if entry[3] == "ready": color = "#7CFC00"
 
         url = url_for_item(entry[4])
-
-        c += f"<tr style='background-color: {color};'><td>{entry[0]}</td><td>{entry[1]}</td><td><a href='../{url}'>{entry[2]}</a></td><td><strong>{entry[3]}</strong></tr>\n"
+        if not entry[4].get("external"):
+            c += f"<tr style='background-color: {color};'><td>{entry[0]}</td><td>{entry[1]}</td><td><a href='../{url}'>{entry[2]}</a></td><td><strong>{entry[3]}</strong></tr>\n"
 
     with open("output/2023/catalogue/status-overview.html", "w") as file:
         file.write(status_template.replace("$CONTENT", c).replace("$VERSION", now.strftime('%d.%m.%Y')))

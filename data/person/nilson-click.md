@@ -4,7 +4,7 @@ type: person
 last_name: Nilson
 first_name: Click
 alias: null
-status: proof (but should be fine as is)
+status: proof
 affiliations: []
 ---
 

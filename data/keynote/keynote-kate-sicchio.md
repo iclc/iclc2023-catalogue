@@ -1,6 +1,7 @@
 ---
 slug: keynote-kate-sicchio
 title: 'Live Coding as (Dis)placement: Artists, Programming and the Dancing In-Between'
+status: proof
 type: keynote
 contributors:
 - person: $sicchio-kate

@@ -2,7 +2,7 @@
 slug: keynote-click-nilson
 title: 'Re-incarnation/Re-inclicknilson'
 type: keynote
-status: proof (but should be ready)
+status: proof
 contributors:
 - person: $nilson-click
 ---
