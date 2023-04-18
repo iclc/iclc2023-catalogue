@@ -1,5 +1,6 @@
 ---
 slug: m-martins-fellipe
+status: proof
 type: person
 last_name: M. Martins
 first_name: Fellipe
