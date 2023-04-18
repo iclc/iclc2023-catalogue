@@ -1,5 +1,6 @@
 ---
 slug: padovani-jose-henrique
+status: proof
 type: person
 last_name: Padovani
 first_name: José Henrique
