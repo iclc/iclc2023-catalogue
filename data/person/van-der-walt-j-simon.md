@@ -1,5 +1,6 @@
 ---
 slug: van-der-walt-j-simon
+status: proof
 type: person
 last_name: van der Walt
 first_name: J. Simon
