@@ -1,6 +1,7 @@
 ---
 slug: hopfner-daniel
 type: person
+status: proof
 last_name: Höpfner
 first_name: Daniel
 alias: null

@@ -3,6 +3,7 @@ slug: hirschfeld-robert
 type: person
 last_name: Hirschfeld
 first_name: Robert
+status: proof
 alias: null
 affiliations:
 - Hasso Plattner Institute

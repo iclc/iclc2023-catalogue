@@ -1,6 +1,7 @@
 ---
 slug: kiefer-chris
 type: person
+status: proof
 last_name: Kiefer
 first_name: Chris
 alias: null

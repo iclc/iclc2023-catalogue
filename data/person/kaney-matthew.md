@@ -1,6 +1,7 @@
 ---
 slug: kaney-matthew
 type: person
+status: proof
 last_name: Kaney
 first_name: Matthew
 alias: null

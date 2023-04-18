@@ -3,6 +3,7 @@ slug: jordaens-kasper
 type: person
 last_name: Jordaens
 first_name: Kasper
+status: proof
 alias: null
 affiliations:
 - LUCA School of Arts

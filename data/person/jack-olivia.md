@@ -1,6 +1,7 @@
 ---
 slug: jack-olivia
 type: person
+status: proof
 last_name: Jack
 first_name: Olivia
 alias: null

@@ -1,6 +1,7 @@
 ---
 slug: hurst-amy
 type: person
+status: proof
 last_name: Hurst
 first_name: Amy
 alias: null

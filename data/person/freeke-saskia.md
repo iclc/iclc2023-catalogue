@@ -1,6 +1,7 @@
 ---
 slug: freeke-saskia
 type: person
+status: proof
 last_name: Freeke
 first_name: Saskia
 alias: null

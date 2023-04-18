@@ -1,6 +1,7 @@
 ---
 slug: fraser-glen
 type: person
+status: proof
 last_name: Fraser
 first_name: Glen
 alias: null

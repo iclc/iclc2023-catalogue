@@ -1,6 +1,7 @@
 ---
 slug: folz-rodney
 type: person
+status: proof
 last_name: Folz
 first_name: Rodney
 alias: null

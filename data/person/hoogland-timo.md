@@ -1,6 +1,7 @@
 ---
 slug: hoogland-timo
 type: person
+status: proof
 last_name: Hoogland
 first_name: Timo
 alias: null

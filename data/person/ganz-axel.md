@@ -1,6 +1,7 @@
 ---
 slug: ganz-axel
 type: person
+status: proof
 last_name: Ganz
 first_name: Axel
 alias: Grimberg

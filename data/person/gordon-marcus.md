@@ -1,6 +1,7 @@
 ---
 slug: gordon-marcus
 type: person
+status: proof
 last_name: Gordon
 first_name: Marcus
 alias: magfoto

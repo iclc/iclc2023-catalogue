@@ -1,6 +1,7 @@
 ---
 slug: imrisek-sarah
 type: person
+status: proof
 last_name: Imrisek
 first_name: Sarah
 alias: '@cymatiste'

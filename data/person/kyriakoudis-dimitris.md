@@ -1,6 +1,7 @@
 ---
 slug: kyriakoudis-dimitris
 type: person
+status: proof
 last_name: Kyriakoudis
 first_name: Dimitris
 alias: null

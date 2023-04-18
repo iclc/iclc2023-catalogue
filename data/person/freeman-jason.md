@@ -1,6 +1,7 @@
 ---
 slug: freeman-jason
 type: person
+status: proof
 last_name: Freeman
 first_name: Jason
 alias: null

@@ -1,6 +1,7 @@
 ---
 slug: li-song
 type: person
+status: proof
 last_name: Li
 first_name: Song
 alias: 李松

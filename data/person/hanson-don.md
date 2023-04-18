@@ -1,6 +1,7 @@
 ---
 slug: hanson-don
 type: person
+status: proof
 last_name: Hanson
 first_name: Don
 alias: d0n.xyz

@@ -1,6 +1,7 @@
 ---
 slug: diapoulis-georgios
 type: person
+status: proof
 last_name: Diapoulis
 first_name: Georgios
 alias: null

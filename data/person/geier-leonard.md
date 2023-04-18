@@ -1,6 +1,7 @@
 ---
 slug: geier-leonard
 type: person
+status: proof
 last_name: Geier
 first_name: Leonard
 alias: null

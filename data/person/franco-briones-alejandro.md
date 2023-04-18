@@ -1,6 +1,7 @@
 ---
 slug: franco-briones-alejandro
 type: person
+status: proof
 last_name: Franco Briones
 first_name: Alejandro
 alias: null
