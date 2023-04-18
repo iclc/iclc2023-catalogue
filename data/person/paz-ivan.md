@@ -1,5 +1,6 @@
 ---
 slug: paz-ivan
+status: proof
 type: person
 last_name: Paz
 first_name: Iván
