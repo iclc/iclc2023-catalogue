@@ -4,8 +4,23 @@ status: proof
 title: on-the-fly Documentary
 type: video
 submission_type: Community-Video
+video_url: https://youtu.be/sCkwUldKG50
 contributors:
+- person: $bautista-rodriguez-lina
+- person: $noriega-alcaraz-felipe-ignacio
+- person: $knotts-shelly
+- person: $jack-olivia
+- person: $borgeat-patrick
 - person: $paz-ivan
+- person: $frelih-luka
+- person: $michelin-ludovika
+- person: $hoffmann-yannick
+- person: $van-sluijs-fabian
+
+
+
+- 
+
 ---
 
 # $PROGRAM_NOTE
