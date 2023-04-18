@@ -35,7 +35,7 @@ schedule:
         hide_time: True
     -   time: t00:50
         item: $av-counterpoint
-        visuals: $tododot
+        visuals: $code-must-go-on
         hide_time: True
     -   time: t01:20
         item: $amalgam
