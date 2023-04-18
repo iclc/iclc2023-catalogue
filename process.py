@@ -488,22 +488,30 @@ def content_for_performance(item):
 def content_for_paper(item):
     body = get_body_chunk(item["body"], "$ABSTRACT")
 
+    doi_string = ""
+    if item.get('doi_link'):
+        doi_string = f"<p class='mt-4'>Publication: <a href='{item['doi_link']}'><strong>{item['doi_link']}</strong></a></p>"
+
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
         <p class="list-header">Will be presented at:</p>
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>
+        {doi_string}
         <h4>Abstract</h4>
         {transform_body(body)}
     """
 
 def content_for_keynote(item):
     body = item["body"]
-
+    # put in time and place
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
-        <p><em>Put time/place here</em></p>
+        <p class="list-header">Will be presented at:</p>
+        <ul>
+            <li>{render_associated_event(item)}</li>
+        </ul>
         {transform_body(body)}
     """
 
