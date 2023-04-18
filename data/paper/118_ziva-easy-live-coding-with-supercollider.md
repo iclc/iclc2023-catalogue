@@ -4,6 +4,7 @@ status: proof
 title: 'Živa: Easy Live Coding With SuperCollider'
 type: paper
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7842215
 contributors:
 - person: $pibernat-trias-roger
 ---

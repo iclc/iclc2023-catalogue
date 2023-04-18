@@ -1,10 +1,10 @@
 ---
 slug: towards-another-transdiscipline-art-techno-science-and-as-and
-title: 'Towards Another Transdiscipline: Art, (Techno)Science and Emancipation as
-  Promise and Provocation for Live Coding'
+title: 'Towards Another Transdiscipline: Art, (Techno)Science and Emancipation as Promise and Provocation for Live Coding'
 type: paper
 status: proof
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7842097 
 contributors:
 - person: $franco-briones-alejandro
 ---

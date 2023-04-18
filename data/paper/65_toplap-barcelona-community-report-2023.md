@@ -4,6 +4,7 @@ status: proof
 title: TOPLAP Barcelona Community Report 2023
 type: paper
 submission_type: Community-Written
+doi_link: https://doi.org/10.5281/zenodo.7843519
 contributors:
 - person: $fraser-glen
 - person: $paz-ivan

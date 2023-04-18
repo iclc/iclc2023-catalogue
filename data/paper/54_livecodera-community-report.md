@@ -4,6 +4,7 @@ status: proof
 title: LivecoderA Community Report
 type: paper
 submission_type: Community-Written
+doi_link: https://doi.org/10.5281/zenodo.7842131
 contributors:
 - person: $champlin-alicia
 - person: $chicau-joana

@@ -4,6 +4,7 @@ status: proof
 title: 'Ziffers: Numbered Notation for Algorithmic Composition'
 type: paper
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7841945
 contributors:
 - person: $alonen-miika
 - person: $forment-raphael-maurice

@@ -1,9 +1,10 @@
 ---
 slug: live-coding-and-education-a-practical-experience
 status: proof
-title: 'Live Coding and Education: A Practical Experience'
+title: 'Live Coding and Education. A Practical Experience.'
 type: paper
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7843819
 contributors:
 - person: $corvi-francesco
 - person: $mori-giovanni

@@ -1,9 +1,10 @@
 ---
 slug: floating-gold-an-international-collaboration-through-estuary
 status: proof
-title: 'Floating Gold: An International Collaboration through Estuary'
+title: 'Floating Gold: an International Collaboration through Estuary.'
 type: paper
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7843575
 contributors:
 - person: $candra-rini-peni
 - person: $purnama-aji-rangga

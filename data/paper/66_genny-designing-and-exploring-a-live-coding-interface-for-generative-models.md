@@ -4,6 +4,7 @@ title: 'Genny: Designing and Exploring a Live Coding Interface for Generative Mo
 type: paper
 status: proof
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7843500
 contributors:
 - person: $shimizu-junichi
 - person: $fiebrink-rebecca

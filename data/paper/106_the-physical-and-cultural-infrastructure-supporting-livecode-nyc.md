@@ -1,10 +1,10 @@
 ---
 slug: the-physical-and-cultural-infrastructure-supporting-livecode-nyc
 status: proof
-title: 'The Physical and Cultural Infrastructure Supporting LiveCode.NYC: A Community
-  Report'
+title: 'The Physical and Cultural Infrastructure Supporting LiveCode.NYC: A Community Report'
 type: paper
 submission_type: Community-Written
+doi_link: https://doi.org/10.5281/zenodo.7842304
 contributors:
 - person: $srinivasan-sumanth
 ---

@@ -1,10 +1,10 @@
 ---
 slug: mosaik-staging-contemporary-ai-performance-reflections-on-live-e
 status: proof
-title: 'Mosaik: Staging Contemporary AI Performance - Reflections on Connecting Live
-  Coding, e-Textile and Movement'
+title: 'Mosaik: Staging Contemporary AI Performance - Reflections on Connecting Live Coding, e-Textile and Movement'
 type: paper
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7843540
 contributors:
 - person: $wilson-elizabeth
 - person: $schubert-deva
