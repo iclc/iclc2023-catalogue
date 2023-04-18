@@ -1,6 +1,6 @@
 ---
 slug: satomi-mika
-status: proof
+status: pending bio
 type: person
 last_name: Satomi
 first_name: Mika
