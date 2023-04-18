@@ -1,5 +1,6 @@
 ---
 slug: visualists-meetup
+status: proof
 title: Visualists Meetup
 type: workshop
 submission_type: Workshop
