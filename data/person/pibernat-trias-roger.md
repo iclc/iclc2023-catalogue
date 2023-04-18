@@ -1,5 +1,6 @@
 ---
 slug: pibernat-trias-roger
+status: proof
 type: person
 last_name: Pibernat Trias
 first_name: Roger
