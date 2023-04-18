@@ -1,5 +1,6 @@
 ---
 slug: xambo-anna
+status: proof
 type: person
 last_name: Xambó
 first_name: Anna
