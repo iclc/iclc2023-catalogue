@@ -1,5 +1,6 @@
 ---
 slug: noriega-alcaraz-felipe-ignacio
+status: proof
 type: person
 last_name: Noriega Alcaraz
 first_name: Felipe Ignacio
