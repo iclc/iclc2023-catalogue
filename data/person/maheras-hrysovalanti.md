@@ -1,5 +1,6 @@
 ---
 slug: maheras-hrysovalanti
+status: proof
 type: person
 last_name: Maheras
 first_name: Hrysovalanti
