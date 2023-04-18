@@ -1,5 +1,6 @@
 ---
 slug: rohrhuber-julian
+status: proof
 type: person
 status: ready
 last_name: Rohrhuber

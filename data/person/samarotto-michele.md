@@ -1,5 +1,6 @@
 ---
 slug: samarotto-michele
+status: proof
 type: person
 last_name: Samarotto
 first_name: Michele

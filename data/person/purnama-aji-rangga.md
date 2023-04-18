@@ -1,5 +1,6 @@
 ---
 slug: purnama-aji-rangga
+status: proof
 type: person
 last_name: Purnama Aji
 first_name: Rangga

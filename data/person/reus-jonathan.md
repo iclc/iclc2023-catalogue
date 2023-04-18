@@ -1,5 +1,6 @@
 ---
 slug: reus-jonathan
+status: proof
 type: person
 last_name: Reus
 first_name: Jonathan

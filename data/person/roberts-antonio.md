@@ -1,5 +1,6 @@
 ---
 slug: roberts-antonio
+status: proof
 type: person
 last_name: Roberts
 first_name: Antonio

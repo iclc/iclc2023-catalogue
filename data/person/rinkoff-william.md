@@ -1,5 +1,6 @@
 ---
 slug: rinkoff-william
+status: proof
 type: person
 last_name: Rinkoff
 first_name: William

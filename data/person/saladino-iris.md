@@ -1,5 +1,6 @@
 ---
 slug: saladino-iris
+status: proof
 type: person
 last_name: Saladino
 first_name: Iris

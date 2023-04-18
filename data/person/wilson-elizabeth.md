@@ -1,5 +1,6 @@
 ---
 slug: wilson-elizabeth
+status: proof
 type: person
 last_name: Wilson
 first_name: Elizabeth
