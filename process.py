@@ -20,6 +20,7 @@ PROOF_INCLUDE_ABSTRACTS = False
 HEADER = "ICLC 2023 Catalogue"
 INCLUDE_STATUS_OVERVEW = False
 ACTIVE_STATUS_FLAGS = ["ready"]
+ALL_STATUS_FLAGS_OK = False
 
 if RENDER_PROOF:
     CAL_FOLDER = 'catalogue/proof/'
@@ -27,6 +28,7 @@ if RENDER_PROOF:
     HEADER = "ICLC 2023 Catalogue PROOF VERSION"
     INCLUDE_STATUS_OVERVEW = True
     ACTIVE_STATUS_FLAGS = ["ready", "proof"]
+    ALL_STATUS_FLAGS_OK = True
 
 CAT_OUT_PATH = 'output/2023/' + CAL_FOLDER
 STATUS_REL_PATH = '../../'
@@ -381,7 +383,7 @@ def link_to_item(text, item, always_link=False):
     if not always_link:
         status = item.get("status", "not")
 
-        do_link = False
+        do_link = ALL_STATUS_FLAGS_OK
         for flag in ACTIVE_STATUS_FLAGS:
             do_link = do_link or status.startswith(flag)
     
