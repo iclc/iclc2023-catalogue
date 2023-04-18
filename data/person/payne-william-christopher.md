@@ -1,5 +1,6 @@
 ---
 slug: payne-william-christopher
+status: proof
 type: person
 last_name: Payne
 first_name: William Christopher
