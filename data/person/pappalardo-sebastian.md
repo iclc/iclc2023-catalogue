@@ -4,7 +4,7 @@ type: person
 last_name: Pappalardo
 first_name: Sebastian
 alias: eerie_ear
-status: proof
+status: ready
 affiliations: []
 ---
 

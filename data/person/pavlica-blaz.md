@@ -1,7 +1,7 @@
 ---
 slug: pavlica-blaz
 type: person
-status: proof
+status: ready
 last_name: Pavlica
 first_name: Blaž
 alias: null

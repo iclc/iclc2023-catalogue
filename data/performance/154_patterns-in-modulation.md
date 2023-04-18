@@ -1,6 +1,6 @@
 ---
 slug: patterns-in-modulation
-status: proof
+status: ready
 title: patterns in modulation
 type: performance
 submission_type: Performance
@@ -21,4 +21,4 @@ The performers sensitively connect through a generative art improvisation perfor
 
 A combination of improvisation and composition is the methodology they will use, creating moods and moments prescriptively yet allowing for free interaction between them. The performance has also been designed with the concept of space as a major consideration. The church setting is a perfect environment for sound and time driven experimentation.
 
-A short list of our diverse references: - Blaž: Kaitlyn Aurelia Smith, Nam June Paik, Ursula K. Le Guin - Sebastian: Noh theater, Raime, Naoto Ieda, Marshall McLuhan, many others…
+A short list of our diverse references - Blaž: Kaitlyn Aurelia Smith, Nam June Paik, Ursula K. Le Guin - Sebastian: Noh theater, Raime, Naoto Ieda, Marshall McLuhan, many others…
