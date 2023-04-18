@@ -1,5 +1,6 @@
 ---
 slug: oduro-kofi
+status: proof
 type: person
 last_name: Oduro
 first_name: Kofi
