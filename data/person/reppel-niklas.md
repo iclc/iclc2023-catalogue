@@ -1,6 +1,6 @@
 ---
 slug: reppel-niklas
-status: proof
+status: ready
 type: person
 last_name: Reppel
 first_name: Niklas
@@ -16,9 +16,10 @@ in the local TOPLAP node.
 Having played in a variety of music ensembles in the distant past (ranging from jam-oriented rock bands 
 to contemporary chamber music groups and everything in between), his current (sound) art practice draws influence 
 from improvisational music, the the everyday sound around him, and the beauty of Markov chains. 
-He spends a lot of time making live coding tools (i.e. Mégra, his main performance language) to 
+He spends a lot of time making live coding environments (i.e. Mégra, his main performance language) to 
 facilitate his workflows in sound art, improvisational performance on multichannel setups, or plain old algorave.
 
 More information:
+
 * [https://parkellipsen.de](https://parkellipsen.de)
 * [https://github.com/the-drunk-coder/megra.rs](https://github.com/the-drunk-coder/megra.rs)
