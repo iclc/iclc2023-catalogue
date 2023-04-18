@@ -1,5 +1,6 @@
 ---
 slug: weber-anselm
+status: proof
 type: person
 last_name: Weber
 first_name: Anselm
