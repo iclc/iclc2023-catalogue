@@ -2,7 +2,6 @@
 slug: fiebrink-rebecca
 status: proof
 type: person
-status: proof
 last_name: Fiebrink
 first_name: Rebecca
 alias: null

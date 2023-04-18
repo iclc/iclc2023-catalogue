@@ -2,7 +2,6 @@
 slug: folz-rodney
 status: proof
 type: person
-status: proof
 last_name: Folz
 first_name: Rodney
 alias: haute.rod

@@ -1,10 +1,9 @@
 ---
 slug: sicchio-kate
-status: proof
+status: pending bio selection
 type: person
 last_name: Sicchio
 first_name: Kate
-status: pending bio selection
 alias: null
 affiliations:
 - Virginia Commonwealth University

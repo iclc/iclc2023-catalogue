@@ -1,8 +1,7 @@
 ---
 slug: rohrhuber-julian
-status: proof
-type: person
 status: ready
+type: person
 last_name: Rohrhuber
 first_name: Julian
 alias: null
