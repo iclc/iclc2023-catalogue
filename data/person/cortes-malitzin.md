@@ -1,6 +1,6 @@
 ---
 slug: cortes-malitzin
-status: proof
+status: ready
 type: person
 last_name: Cortés
 first_name: Malitzin

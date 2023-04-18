@@ -1,6 +1,6 @@
 ---
 slug: abreu-ivan
-status: proof
+status: ready
 type: person
 last_name: Abreu
 first_name: Iván

@@ -1,6 +1,6 @@
 ---
 slug: arrays-of-disarray
-status: proof
+status: ready
 title: Arrays of Disarray
 type: performance
 submission_type: Performance

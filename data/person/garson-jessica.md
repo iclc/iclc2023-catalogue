@@ -1,7 +1,7 @@
 ---
 slug: garson-jessica
 type: person
-status: proof
+status: ready
 last_name: Garson
 first_name: Jessica
 alias: Messica Arson
