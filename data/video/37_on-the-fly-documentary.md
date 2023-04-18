@@ -4,7 +4,7 @@ status: proof
 title: on-the-fly Documentary
 type: video
 submission_type: Community-Video
-video_url: https://youtu.be/sCkwUldKG50
+youtube_url: https://youtu.be/sCkwUldKG50
 contributors:
 - person: $bautista-rodriguez-lina
 - person: $noriega-alcaraz-felipe-ignacio
