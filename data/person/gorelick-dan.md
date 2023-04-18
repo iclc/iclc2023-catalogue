@@ -4,7 +4,7 @@ type: person
 last_name: Gorelick
 status: proof
 first_name: Dan
-alias: null
+alias: dan.dog
 affiliations:
 - AV Club SF
 - LiveCode.NYC

@@ -1,5 +1,6 @@
 ---
 slug: j-juarez-aaron
+status: proof
 type: person
 last_name: J. Juarez
 first_name: Aaron

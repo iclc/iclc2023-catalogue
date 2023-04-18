@@ -1,5 +1,6 @@
 ---
 slug: khan-muhammad-maaz
+status: pending bio
 type: person
 last_name: Khan
 first_name: Muhammad Maaz

@@ -1,5 +1,6 @@
 ---
 slug: john-guy
+status: proof
 type: person
 last_name: John
 first_name: Guy
