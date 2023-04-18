@@ -1,5 +1,6 @@
 ---
 slug: jonsson-bjorn-thor
+status: proof
 type: person
 last_name: Jónsson
 first_name: Björn Þór
