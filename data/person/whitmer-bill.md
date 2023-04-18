@@ -1,5 +1,6 @@
 ---
 slug: whitmer-bill
+status: proof
 type: person
 last_name: Whitmer
 first_name: Bill
