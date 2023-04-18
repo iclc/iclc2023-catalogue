@@ -5,7 +5,8 @@ type: person
 last_name: Hernández Sánchez
 first_name: Citlali
 alias: turbulente
-affiliations: []
+affiliations:
+- Toplap BCN
 ---
 
 Citlali Hernández is a mexican artist and designer whose work focuses on exploring
