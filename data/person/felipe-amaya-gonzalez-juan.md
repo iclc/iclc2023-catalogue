@@ -1,6 +1,6 @@
 ---
 slug: felipe-amaya-gonzalez-juan
-status: pending input
+status: pending bio
 type: person
 last_name: Felipe Amaya Gonzalez
 first_name: Juan
