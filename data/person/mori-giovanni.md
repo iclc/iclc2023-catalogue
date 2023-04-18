@@ -1,5 +1,6 @@
 ---
 slug: mori-giovanni
+status: proof
 type: person
 last_name: Mori
 first_name: Giovanni
