@@ -1,10 +1,11 @@
 ---
 slug: folz-rodney
+status: proof
 type: person
 status: proof
 last_name: Folz
 first_name: Rodney
-alias: null
+alias: haute.rod
 affiliations:
 - AV Club SF
 ---
