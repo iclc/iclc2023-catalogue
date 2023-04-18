@@ -1,5 +1,6 @@
 ---
 slug: srinivasan-sumanth
+status: proof
 type: person
 last_name: Srinivasan
 first_name: Sumanth

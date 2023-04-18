@@ -1,5 +1,6 @@
 ---
 slug: sewell-sen
+status: proof
 type: person
 last_name: Sewell
 first_name: Sen

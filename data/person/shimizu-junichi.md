@@ -1,5 +1,6 @@
 ---
 slug: shimizu-junichi
+status: proof
 type: person
 last_name: Shimizu
 first_name: Junichi

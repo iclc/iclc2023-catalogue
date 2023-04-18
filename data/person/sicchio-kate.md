@@ -1,5 +1,6 @@
 ---
 slug: sicchio-kate
+status: proof
 type: person
 last_name: Sicchio
 first_name: Kate

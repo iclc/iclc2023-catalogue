@@ -1,5 +1,6 @@
 ---
 slug: schreiber-jakob
+status: proof
 type: person
 last_name: Schreiber
 first_name: Jakob

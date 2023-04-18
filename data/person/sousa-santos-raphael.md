@@ -1,7 +1,7 @@
 ---
 slug: sousa-santos-raphael
-type: person
 status: proof
+type: person
 last_name: Sousa Santos
 first_name: Raphael
 alias: sonologico

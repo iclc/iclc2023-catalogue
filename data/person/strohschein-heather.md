@@ -1,5 +1,6 @@
 ---
 slug: strohschein-heather
+status: proof
 type: person
 last_name: Strohschein
 first_name: Heather

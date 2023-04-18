@@ -1,5 +1,6 @@
 ---
 slug: sondervan-dagobert
+status: proof
 type: person
 last_name: Sondervan
 first_name: Dagobert
