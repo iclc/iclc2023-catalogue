@@ -1,5 +1,6 @@
 ---
 slug: vasilakos-konstantinos
+status: proof
 type: person
 last_name: Vasilakos
 first_name: Konstantinos
