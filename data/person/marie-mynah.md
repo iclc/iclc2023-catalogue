@@ -1,5 +1,6 @@
 ---
 slug: marie-mynah
+status: proof
 type: person
 last_name: Marie
 first_name: Mynah
