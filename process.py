@@ -11,9 +11,26 @@ import shutil
 
 EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
+RENDER_PROOF = True
+
+
+
 CAL_FOLDER = "catalogue/"
+PROOF_INCLUDE_ABSTRACTS = False
+HEADER = "ICLC 2023 Catalogue"
+INCLUDE_STATUS_OVERVEW = False
+ACTIVE_STATUS_FLAGS = ["ready"]
+
+if RENDER_PROOF:
+    CAL_FOLDER = 'catalogue/_proof/'
+    PROOF_INCLUDE_ABSTRACTS = True
+    HEADER = "ICLC 2023 Catalogue PROOF VERSION"
+    INCLUDE_STATUS_OVERVEW = True
+    ACTIVE_STATUS_FLAGS = ["ready", "proof"]
+
 CAT_OUT_PATH = 'output/2023/' + CAL_FOLDER
-PROOF_INCLUDE_ABSTRACTS = True
+STATUS_REL_PATH = '../../'
+
 
 TYPES = {
     "keynote": "Keynote",
@@ -314,12 +331,13 @@ def render_status_overview():
 
         url = url_for_item(entry[4])
         if not entry[4].get("external"):
-            c += f"<tr style='background-color: {color};'><td>{entry[0]}</td><td>{entry[1]}</td><td><a href='../{url}'>{entry[2]}</a></td><td><strong>{entry[3]}</strong></tr>\n"
+            c += f"<tr style='background-color: {color};'><td>{entry[0]}</td><td>{entry[1]}</td><td><a href='{STATUS_REL_PATH}{url}'>{entry[2]}</a></td><td><strong>{entry[3]}</strong></tr>\n"
 
-    with open("output/2023/catalogue/status-overview.html", "w") as file:
+    with open(CAT_OUT_PATH + "status-overview.html", "w") as file:
         file.write(status_template.replace("$CONTENT", c).replace("$VERSION", now.strftime('%d.%m.%Y')))
 
-render_status_overview()    
+if INCLUDE_STATUS_OVERVEW:
+    render_status_overview()    
 
 # ---
 # *** CATALOUGE
@@ -335,6 +353,7 @@ with open("templates/catalogue.html", "r") as file:
 cache_bust = "9944"
 
 cat_template = cat_template.replace("$CACHEBUST", cache_bust)
+cat_template = cat_template.replace("$HEADER", HEADER)
 
 def write_cat_html(path, title, content):
     html = cat_template
@@ -361,7 +380,10 @@ def link_to_item(text, item, always_link=False):
     do_link = True
     if not always_link:
         status = item.get("status", "not")
-        do_link = status.startswith("ready")
+
+        do_link = False
+        for flag in ACTIVE_STATUS_FLAGS:
+            do_link = do_link or status.startswith(flag)
     
     if do_link:
         return f"<a href='{url_for_item(item)}'>{text}</a>"
