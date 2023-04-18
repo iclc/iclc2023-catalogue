@@ -11,7 +11,7 @@ import shutil
 
 EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
-RENDER_PROOF = False
+RENDER_PROOF = True
 
 
 
@@ -21,6 +21,7 @@ HEADER = "ICLC 2023 Catalogue"
 INCLUDE_STATUS_OVERVEW = False
 ACTIVE_STATUS_FLAGS = ["ready"]
 ALL_STATUS_FLAGS_OK = False
+CAT_HOME = "catalogue/"
 
 if RENDER_PROOF:
     CAL_FOLDER = 'catalogue/proof/'
@@ -29,6 +30,7 @@ if RENDER_PROOF:
     INCLUDE_STATUS_OVERVEW = True
     ACTIVE_STATUS_FLAGS = ["ready", "proof"]
     ALL_STATUS_FLAGS_OK = True
+    CAT_HOME = "catalogue/proof/"
 
 CAT_OUT_PATH = 'output/2023/' + CAL_FOLDER
 STATUS_REL_PATH = '../../'
@@ -356,6 +358,7 @@ cache_bust = "9944"
 
 cat_template = cat_template.replace("$CACHEBUST", cache_bust)
 cat_template = cat_template.replace("$HEADER", HEADER)
+cat_template = cat_template.replace("$CAT_HOME", CAT_HOME)
 
 def write_cat_html(path, title, content):
     html = cat_template
