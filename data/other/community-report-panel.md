@@ -10,5 +10,6 @@ contributors:
 - person: $van-sluijs-fabian
 - person: $oduro-kofi
 - person: $cortes-malitzin
+- person: $srinivasan-sumanth
 - person: "+ tba"
 ---

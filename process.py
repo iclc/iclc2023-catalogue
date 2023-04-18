@@ -652,6 +652,9 @@ def render_catalogue_index():
 
     c += "<h4 class='mt-5'><a href='catalogue/other/video-gallery.html'>Video Gallery</a></h4>";
 
+    c += "<h4 class='mt-5'><a href='catalogue/other/community-report-videos.html'>Community Report Videos</a></h4>";
+
+
     c += "<h4 class='mt-5'><a href='catalogue/other/programming-committee.html'>Programming Committee</a></h4>";
 
 
