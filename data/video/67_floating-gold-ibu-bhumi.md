@@ -4,6 +4,7 @@ status: proof
 title: Floating Gold – Ibu Bhumi
 type: video
 submission_type: Video-Short
+youtube_url: https://youtu.be/hgBVv400aDY
 contributors:
 - person: $candra-rini-peni
 - person: $purnama-aji-rangga
