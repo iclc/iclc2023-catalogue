@@ -1,6 +1,6 @@
 ---
 slug: wilson-elizabeth
-status: proof
+status: pending bio
 type: person
 last_name: Wilson
 first_name: Elizabeth
