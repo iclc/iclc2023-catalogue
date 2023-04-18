@@ -37,3 +37,5 @@ The AI brain consists of a magenta implementation with an existing pretrained po
 The Bop-robot is in constant development, gathering snippets of code, harvesting beautiful algorithms and ironing out risky implementations. 
 
 While using similar parts and movements, every performance turns out very different and is unique.
+
+**(an image must still be included here)**

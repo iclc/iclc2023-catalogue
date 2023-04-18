@@ -1,6 +1,6 @@
 ---
 slug: av-counterpoint
-status: pending author revision
+status: pending author revision - new title and new texts?
 title: AV-Counterpoint
 type: performance
 submission_type: Performance

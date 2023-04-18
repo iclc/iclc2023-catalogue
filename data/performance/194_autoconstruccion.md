@@ -40,3 +40,5 @@ This research and ongoing work wants to find these "new styles" generated from y
 self-construction, autonomous and collective learning that have generated great knowledge; It also seeks to 
 hybridize these styles in their similarities and differences from a "digital miscegenation" now possible 
 with the collaboration between humans and artificial intelligence.
+
+**(an image must still be included here)**
