@@ -13,14 +13,9 @@ contributors:
 - person: $borgeat-patrick
 - person: $paz-ivan
 - person: $frelih-luka
-- person: $michelin-ludovika
+- person: $michelin-ludovica
 - person: $hoffmann-yannick
 - person: $van-sluijs-fabian
-
-
-
-- 
-
 ---
 
 # $PROGRAM_NOTE
