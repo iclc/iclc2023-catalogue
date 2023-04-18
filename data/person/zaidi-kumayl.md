@@ -1,5 +1,6 @@
 ---
 slug: zaidi-kumayl
+status: pending bio
 type: person
 last_name: Zaidi
 first_name: Kumayl
