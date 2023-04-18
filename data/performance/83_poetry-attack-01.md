@@ -6,6 +6,7 @@ type: performance
 submission_type: Performance
 contributors:
 - person: $moura-mari
+- person: $marques-da-costa-joenio
 ---
 
 # $PROGRAM_NOTE
