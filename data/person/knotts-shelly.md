@@ -1,6 +1,6 @@
 ---
 slug: knotts-shelly
-status: proof
+status: ready
 type: person
 last_name: Knotts
 first_name: Shelly

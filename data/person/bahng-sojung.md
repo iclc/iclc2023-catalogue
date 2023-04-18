@@ -1,6 +1,6 @@
 ---
 slug: bahng-sojung
-status: proof
+status: ready
 type: person
 last_name: Bahng
 first_name: Sojung
