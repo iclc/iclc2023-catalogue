@@ -11,7 +11,7 @@ import shutil
 
 EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
-RENDER_PROOF = True
+RENDER_PROOF = False
 
 
 
@@ -19,7 +19,7 @@ CAL_FOLDER = "catalogue/"
 PROOF_INCLUDE_ABSTRACTS = False
 HEADER = "ICLC 2023 Catalogue"
 INCLUDE_STATUS_OVERVEW = False
-ACTIVE_STATUS_FLAGS = ["ready"]
+ACTIVE_STATUS_FLAGS = ["ready", "proof"]
 ALL_STATUS_FLAGS_OK = False
 CAT_HOME = "catalogue/"
 
