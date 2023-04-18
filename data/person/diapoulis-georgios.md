@@ -1,5 +1,6 @@
 ---
 slug: diapoulis-georgios
+status: proof
 type: person
 status: proof
 last_name: Diapoulis
