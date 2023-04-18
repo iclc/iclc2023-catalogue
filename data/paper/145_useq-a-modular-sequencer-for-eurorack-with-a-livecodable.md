@@ -1,9 +1,10 @@
 ---
 slug: useq-a-modular-sequencer-for-eurorack-with-a-livecodable
-title: 'uSEQ: A Modular Sequencer for Eurorack with a Livecodable Microcontroller'
+title: 'uSEQ: A LISPy Modular Sequencer for Eurorack with a Livecodable Microcontroller'
 type: paper
 status: proof
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7843874
 contributors:
 - person: $kyriakoudis-dimitris
 - person: $kiefer-chris

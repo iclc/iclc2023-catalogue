@@ -1,9 +1,10 @@
 ---
 slug: be-brief-convergences-and-possibilities-of-live-coding-and
-title: 'Be Brief: Convergences and Possibilities of Live Coding And SCTweeting'
+title: 'Be Brief: Convergences and Possibilities of Live Coding And sctweeting'
 type: paper
 status: proof
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7843864
 contributors:
 - person: $m-martins-fellipe
 - person: $padovani-jose-henrique

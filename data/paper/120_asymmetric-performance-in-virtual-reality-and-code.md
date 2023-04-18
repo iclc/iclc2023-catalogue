@@ -4,6 +4,7 @@ title: Asymmetric Performance in Virtual Reality and Code
 type: paper
 status: proof
 submission_type: Paper-Long
+doi_link: https://doi.org/10.5281/zenodo.7843896
 contributors:
 - person: $geier-leonard
 - person: $methfessel-paul

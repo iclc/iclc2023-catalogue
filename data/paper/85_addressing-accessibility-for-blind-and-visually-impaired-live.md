@@ -4,6 +4,7 @@ title: Addressing Accessibility for Blind and Visually Impaired Live Coders
 type: paper
 status: proof
 submission_type: Paper-Short
+doi_link: https://doi.org/10.5281/zenodo.7843872
 contributors:
 - person: $kaney-matthew
 - person: $payne-william-christopher
