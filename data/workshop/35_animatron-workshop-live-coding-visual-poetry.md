@@ -1,5 +1,6 @@
 ---
 slug: animatron-workshop-live-coding-visual-poetry
+status: proof
 title: 'Animatron Workshop: Live Coding Visual Poetry'
 type: workshop
 submission_type: Workshop
