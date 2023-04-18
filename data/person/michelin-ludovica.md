@@ -1,6 +1,6 @@
 ---
 slug: michelin-ludovica
-status: pending author input
+status: pending bio
 type: person
 last_name: Michelin
 first_name: Ludovica
