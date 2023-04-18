@@ -1,5 +1,6 @@
 ---
 slug: methfessel-paul
+status: proof
 type: person
 last_name: Methfessel
 first_name: Paul
