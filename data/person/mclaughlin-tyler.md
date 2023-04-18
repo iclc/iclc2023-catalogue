@@ -1,5 +1,6 @@
 ---
 slug: mclaughlin-tyler
+status: proof
 type: person
 last_name: McLaughlin
 first_name: Tyler
