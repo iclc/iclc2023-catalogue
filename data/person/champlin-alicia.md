@@ -1,6 +1,6 @@
 ---
 slug: champlin-alicia
-status: proof
+status: ready
 type: person
 last_name: Champlin
 first_name: Alicia
