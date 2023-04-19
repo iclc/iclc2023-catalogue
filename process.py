@@ -11,7 +11,7 @@ import shutil
 
 EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
-RENDER_PROOF = False
+RENDER_PROOF = True
 
 
 
@@ -237,14 +237,13 @@ def render_schedule(event, do_hide=True, do_link=True, no_time=False, no_small=F
 
             vis_title = vis['title']
 
-            vis_auth_sm = f"<span class='d-md-inline mt-0 d-lg-none' style='margin-bottom: 6px;'><br>{vis_auth} &ndash; </span>"
-
-            if no_small: vis_auth_sm = ""
-
-
             if do_link:
                 vis_title = link_to_item(vis_title, vis)
                 vis_auth = link_to_item(vis_auth, vis_person)
+
+            vis_auth_sm = f"<span class='d-md-inline mt-0 d-lg-none' style='margin-bottom: 6px;'><br>{vis_auth} &ndash; </span>"
+
+            if no_small: vis_auth_sm = ""
 
             c = c + f"<tr style='position:relative;top:-12px;'><td></td><td>Visuals: {vis_auth_sm}<strong><em>{vis_title}</em></strong>{item_venue}</td><td class='d-md-none d-sm-none d-none d-lg-table-cell'>{vis_auth}</td></tr>\n"
         
