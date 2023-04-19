@@ -1,6 +1,6 @@
 ---
 slug: this-is-not-a-piano
-status: pending author fix
+status: ready
 title: this is not a piano
 type: performance
 submission_type: Performance
