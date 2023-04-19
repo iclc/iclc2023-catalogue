@@ -9,11 +9,11 @@ date_time: Thursday, April 19th, 10:00
 chair: $borgeat-patrick
 schedule:
     -   time: t10:00
-        item: $useq-a-modular-sequencer-for-eurorack-with-a-livecodable
+        item: $asymmetric-performance-in-virtual-reality-and-code
     -   time: t10:20
         item: $lambdaw-towards-a-generative-audio-workstation
     -   time: t10:40
-        item: $asymmetric-performance-in-virtual-reality-and-code
+        item: $useq-a-modular-sequencer-for-eurorack-with-a-livecodable
     -   time: t11:00
         item: Questions & Discussion
 ---
