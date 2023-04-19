@@ -18,7 +18,7 @@ It offers concise syntax to support composition and improvisation with
 complex melodies and rhythms. Ziffers is the result of experiments in
 unifying several types of musical notation centred around the use of
 symbols and numbers. It is inspired by the older numbered musical
-notations (\emph{Ziffersystem}, \emph{Jianpu}), contemporary music
+notations (*Ziffersystem*, *Jianpu*), contemporary music
 theory (pitch-class sets, post-tonal music analysis, serialism) and
 shorthand notations used in live-coding. Ziffers aims for a balance
 between fixed media music notation and generative notations for live

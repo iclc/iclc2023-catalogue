@@ -1,6 +1,6 @@
 ---
 slug: hoffmann-yannick
-status: pending bio
+status: proof but pending content (no bio)
 type: person
 last_name: Hoffmann
 first_name: Yannick

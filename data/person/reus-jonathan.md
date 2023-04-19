@@ -1,6 +1,6 @@
 ---
 slug: reus-jonathan
-status: pending bio
+status: proof but pending content (no bio)
 type: person
 last_name: Reus
 first_name: Jonathan

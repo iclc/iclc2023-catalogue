@@ -1,6 +1,6 @@
 ---
 slug: variations-on-kandinsky
-status: pending author fix
+status: proof but requires quote attribution (in particular for publication)
 title: Variations on Kandinsky
 type: performance
 submission_type: Performance
@@ -14,7 +14,7 @@ contributors:
 
 Electronic music always played an important role during Monique Copper’s career. She worked in Ton Bruynèl’s electronic studio and has since performed his piano music with tape. 
 
-**[\*FIX NEEDED - missing quote attribution\*]** “With Bruynèl (1934-1998) we often discussed the future of electronic music. In particular during the transition from analogue to digital. The computer was seen as a natural continuation of the electronic music but in particular we foresaw the development into a live musical instrument. The computer will be one of the next generation of musical instruments ready for live performances."
+“With Bruynèl (1934-1998) we often discussed the future of electronic music. In particular during the transition from analogue to digital. The computer was seen as a natural continuation of the electronic music but in particular we foresaw the development into a live musical instrument. The computer will be one of the next generation of musical instruments ready for live performances."
 
 # $ABSTRACT
 

@@ -1,6 +1,6 @@
 ---
 slug: andrade-rafaele
-status: pending input
+status: proof but pending content (no bio)
 type: person
 last_name: Andrade
 first_name: Rafaele

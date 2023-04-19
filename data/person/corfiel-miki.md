@@ -1,6 +1,6 @@
 ---
 slug: corfiel-miki
-status: pending bio
+status: proof but pending content (no bio)
 type: person
 last_name: Corfiel
 first_name: Miki

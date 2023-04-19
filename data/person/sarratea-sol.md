@@ -1,6 +1,6 @@
 ---
 slug: sarratea-sol
-status: pending bio
+status: proof but pending content (no bio)
 type: person
 last_name: Sarratea
 first_name: Sol

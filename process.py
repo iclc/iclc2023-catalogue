@@ -19,7 +19,7 @@ CAL_FOLDER = "catalogue/"
 PROOF_INCLUDE_ABSTRACTS = False
 HEADER = "ICLC 2023 Catalogue"
 INCLUDE_STATUS_OVERVEW = False
-ACTIVE_STATUS_FLAGS = ["ready"]
+ACTIVE_STATUS_FLAGS = ["ready", "proof"]
 ALL_STATUS_FLAGS_OK = False
 CAT_HOME = "catalogue/"
 
@@ -488,22 +488,30 @@ def content_for_performance(item):
 def content_for_paper(item):
     body = get_body_chunk(item["body"], "$ABSTRACT")
 
+    doi_string = ""
+    if item.get('doi_link'):
+        doi_string = f"<p class='mt-4'>Publication: <a href='{item['doi_link']}'><strong>{item['doi_link']}</strong></a></p>"
+
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
         <p class="list-header">Will be presented at:</p>
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>
+        {doi_string}
         <h4>Abstract</h4>
         {transform_body(body)}
     """
 
 def content_for_keynote(item):
     body = item["body"]
-
+    # put in time and place
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
-        <p><em>Put time/place here</em></p>
+        <p class="list-header">Will be presented at:</p>
+        <ul>
+            <li>{render_associated_event(item)}</li>
+        </ul>
         {transform_body(body)}
     """
 
@@ -651,6 +659,9 @@ def render_catalogue_index():
     c += render_event_list("Workshop Blocks", ["workshops-1", "workshops-2", "workshops-3"])
 
     c += "<h4 class='mt-5'><a href='catalogue/other/video-gallery.html'>Video Gallery</a></h4>";
+
+    c += "<h4 class='mt-5'><a href='catalogue/other/community-report-videos.html'>Community Report Videos</a></h4>";
+
 
     c += "<h4 class='mt-5'><a href='catalogue/other/programming-committee.html'>Programming Committee</a></h4>";
 
