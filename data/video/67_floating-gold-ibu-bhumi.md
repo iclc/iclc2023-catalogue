@@ -1,6 +1,6 @@
 ---
 slug: floating-gold-ibu-bhumi
-status: proof
+status: ready
 title: Floating Gold – Ibu Bhumi
 type: video
 submission_type: Video-Short
