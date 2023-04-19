@@ -6,6 +6,7 @@ title: Paper Session 3
 venue: VOGELFREI
 status: ready
 date_time: Wednesday, April 19th, 15:15
+chair: $reppel-niklas
 schedule:
     -   time: t15:15
         item: $reproducible-musical-analysis-of-live-coding-performances-using
