@@ -1,9 +1,10 @@
 ---
 slug: on-a-thin-string-live-coding-with-lick-the-toad
-status: proof
+status: ready
 title: On a thin string (Live Coding with Lick the Toad)
 type: video
 submission_type: Video-Long
+youtube_url: https://youtu.be/SOuPIZl8DYc
 contributors:
 - person: $vasilakos-konstantinos
 ---
