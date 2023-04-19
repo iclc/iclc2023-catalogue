@@ -1,9 +1,10 @@
 ---
 slug: livecode-nyc-over-the-years-a-community-portrait
-status: proof
+status: ready
 title: 'LiveCode.NYC Over the Years: A Community Portrait'
 type: video
 submission_type: Community-Video
+youtube_url: https://youtu.be/g8_58v8zE9o
 contributors:
 - person: $loveless-melody
 ---
