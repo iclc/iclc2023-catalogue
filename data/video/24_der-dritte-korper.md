@@ -1,9 +1,10 @@
 ---
 slug: der-dritte-korper
-status: proof
+status: ready
 title: Der dritte Körper
 type: video
 submission_type: Video-Long
+youtube_url: https://youtu.be/tjoV9C7QgsI
 contributors:
 - person: $tan-shuoxin
 - person: $li-song
