@@ -1,6 +1,6 @@
 ---
 slug: sardine-x-ziffers-new-tools-for-algorithmic-expression
-status: pending clarification what is program note and what is abstract
+status: proof, but pending clarification what is program note and what is abstract - for now abstract is put online
 title: 'Sardine X Ziffers: New Tools for Algorithmic Expression'
 list_title: 'Sardine X Ziffers'
 type: performance
