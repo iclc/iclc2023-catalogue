@@ -11,7 +11,7 @@ import shutil
 
 EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
-RENDER_PROOF = False
+RENDER_PROOF = True
 
 
 

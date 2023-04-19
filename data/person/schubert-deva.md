@@ -1,6 +1,6 @@
 ---
 slug: schubert-deva
-status: pending bio
+status: proof but pending content (no bio)
 type: person
 last_name: Schubert
 first_name: Deva

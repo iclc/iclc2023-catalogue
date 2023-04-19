@@ -1,6 +1,6 @@
 ---
 slug: crash-landing
-status: proof
+status: proof (img from pdf to web)
 title: CRash Landing
 type: performance
 submission_type: Performance
@@ -52,5 +52,3 @@ know this is what live coding feels like.
 [on-the-fly.collect(\_)](https://www.youtube.com/watch?v=F0IyM0kF1mM) event. The
 performance for the ICLC is therefore, intended to be an extended version,
 incorporating Lina’s work and the Animatron tool of Roger.
-
-**(an image must still be included here)**

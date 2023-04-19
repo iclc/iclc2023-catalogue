@@ -1,6 +1,6 @@
 ---
 slug: zaidi-kumayl
-status: pending bio
+status: proof but pending content (no bio)
 type: person
 last_name: Zaidi
 first_name: Kumayl
