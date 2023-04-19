@@ -5,6 +5,7 @@ title: On a thin string (Live Coding with Lick the Toad)
 type: video
 submission_type: Video-Long
 youtube_url: https://youtu.be/SOuPIZl8DYc
+youtube_active: True
 contributors:
 - person: $vasilakos-konstantinos
 ---

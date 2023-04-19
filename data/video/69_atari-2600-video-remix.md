@@ -5,6 +5,7 @@ title: Atari 2600 Video Remix
 type: video
 submission_type: Video-Short
 youtube_url: https://youtu.be/4rrxgw--eYU
+youtube_active: True
 contributors:
 - person: $marques-da-costa-joenio
 ---

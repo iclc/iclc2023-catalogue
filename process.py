@@ -535,6 +535,12 @@ def content_for_workshop(item):
 def content_for_video(item):
     body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
 
+    yt_string = ""
+    if item.get('youtube_url'):
+        if item.get('youtube_active'):
+            yt_string = f"<p class='mt-4'><strong><a href='{item['youtube_url']}'>Watch Video on YouTube</a></strong></a></p>"
+
+
     presented = ""
     if item["submission_type"] == "Community-Video":
         presented = f"""<p class="list-header">Will be presented at:</p>
@@ -544,6 +550,7 @@ def content_for_video(item):
 
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
+        {yt_string}
         {presented}
         <h4>Description</h4>
         {transform_body(body)}

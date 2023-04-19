@@ -5,6 +5,7 @@ title: A Quad Entropic Conversation
 type: video
 submission_type: Video-Long
 youtube_url: https://youtu.be/AttfP19Gnwg
+youtube_active: True
 contributors:
 - person: $imrisek-sarah
 - person: $gordon-marcus

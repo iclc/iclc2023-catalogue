@@ -5,6 +5,7 @@ title: Der dritte Körper
 type: video
 submission_type: Video-Long
 youtube_url: https://youtu.be/tjoV9C7QgsI
+youtube_active: True
 contributors:
 - person: $tan-shuoxin
 - person: $li-song
