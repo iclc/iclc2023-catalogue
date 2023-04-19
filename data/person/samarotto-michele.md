@@ -10,4 +10,4 @@ affiliations:
 - TOPLAP Karlsruhe
 ---
 
-Michele Samarotto – computer musician, saxophonist, audiovisual artist, composer, coder. Doctoral candidate and research assistant at IMWI (Institute for Music Informatics and Musicology, University of Music Karlsruhe). Member of _\|/_ TOPLAP Karlsruhe.
+Michele Samarotto – computer musician, saxophonist, audiovisual artist, composer, coder. Doctoral candidate and research assistant at IMWI (Institute for Music Informatics and Musicology, University of Music Karlsruhe). Member of \_\\|/\_ TOPLAP Karlsruhe.
