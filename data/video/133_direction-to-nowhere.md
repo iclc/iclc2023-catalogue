@@ -1,9 +1,10 @@
 ---
 slug: direction-to-nowhere
-status: proof
+status: ready
 title: Direction To NoWhere
 type: video
 submission_type: Video-Long
+youtube_url: https://youtu.be/KNtVOOiCBMY
 contributors:
 - person: $oduro-kofi
 ---
