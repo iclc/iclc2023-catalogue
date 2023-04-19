@@ -1,9 +1,10 @@
 ---
 slug: live-rendering-and-coding-evolved-sounds
-status: proof
+status: ready
 title: Live Rendering and -Coding Evolved Sounds
 type: video
 submission_type: Video-Short
+youtube_url: https://youtu.be/Ws_R-0TAD8M
 contributors:
 - person: $jonsson-bjorn-thor
 ---
