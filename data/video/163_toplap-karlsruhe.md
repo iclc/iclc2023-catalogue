@@ -1,6 +1,6 @@
 ---
 slug: toplap-karlsruhe
-status: proof
+status: ready
 title: _\|/_ TOPLAP Karlsruhe
 type: video
 submission_type: Community-Video
