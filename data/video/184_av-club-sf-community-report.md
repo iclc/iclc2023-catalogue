@@ -1,9 +1,10 @@
 ---
 slug: av-club-sf-community-report
-status: proof
+status: ready
 title: AV Club SF Community Report
 type: video
 submission_type: Community-Video
+youtube_url: https://youtu.be/88Z-b-w7kBc
 youtube_active: True
 contributors:
 - person: $gorelick-dan
