@@ -20,10 +20,10 @@ schedule:
         item: $autoconstruccion 
         hide_time: True
     -   time: t21:15
-        item: $rumble-machines
-        hide_time: True
-    -   time: t21:45
         item: $the-neocowgirl-manifesto 
+        hide_time: True
+    -   time: t21:35
+        item: $rumble-machines
         hide_time: True
     -   time: t22:05
         item: $crash-landing
