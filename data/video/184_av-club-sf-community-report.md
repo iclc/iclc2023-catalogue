@@ -4,6 +4,7 @@ status: proof
 title: AV Club SF Community Report
 type: video
 submission_type: Community-Video
+youtube_active: True
 contributors:
 - person: $gorelick-dan
 - person: $mclaughlin-tyler

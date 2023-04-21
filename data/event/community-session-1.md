@@ -18,4 +18,6 @@ schedule:
     -   time: t10:45
         item: $toplap-karlsruhe
         screening: True
+    -   time: t11:00
+        item: Group Photo
 ---

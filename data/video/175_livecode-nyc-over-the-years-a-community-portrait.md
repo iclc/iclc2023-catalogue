@@ -5,6 +5,7 @@ title: 'LiveCode.NYC Over the Years: A Community Portrait'
 type: video
 submission_type: Community-Video
 youtube_url: https://youtu.be/g8_58v8zE9o
+youtube_active: True
 contributors:
 - person: $loveless-melody
 ---

@@ -4,6 +4,7 @@ status: ready
 title: on-the-fly Documentary
 type: video
 submission_type: Community-Video
+youtube_active: True
 youtube_url: https://youtu.be/sCkwUldKG50
 contributors:
 - person: $bautista-rodriguez-lina
@@ -14,7 +15,7 @@ contributors:
 - person: $paz-ivan
 - person: $frelih-luka
 - person: $michelin-ludovica
-- person: $hoffmann-yannick
+- person: $hofmann-yannick
 - person: $van-sluijs-fabian
 ---
 

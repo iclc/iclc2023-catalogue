@@ -353,7 +353,7 @@ with open("templates/catalogue.html", "r") as file:
     cat_template = file.read()
 
 
-cache_bust = "9944"
+cache_bust = "99442"
 
 cat_template = cat_template.replace("$CACHEBUST", cache_bust)
 cat_template = cat_template.replace("$HEADER", HEADER)
