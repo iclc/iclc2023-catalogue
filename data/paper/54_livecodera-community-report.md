@@ -28,3 +28,6 @@ online while also making more in-person connections whenever possible
 through the coordination of gigs, residencies and meetups. At the time
 of publishing, the community connects through Telegram and Discord, with
 channels consisting of 48 and 27 members respectively.
+
+LivecoderA manifesto: https://livecodera.glitch.me/
+Invitation to join: https://t.me/livecodera
