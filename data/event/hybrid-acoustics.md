@@ -27,11 +27,8 @@ schedule:
         item: $neowise-5-8-v-e
         hide_time: True
     -   time: t18:00
-        item: $saaz-sz
-        hide_time: True
-    -   time: t18:20
         item: $flux
         hide_time: True
-    -   time: t~&nbsp;18:45
+    -   time: t~&nbsp;18:30
         item: End of Concert
 ---
