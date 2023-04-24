@@ -7,7 +7,6 @@ submission_type: Performance
 contributors:
 - person: $cheesman-lucy
 - person: $mclean-alex
-- person: $john-guy
 ---
 
 # $PROGRAM_NOTE

@@ -14,21 +14,25 @@ schedule:
         item: Doors
     -   time: t16:00
         item: $commuta-a-cross-adaptive-laptop-ensemble
-    -   time: t16:20
+    -   time: t16:30
         item: $patterns-in-modulation
         hide_time: True
-    -   time: t16:50
-        item: $khipukoding
-        hide_time: True
-    -   time: t17:20
-        item: $listening-to-the-future-landscape
+    -   time: t17:00
+        item: $flux
         hide_time: True
     -   time: t17:30
-        item: $neowise-5-8-v-e
+        item: Break
         hide_time: True
     -   time: t18:00
-        item: $flux
+        item: $listening-to-the-future-landscape
+        hide_time: True
+    -   time: t18:30
+        item: $khipukoding
+        hide_time: True
+    -   time: t19:00
+        item: $neowise-5-8-v-e
         hide_time: True
     -   time: t~&nbsp;18:30
         item: End of Concert
 ---
+
