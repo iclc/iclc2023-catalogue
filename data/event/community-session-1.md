@@ -7,6 +7,7 @@ title: Community Report Session 1
 venue: VOGELFREI
 date_time: Friday, April 21st, 10:00
 chair: $sousa-santos-raphael
+photo_gallery: https://www.flickr.com/photos/creativecodingutrecht/albums/72177720307967933
 schedule:
     -   time: t10:00
         item: $on-the-fly-documentary

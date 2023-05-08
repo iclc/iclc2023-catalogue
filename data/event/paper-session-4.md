@@ -7,6 +7,7 @@ venue: VOGELFREI
 status: ready
 date_time: Thursday, April 19th, 10:00
 chair: $borgeat-patrick
+photo_gallery: https://www.flickr.com/photos/creativecodingutrecht/albums/72177720307771820
 schedule:
     -   time: t10:00
         item: $asymmetric-performance-in-virtual-reality-and-code

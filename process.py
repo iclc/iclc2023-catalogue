@@ -536,8 +536,7 @@ def content_for_video(item):
 
     yt_string = ""
     if item.get('youtube_url'):
-        if item.get('youtube_active'):
-            yt_string = f"<p class='mt-4'><strong><a href='{item['youtube_url']}'>Watch Video on YouTube</a></strong></a></p>"
+        yt_string = f"<p class='mt-4'><strong><a href='{item['youtube_url']}'>Watch Video on YouTube</a></strong></a></p>"
 
 
     presented = ""
@@ -576,10 +575,13 @@ def content_for_event(item):
         if item.get("venue_address"):
             venue_string = f"{venue_string} ({item['venue_address']})"
             
-    
+    photo_gallery_string = ""
+    if item.get("photo_gallery"):
+        photo_gallery_string = f"<br><br><strong><a href='{item['photo_gallery']}'>Photo Gallery on Flickr</strong></a>";
+
     tickets_string = ""
-    if item.get('tickets_url'):
-        tickets_string = f"<br><br><strong><a href='{item['tickets_url']}'>Tickets</strong></a>"
+    # if item.get('tickets_url'):
+    #    tickets_string = f"<br><br><strong><a href='{item['tickets_url']}'>Tickets</strong></a>"
 
     chair_string = ""
     if item.get('chair'):
@@ -588,7 +590,7 @@ def content_for_event(item):
 
     return f"""
         <p><strong>{item["date_time"]}</strong><br>
-        {venue_string}{tickets_string}{chair_string}</p>
+        {venue_string}{tickets_string}{chair_string}{photo_gallery_string}</p>
         {transform_body(body)}
         <h4>{schedule_title}</h4>
         {schedule}

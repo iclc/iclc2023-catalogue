@@ -5,7 +5,6 @@ title: Direction To NoWhere
 type: video
 submission_type: Video-Long
 youtube_url: https://youtu.be/KNtVOOiCBMY
-youtube_active: True
 contributors:
 - person: $oduro-kofi
 ---

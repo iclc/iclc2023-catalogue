@@ -4,7 +4,6 @@ status: ready
 title: _\|/_ TOPLAP Karlsruhe
 type: video
 submission_type: Community-Video
-youtube_active: True
 youtube_url: https://youtu.be/ncRClTAEBO0
 contributors:
 - person: $weber-anselm

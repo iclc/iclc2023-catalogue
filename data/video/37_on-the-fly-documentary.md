@@ -4,7 +4,6 @@ status: ready
 title: on-the-fly Documentary
 type: video
 submission_type: Community-Video
-youtube_active: True
 youtube_url: https://youtu.be/sCkwUldKG50
 contributors:
 - person: $bautista-rodriguez-lina

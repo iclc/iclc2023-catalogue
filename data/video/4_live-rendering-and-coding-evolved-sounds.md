@@ -5,7 +5,6 @@ title: Live Rendering and -Coding Evolved Sounds
 type: video
 submission_type: Video-Short
 youtube_url: https://youtu.be/Ws_R-0TAD8M
-youtube_active: True
 contributors:
 - person: $jonsson-bjorn-thor
 ---

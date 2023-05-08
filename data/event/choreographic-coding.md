@@ -8,6 +8,7 @@ venue: Het Huis Utrecht
 venue_address: Boorstraat 107, 3513 SE Utrecht
 venue_url: https://hethuisutrecht.nl/
 tickets_url: https://ccu.stager.nl/web/tickets/111271929
+photo_gallery: https://www.flickr.com/photos/creativecodingutrecht/albums/72177720307924791
 date_time: 'Wednesday, April 19th, Doors 19:30 / Show: 20:00'
 schedule:
     -   time: t19:30

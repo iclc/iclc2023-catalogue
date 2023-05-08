@@ -7,6 +7,7 @@ venue: VOGELFREI
 status: ready
 date_time: Thursday, April 19th, 11:30
 chair: $bautista-rodriguez-lina
+photo_gallery: https://www.flickr.com/photos/creativecodingutrecht/albums/72177720307771820
 schedule:
     -   time: t11:30
         item: $live-coding-and-education-a-practical-experience
