@@ -418,7 +418,8 @@ def content_for_person(item):
 
     contributions = "<p class='list-header'>Contributions:</p><ul>"
     for contribution in item["contributions"]:
-        contributions += "<li><strong>" + link_to_item(title_for_item(contribution, True), contribution) + "</strong></li>"
+        if contribution['type'] != 'other':
+            contributions += "<li><strong>" + link_to_item(title_for_item(contribution, True), contribution) + "</strong></li>"
     contributions += "</ul>"
 
     return f"""
@@ -464,6 +465,12 @@ def render_associated_event(item):
 
 proof_abstract_disclaimer = "<p><em><br>The abstract is displayed here for proof-reading and will only be part of the published proceedings, not of the final version of this web catalogue.</em></p>"
 
+def render_stream_recording_url(item):
+    if item.get("stream_recording_url"):
+        return f"<br><br><strong><a href='{item['stream_recording_url']}'>Recording of Live Stream (YouTube)</strong></a>"
+    else:
+        return ""
+
 def content_for_performance(item):
     body = get_body_chunk(item["body"], "$PROGRAM_NOTE")
 
@@ -475,7 +482,7 @@ def content_for_performance(item):
 
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
-        <p class="list-header">Will be performed at:</p>
+        <p class="list-header">Was performed at:</p>
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>
@@ -493,10 +500,11 @@ def content_for_paper(item):
 
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
-        <p class="list-header">Will be presented at:</p>
+        <p class="list-header">Was presented at:</p>
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>
+        {render_stream_recording_url(item)}
         {doi_string}
         <h4>Abstract</h4>
         {transform_body(body)}
@@ -507,10 +515,11 @@ def content_for_keynote(item):
     # put in time and place
     return f"""
         <p><strong>{build_contributors_list(item, ", ")}</strong></p>
-        <p class="list-header">Will be presented at:</p>
+        <p class="list-header">Was presented at:</p>
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>
+        {render_stream_recording_url(item)}
         {transform_body(body)}
     """
 
@@ -541,7 +550,7 @@ def content_for_video(item):
 
     presented = ""
     if item["submission_type"] == "Community-Video":
-        presented = f"""<p class="list-header">Will be presented at:</p>
+        presented = f"""<p class="list-header">Was presented at:</p>
         <ul>
             <li>{render_associated_event(item)}</li>
         </ul>"""
@@ -553,6 +562,12 @@ def content_for_video(item):
         <h4>Description</h4>
         {transform_body(body)}
     """
+
+def render_photo_gallery(item):
+    if item.get("photo_gallery"):
+        return f"<br><br><strong><a href='{item['photo_gallery']}'>Photo Gallery on Flickr</strong></a>"
+    else:
+        return ""
 
 def content_for_event(item):
     body = item["body"]
@@ -574,10 +589,6 @@ def content_for_event(item):
 
         if item.get("venue_address"):
             venue_string = f"{venue_string} ({item['venue_address']})"
-            
-    photo_gallery_string = ""
-    if item.get("photo_gallery"):
-        photo_gallery_string = f"<br><br><strong><a href='{item['photo_gallery']}'>Photo Gallery on Flickr</strong></a>";
 
     tickets_string = ""
     # if item.get('tickets_url'):
@@ -590,7 +601,7 @@ def content_for_event(item):
 
     return f"""
         <p><strong>{item["date_time"]}</strong><br>
-        {venue_string}{tickets_string}{chair_string}{photo_gallery_string}</p>
+        {venue_string}{tickets_string}{chair_string}{render_stream_recording_url(item)}{render_photo_gallery(item)}</p>
         {transform_body(body)}
         <h4>{schedule_title}</h4>
         {schedule}

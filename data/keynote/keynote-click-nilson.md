@@ -3,6 +3,7 @@ slug: keynote-click-nilson
 title: 'Re-incarnation/Re-inclicknilson'
 type: keynote
 status: proof
+stream_recording_url: https://www.youtube.com/watch?v=FSBtvtxP008&t=9084s
 contributors:
 - person: $nilson-click
 ---

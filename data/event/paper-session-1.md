@@ -6,6 +6,7 @@ title: Welcome & Paper Session 1
 venue: VOGELFREI
 status: ready
 date_time: Wednesday, April 19th, 09:45
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=1483s
 chair: $reppel-niklas
 schedule:
     -   time: t09:45

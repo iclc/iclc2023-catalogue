@@ -8,6 +8,7 @@ venue: VOGELFREI
 date_time: Friday, April 21st, 11:15
 chair: $sousa-santos-raphael
 photo_gallery: https://www.flickr.com/photos/creativecodingutrecht/albums/72177720307967933
+stream_recording_url: https://www.youtube.com/watch?v=FSBtvtxP008&t=3559s
 schedule:
     -   time: t11:15
         item: $livecode-nyc-over-the-years-a-community-portrait

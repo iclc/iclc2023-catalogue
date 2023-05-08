@@ -5,6 +5,7 @@ type: paper
 status: proof
 submission_type: Community-Written
 doi_link: https://doi.org/10.5281/zenodo.7842288
+stream_recording_url: https://www.youtube.com/watch?v=FSBtvtxP008&t=2683s
 contributors:
 - person: $hoogland-timo
 - person: $chicau-joana

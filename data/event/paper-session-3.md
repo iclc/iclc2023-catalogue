@@ -7,6 +7,7 @@ venue: VOGELFREI
 status: ready
 date_time: Wednesday, April 19th, 15:15
 chair: $reppel-niklas
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=20817s
 schedule:
     -   time: t15:15
         item: $reproducible-musical-analysis-of-live-coding-performances-using

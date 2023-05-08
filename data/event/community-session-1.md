@@ -8,6 +8,7 @@ venue: VOGELFREI
 date_time: Friday, April 21st, 10:00
 chair: $sousa-santos-raphael
 photo_gallery: https://www.flickr.com/photos/creativecodingutrecht/albums/72177720307967933
+stream_recording_url: https://www.youtube.com/watch?v=FSBtvtxP008&t=73s
 schedule:
     -   time: t10:00
         item: $on-the-fly-documentary
