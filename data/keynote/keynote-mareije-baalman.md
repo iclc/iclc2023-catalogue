@@ -3,6 +3,7 @@ slug: keynote-marije-baalman
 title: 'Thinking Inside the Box: Instant Composition, Folded Structures and Beyond the Screen'
 type: keynote
 status: proof
+stream_recording_url: https://www.youtube.com/watch?v=_Z71KQtWpMk&t=10044s
 contributors:
 - person: $baalman-marije
 ---

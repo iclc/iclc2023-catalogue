@@ -8,6 +8,7 @@ status: ready
 date_time: Thursday, April 19th, 11:30
 chair: $bautista-rodriguez-lina
 photo_gallery: https://www.flickr.com/photos/creativecodingutrecht/albums/72177720307771820
+stream_recording_url: https://www.youtube.com/watch?v=_Z71KQtWpMk&t=4918s
 schedule:
     -   time: t11:30
         item: $live-coding-and-education-a-practical-experience
