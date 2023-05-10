@@ -4,6 +4,7 @@ title: 'Towards Another Transdiscipline: Art, (Techno)Science and Emancipation a
 type: paper
 status: proof
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=_Z71KQtWpMk&t=6404s
 doi_link: https://doi.org/10.5281/zenodo.7842097 
 contributors:
 - person: $franco-briones-alejandro

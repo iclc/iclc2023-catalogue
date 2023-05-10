@@ -4,6 +4,7 @@ status: proof
 title: 'Strudel: Live Coding Patterns on the Web'
 type: paper
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=2805s
 doi_link: https://doi.org/10.5281/zenodo.7842142
 contributors:
 - person: $roos-felix

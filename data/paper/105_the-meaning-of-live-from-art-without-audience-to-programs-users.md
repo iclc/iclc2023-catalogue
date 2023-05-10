@@ -4,6 +4,7 @@ title: 'The Meaning of Live: From Art Without Audience to Programs Without Users
 type: paper
 status: proof
 submission_type: Paper-Short
+stream_recording_url: https://www.youtube.com/watch?v=_Z71KQtWpMk&t=7726s
 doi_link: https://doi.org/10.5281/zenodo.7843567
 contributors:
 - person: $mclean-alex

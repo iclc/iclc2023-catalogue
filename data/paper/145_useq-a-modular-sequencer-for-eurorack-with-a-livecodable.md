@@ -4,6 +4,7 @@ title: 'uSEQ: A LISPy Modular Sequencer for Eurorack with a Livecodable Microcon
 type: paper
 status: proof
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=_Z71KQtWpMk&t=2548s
 doi_link: https://doi.org/10.5281/zenodo.7843874
 contributors:
 - person: $kyriakoudis-dimitris

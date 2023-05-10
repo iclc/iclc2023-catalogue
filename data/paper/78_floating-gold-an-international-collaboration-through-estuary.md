@@ -5,6 +5,7 @@ title: 'Floating Gold: an International Collaboration through Estuary.'
 type: paper
 submission_type: Paper-Long
 doi_link: https://doi.org/10.5281/zenodo.7843575
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=7236s
 contributors:
 - person: $candra-rini-peni
 - person: $purnama-aji-rangga

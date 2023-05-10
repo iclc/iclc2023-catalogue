@@ -4,6 +4,7 @@ status: proof
 title: 'The Physical and Cultural Infrastructure Supporting LiveCode.NYC: A Community Report'
 type: paper
 submission_type: Community-Written
+stream_recording_url: https://www.youtube.com/watch?v=FSBtvtxP008&t=4102s
 doi_link: https://doi.org/10.5281/zenodo.7842304
 contributors:
 - person: $srinivasan-sumanth

@@ -5,6 +5,7 @@ title: 'Živa: Easy Live Coding With SuperCollider'
 type: paper
 submission_type: Paper-Long
 doi_link: https://doi.org/10.5281/zenodo.7842215
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=4019s
 contributors:
 - person: $pibernat-trias-roger
 ---

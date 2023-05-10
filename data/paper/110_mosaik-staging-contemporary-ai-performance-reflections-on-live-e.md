@@ -4,6 +4,7 @@ status: proof
 title: 'MosAIck: Staging Contemporary AI Performance - Reflections on Connecting Live Coding, e-Textile and Movement'
 type: paper
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=8562s
 doi_link: https://doi.org/10.5281/zenodo.7843540
 contributors:
 - person: $wilson-elizabeth

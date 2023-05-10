@@ -5,6 +5,7 @@ type: paper
 status: proof
 submission_type: Paper-Short
 doi_link: https://doi.org/10.5281/zenodo.7843872
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=26344s
 contributors:
 - person: $kaney-matthew
 - person: $payne-william-christopher

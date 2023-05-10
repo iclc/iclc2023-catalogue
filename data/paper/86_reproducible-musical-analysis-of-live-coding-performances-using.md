@@ -4,6 +4,7 @@ status: proof
 title: 'Reproducible Musical Analysis of Live Coding Performances Using Information Retrieval: A Case Study on the Algorave 10th Anniversary'
 type: paper
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=20919s
 doi_link: https://doi.org/10.5281/zenodo.7843813
 contributors:
 - person: $diapoulis-georgios

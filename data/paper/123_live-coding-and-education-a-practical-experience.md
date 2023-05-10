@@ -4,6 +4,7 @@ status: proof
 title: 'Live Coding and Education. A Practical Experience.'
 type: paper
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=_Z71KQtWpMk&t=4952s
 doi_link: https://doi.org/10.5281/zenodo.7843819
 contributors:
 - person: $corvi-francesco

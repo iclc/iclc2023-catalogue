@@ -4,6 +4,7 @@ title: 'Sardine: A Modular Python Live Coding Environment'
 type: paper
 status: proof
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=ZzDSW08IAdU&t=1548s
 doi_link: https://doi.org/10.5281/zenodo.7843817
 contributors:
 - person: $forment-raphael-maurice

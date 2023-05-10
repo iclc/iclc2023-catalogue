@@ -4,6 +4,7 @@ status: proof
 title: 'LambDAW: Towards a Generative Audio Workstation'
 type: paper
 submission_type: Paper-Long
+stream_recording_url: https://www.youtube.com/watch?v=_Z71KQtWpMk&t=1270s
 doi_link: https://doi.org/10.5281/zenodo.7842002
 contributors:
 - person: $clester-ian
