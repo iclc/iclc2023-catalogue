@@ -11,7 +11,7 @@ import shutil
 
 EXPORT_MAIL = False
 MASTER_SCHEDULE_DO_HIDE = True
-RENDER_PROOF = False
+RENDER_PROOF = True
 
 
 
@@ -467,7 +467,7 @@ proof_abstract_disclaimer = "<p><em><br>The abstract is displayed here for proof
 
 def render_stream_recording_url(item):
     if item.get("stream_recording_url"):
-        return f"<br><br><strong><a href='{item['stream_recording_url']}'>Recording of Presentation (YouTube)</strong></a>"
+        return f"<br><br><strong><a href='{item['stream_recording_url']}'>Live Stream Recording (YouTube)</strong></a>"
     else:
         return ""
 
