@@ -1,0 +1,257 @@
+
+\subsubsection{Animatron Workshop: Live Coding Visual
+Poetry}\label{animatron-workshop-live-coding-visual-poetry}
+
+\textbf{\href{/2023/catalogue/person/pibernat-trias-roger.html}{Roger~Pibernat~Trias},
+\href{/2023/catalogue/person/fraser-glen.html}{Glen~Fraser}}
+
+Animatron is an experimental environment (very much ``work in
+progress'') that enables creation of ``visual poetry'' in the form of
+animations and images, created in real-time through live coding. It's
+implemented using the open-source Godot engine, and communicates with
+any ``client'' application or live coding language --- such as
+SuperCollider --- via the network, using the Open Sound Control (OSC)
+protocol and MIDI. In the workshop the participants will learn:\\
+
+• how to install the software\\
+• how to setup the system for playing both solo and collaboratively\\
+• the basics of creating and controlling frame-by-frame animations via OSC\\
+• how to create new image sequences\\
+• how to define custom OSC message definitions\\
+• how to set custom MIDI mappings to control the animations\\
+
+No prior experience or software installation is
+required, although proficiency in any live coding language that supports
+OSC is welcome.
+
+\subsubsection{Easy Stochastic Live Coding with Mégra
+3}\label{easy-stochastic-live-coding-with-muxe9gra-3}
+
+\textbf{\href{/2023/catalogue/person/champlin-alicia.html}{Alicia~Champlin},
+\href{/2023/catalogue/person/reppel-niklas.html}{Niklas~Reppel}}
+
+Mégra is a mini-language to make music with variable-order markov chains
+and some other stochastic shenanigans. This workshop offers a hands-on
+tutorial in applying the basics of Mégra 3, with time for exploration
+and free play.
+
+Any skill level. Windows/MacOS/Linux. Participants should bring laptops,
+headphones, and optionally a small microphone.
+
+
+\subsubsection{Expressing Oneself with Code and World
+Building}\label{expressing-oneself-with-code-and-world-building}
+
+\textbf{\href{/2023/catalogue/person/oduro-kofi.html}{Kofi~Oduro~(illestpreacha)}}
+
+In this workshop, participants will see how coding can be used in
+musical, performative and literary arts, by using tools such as
+livecoding Youtube, Hydra, Inverse.website and Sonic Pi to name a few.
+They will see how expressive and creative code will be with the benefit
+of seeing how it can be use in a collaborative setting. Participants
+will see how improvised writing and coding can lead to various outcomes,
+musically, as well as how to use network elements to your advantage when
+writing or producing work.
+
+
+\subsubsection{Introduction to Nix for Live Coding Software
+Packaging}\label{introduction-to-nix-for-live-coding-software-packaging}
+
+\textbf{\href{/2023/catalogue/person/sanchez-medina-alejandro.html}{Alejandro~Sánchez~Medina}}
+
+This workshop will provide a guided introduction to Nix
+(https://nixos.org/), a functional package manager for declarative
+configuration of general software dependencies. The workshop will
+consist of:
+
+\begin{itemize}
+\tightlist
+\item
+  An introduction to the principles of declarative software dependency
+  management.
+\item
+  A guided tutorial to the Nix language.
+\item
+  A presentation of common packaging examples and patterns.
+\item
+  On-site tutoring packaging the live-coding software chosen by the
+  participant.
+\end{itemize}
+
+Requirements for participation: bring your personal laptop to work
+during the practical part of the workshop. Windows users are encouraged
+to come with a Linux Virtual Machine. Nix can work from within the
+Windows Subsystem for Linux, albeit with some limitations compared to
+native *nix systems.
+
+It is highly recommended that participants come with their own project
+to package, or a project they already want to use but could not manage
+to make it work in a specific setup.
+
+
+\subsubsection{Live Cinema Coding with Tidal Cycles, Processing and Unreal
+Engine}\label{live-cinema-coding-with-tidal-cycles-processing-and-unreal-engine}
+
+\textbf{\href{/2023/catalogue/person/abreu-ivan.html}{Iván~Abreu},
+\href{/2023/catalogue/person/cortes-malitzin.html}{Malitzin~Cortés~(CNDSD)}}
+
+We define Live Cinema Coding as a performative practice (heir to Live
+cinema) that uses live coding to sequence cinematographic shots,
+transform a 3D scene, animate actors, control light, process videos,
+etc. We use the pattern strength of Tidal to create sound-visual
+synesthesia and sound visualization by refactoring musical patterns into
+visual patterns.
+
+The objective of the workshop is to show the authors\textquotesingle{}
+workflow, both conceptual and technical: the choice of "what" patterns
+to refactor and "how" from listening to our own musical composition. Or
+the process of abstracting into custom haskell functions within Tidal
+Cycles and converting them to OSC addresses for redirection and flexible
+visual consequence in Processing, Unreal Engine or DMX stage lighting.
+
+For the workshop it is necessary to have Tidal Cycles (supercollider),
+Processing and Unreal Engine already installed and the student will be
+explained the resources that will be available on GitHub.
+
+\href{https://tidalcycles.org/}{Tidal Cycles}
+
+\href{https://processing.org/download}{Processing}
+
+\href{https://www.unrealengine.com/en-US/download}{Unreal Engine}
+
+
+\subsubsection{Live Coding Latin Dance Music With
+Seis8s}\label{live-coding-latin-dance-music-with-seis8s}
+
+\textbf{\href{/2023/catalogue/person/n-del-angel-luis.html}{Luis~N.~Del~Angel},
+\href{/2023/catalogue/person/mugica-julia.html}{Julia~Múgica}}
+
+Seis8s is a web-based live coding language that allows real-time
+interaction with digital audio and localized music knowledge. Seis8s
+revolves around Spanish-language commands that relate to Latin dance
+music. During this 4-hour introductory workshop, participants will
+access Seis8s at https://seis8s.org/ to learn its basic functions as
+well as its context and motivation.
+
+Through this learning process, participants will also engage in
+mainstream music styles from Latin America such as Mexican Cumbia and
+Cuban Guaguancó. Participants will also learn about instruments commonly
+used in this music such as keyboards, bass guitars, congas, claves, and
+shakers.
+
+Luis, the instructor, will be present during the workshop
+\textbf{\emph{digitally}}, while we have a local instructor, Julia,
+present to guide you.
+
+
+\subsubsection{LiveLily Workshop}\label{livelily-workshop}
+
+\textbf{\href{/2023/catalogue/person/drymonitis-alexandros.html}{Drymonitis~Alexandros}}
+
+LiveLily is a workshop on the software with the same name. This is a
+Live Sequencing and Live Scoring software through live coding with a
+subset of the Lilypond language. Lilypond is a language for sheet music
+engraving. With LiveLily the user can create music scores in real time,
+and a sequencer based on these score.
+
+The LiveLily sequencer can be as expressive as a Western notation music
+score can, capable of transferring dynamics, articulation and arbitrary
+information to the instruments it controls. Being a hybrid system,
+combining Live Scoring and Live Sequencing, LiveLily can be used for
+both Live Scoring with acoustic instruments, and Live Sequencing
+electronic music, or even a combination of these two.
+
+
+\subsubsection{Nodysseus.THREE: Live Lowcoding THREE.js Visuals in the
+Browser}\label{nodysseus.three-live-lowcoding-three.js-visuals-in-the-browser}
+
+\textbf{\href{/2023/catalogue/person/popple-ulysses.html}{Ulysses~Popple}}
+
+Using Nodysseus, a node-editor for the browser, we\textquotesingle ll
+explore creating and using reusable node networks with 3D objects. This
+is a hands on tutorial quite literally - participants can use their
+touch device of choice or their laptops, it works well on both. By the
+end of the workshop, participants will be more comfortable thinking in
+node networks and have a spiffy live(low)code party trick they can
+revisit at any time.
+
+
+\subsubsection{P5LIVE: A p5.js Collaborative Live Coding VJ
+Environment}\label{p5live-a-p5.js-collaborative-live-coding-vj-environment}
+
+\textbf{\href{/2023/catalogue/person/davis-ted.html}{Ted~Davis}}
+
+This workshop will introduce participants to P5LIVE, a collaborative
+live-coding vj environment for p5.js. Hosted by the
+tool\textquotesingle s creator, we\textquotesingle ll walk through the
+many features geared for both live-coding performance, remote
+collaboration, and how it can be useful in a teaching environment.
+
+
+\subsubsection{Scorch: A New Programming Language For
+Music}\label{scorch-a-new-programming-language-for-music}
+
+\textbf{\href{/2023/catalogue/person/lorway-norah.html}{Norah~Lorway},
+\href{/2023/catalogue/person/powley-edward.html}{Edward~Powley},
+\href{/2023/catalogue/person/wilson-arthur.html}{Arthur~Wilson}}
+
+Scorch is a new domain specific music programming language designed by
+Norah Lorway, Edward Powley and Arthur Wilson with the intention of
+being an accessible entry point for those not experienced in traditional
+programming languages (Lorway et al 2022). Initially used for
+algorithmic composition as a MIDI generating VST plugin, Scorch is also
+being used for live coding and a variety of media computing
+applications.
+
+Scorch incorporates various AI implementations meant to assist users
+with various musical and computing tasks. Amongst these include an AI
+collaborator called Autopia (Lorway et al 2021) which allows for
+collaboration with AI and human performers in live coding contexts.
+Autopia was designed by the present authors to explore the three-way
+interaction between AI, human performer and audience --- the AI uses an
+evolutionary algorithm seeded with human-written code and guided by live
+audience feedback. Originally developed for use with SuperCollider, this
+workshop will be the debut of the version of Autopia developed for use
+with Scorch.
+
+
+\subsubsection{The Craft of (Algorave)
+Documentation}\label{the-craft-of-algorave-documentation}
+
+\textbf{\href{/2023/catalogue/person/gorelick-dan.html}{Dan~Gorelick~(dan.dog)}}
+
+On top of all of the chaos that goes into organizing a show, the
+logistics involved in documenting can feel like an expendable effort.
+However, time and time again I thank myself and my co-organizers for
+investing the energy in documenting.
+
+Having good documentation means the performers have quality assets for
+their portfolios. It means we have promotion assets for the next shows.
+It means we can apply for grants for future shows. It means we can tell
+the story for future audiences.
+
+Documentation is a life-long practice. It can breathe new life into the
+work. When it is treated like a craft more than an afterthought, so much
+can be possible.
+
+The workshop is a theoretical and practical session on the craft of
+documenting art, specifically through the lens of live-code
+performances.
+
+\subsubsection{Visualists Meetup}\label{visualists-meetup}
+
+\textbf{\href{/2023/catalogue/person/groff-hennigh-palermo-sarah.html}{Sarah~Groff~Hennigh-Palermo},
+\href{/2023/catalogue/person/jack-olivia.html}{Olivia~Jack},
+\href{/2023/catalogue/person/john-guy.html}{Guy~John},
+\href{/2023/catalogue/person/roberts-antonio.html}{Antonio~Roberts}}
+
+Are you the person at the alogorave asking for the HDMI cable? (Do you
+secretly have a 10m one in your bag already?) Are you sick of everyone
+talking about sounds when you want to be talking about throwing shapes?
+Meet up with other visualists and share your questions, suggestions,
+works, and make new friends. Maybe commiserate a little. This workshop
+will be led by four visualists and tool-makers --- Antonio Roberts, Guy
+John, Olivia Jack, and Sarah Groff Hennigh-Palermo --- but its format
+will be determined by the needs of the attendees. It might take the form
+of an open projector, informal group discussion, breakout groups, or
+some other improvisation.

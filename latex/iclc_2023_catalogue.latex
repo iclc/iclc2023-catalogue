@@ -1,0 +1,300 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{scrartcl}
+\usepackage{xeCJK}
+\setmainfont{Noto Serif}
+\setCJKmainfont{Noto Serif CJK KR}
+\setCJKsansfont{Noto Sans CJK KR}
+\setCJKmonofont{Noto Sans Mono CJK KR}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{english}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage[english]{selnolig} % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={ICLC 2023 Catalogue},
+  pdflang={en},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{ICLC 2023 Catalogue}
+\subtitle{19 - 23 April 2023, Utrecht, Netherlands}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+The catalogue of the \textbf{7th International Conference on Live Coding}, containing all abstracts, the event schedules, and the register of people involved.
+
+The full articles can be found on Zenodo: \href{https://zenodo.org/communities/iclc/}{https://zenodo.org/communities/iclc/}
+
+\tableofcontents
+
+\newpage
+
+\section{General}
+
+\subsection{Resources}
+
+Publications, Media and Recordings are accessible from within the
+catalogue. You can also browse them on these sites:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://zenodo.org/communities/iclc/} {\textbf{Zenodo}(Proceedings, full articles)} - \href{https://zenodo.org/communities/iclc/}{https://zenodo.org/communities/iclc/}
+  
+\item
+  \href{https://www.flickr.com/photos/creativecodingutrecht/collections/72157721695992917/}{\textbf{Flickr}(Photographs of the Events)} \\ - \href{https://www.flickr.com/photos/creativecodingutrecht/collections/72157721695992917/}{https://www.flickr.com/photos/creativecodingutrecht/collections/72157721695992917/}
+\item
+  \href{https://www.youtube.com/@incolico}{\textbf{YouTube} (Recordings of the Live Stream \& Videos)} - \href{https://www.youtube.com/@incolico}{https://www.youtube.com/@incolico}
+\end{itemize}
+
+\subsection{Schedule}
+
+\paragraph{Paper Presentations}\label{paper-presentations}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{paper-session-1}{\textbf{Welcome \&
+  Paper Session 1}\\
+  Wednesday, April 19th, 09:45}
+\item
+  \href{paper-session-2}{\textbf{Paper
+  Session 2}\\
+  Wednesday, April 19th, 11:30}
+\item
+  \href{paper-session-3}{\textbf{Paper
+  Session 3}\\
+  Wednesday, April 19th, 15:15}
+\item
+  \href{paper-session-4}{\textbf{Paper
+  Session 4}\\
+  Thursday, April 19th, 10:00}
+\item
+  \href{paper-session-5}{\textbf{Paper
+  Session 5}\\
+  Thursday, April 19th, 11:30}
+\end{itemize}
+
+\paragraph{Community Reports}\label{community-reports}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{community-session-1}{\textbf{Community
+  Report Session 1}\\
+  Friday, April 21st, 10:00}
+\item
+  \href{community-session-2}{\textbf{Community
+  Report Session 2}\\
+  Friday, April 21st, 11:15}
+\end{itemize}
+
+\paragraph{Keynote Sessions}\label{keynote-sessions}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{keynote-1}{\textbf{Opening \&
+  Keynote: Kate Sicchio}\\
+  Wednesday, April 19th, 13:45}
+\item
+  \href{keynote-2}{\textbf{Keynote: Marije
+  Baalman}\\
+  Thursday, April 20th, 14:00}
+\item
+  \href{keynote-3}{\textbf{Keynote: Click
+  Nilson \& Closing Words}\\
+  Friday, April 21st, 14:00}
+\end{itemize}
+
+\paragraph{Concerts}\label{concerts}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{choreographic-coding}{\textbf{Choreographic
+  Coding}\\
+  Wednesday, April 19th, Doors 19:30 / Show: 20:00}
+\item
+  \href{lunch-concert-1}{\textbf{Lunch \&
+  Concert 1}\\
+  Thursday, April 20th, Doors 12:45 / Show: 13:10}
+\item
+  \href{alternative-algorithms}{\textbf{Alternative
+  Algorithms}\\
+  Thursday, April 20th, Doors 19:30 / Show: 20:00}
+\item
+  \href{lunch-concert-2}{\textbf{Lunch \&
+  Concert 2}\\
+  Friday, April 21st, Doors 12:45 / Show: 13:10}
+\item
+  \href{immersed-in-code}{\textbf{Immersed in
+  Code}\\
+  Friday, April 21st, Pre-Show 19:30 / Show: 20:00}
+\item
+  \href{algorave}{\textbf{Algorave}\\
+  Saturday, April 22nd, Doors: 21:50 / Show: 22:00}
+\item
+  \href{hybrid-acoustics}{\textbf{Hybrid
+  Acoustics}\\
+  Sunday, April 23rd, Doors 15:30 / Show: 16:00}
+\end{itemize}
+
+\paragraph{Workshop Blocks}\label{workshop-blocks}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{workshops-1}{\textbf{Workshops 1}\\
+  Thursday, April 20th, 15:15--17:15}
+\item
+  \href{workshops-2}{\textbf{Workshops 2}\\
+  Friday, April 21st, 15:30‑17:30}
+\item
+  \href{workshops-3}{\textbf{Workshops 3}\\
+  Saturday, April 22nd, 12:00‑15:45}
+\end{itemize}
+
+\subsection{ICLC 2023 Programming Committee}\label{iclc-2023-programming-committee}
+
+\textbf{Local Chair} 
+
+Fabian van Sluijs
+
+\textbf{Community Report Chairs}
+
+Felipe Ignacio Noriega Alcaraz, Raphael Sousa Santos
+
+\textbf{Paper Chairs}
+
+Iván Paz, Niklas Reppel
+
+\textbf{Performance Chairs}
+
+Lina Bautista Rodríguez, Patrick Borgeat, Alicia Champlin, Timo Hoogland
+
+\textbf{Video Chairs}
+
+Alicia Champlin, Niklas Reppel
+
+\textbf{Workshop Chairs}
+
+Luka Frelih, Roger Pibernat Trias
+
+\textbf{Satellite Event Coordinator}
+
+Patrick Borgeat
+
+\textbf{Communication, PR and Social Media}
+
+Anne-Linde Munsterman, Caterina Tavagnutti, Sietse van der Meer
+
+\textbf{Design}
+
+Saskia Freeke
+
+\textbf{Local Production}
+
+Emma Rasing, Juliette Osse, Timo Hoogland
+
+\section{Events}
+\input{event.latex}
+
+\section{Video Gallery}
+\input{other.latex}
+
+\newpage
+
+\section{Abstracts}
+
+\subsection{Keynotes}
+\input{keynotes.latex}
+
+\newpage
+
+\subsection{Papers}
+\input{papers.latex}
+
+\newpage
+
+\subsection{Performances}
+\input{performance.latex}
+
+\newpage
+
+\subsection{Videos}
+\input{video.latex}
+
+\newpage
+
+\subsection{Workshops}
+\input{workshop.latex}
+
+\newpage
+
+\section{Contributors}
+\input{people.latex}
+
+\end{document}

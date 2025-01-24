@@ -1,0 +1,846 @@
+\subsubsection{Addressing Accessibility for Blind and Visually Impaired Live Coders}\label{addressing-accessibility-for-blind-and-visually-impaired-live-coders}
+
+\textbf{\href{/2023/catalogue/person/kaney-matthew.html}{Matthew~Kaney},
+\href{/2023/catalogue/person/payne-william-christopher.html}{William~Christopher~Payne},
+\href{/2023/catalogue/person/hurst-amy.html}{Amy~Hurst}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
+  Session 3}\\
+  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+\end{itemize}
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=26344s}{Live Stream Recording (YouTube)}} -- \\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=26344s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=26344s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843872}{\textbf{https://doi.org/10.5281/zenodo.7843872}}
+
+\paragraph{Abstract}\label{abstract}
+
+Live coding environments that use text input and audio output have the
+potential to be accessible and expressive for Blind and Visually
+Impaired (BVI) people. However, little is known about their
+compatibility with the assistive technologies BVI people use, including
+screen readers and braille displays, or the experiences of BVI live
+coders. To address this gap, we formed FiLOrk, a live coding ensemble
+made up of five BVI high school students at the Filomen M.
+D\textquotesingle Agostino Greenberg Music School (aka the
+Fil\textquotesingle). We introduce the goals and open questions guiding
+FiLOrk and report initial findings from our experiences designing a
+learning environment and building a custom, collaborative text editor,
+text.management.
+
+\subsubsection{Asymmetric Performance in Virtual Reality and
+Code}\label{asymmetric-performance-in-virtual-reality-and-code}
+
+\textbf{\href{/2023/catalogue/person/geier-leonard.html}{Leonard~Geier},
+\href{/2023/catalogue/person/methfessel-paul.html}{Paul~Methfessel},
+\href{/2023/catalogue/person/beckmann-tom.html}{Tom~Beckmann},
+\href{/2023/catalogue/person/hirschfeld-robert.html}{Robert~Hirschfeld}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-4.html}{\textbf{Paper
+  Session 4}\\
+  Thursday, April 19th, 10:00, \emph{VOGELFREI}}
+\end{itemize}
+
+\textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=65s}{Live Stream Recording (YouTube)}} -- \\
+\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=65s}{https://www.youtube.com/watch?v=\_Z71KQtWpMk\&t=65s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843896}{\textbf{https://doi.org/10.5281/zenodo.7843896}}
+
+\paragraph{Abstract}\label{abstract-1}
+
+Virtual reality enables a rich 3D user experience where immediate
+feedback can yield lively interactions. For live coding, however, the
+rigid, text-based nature of source code is still a serious impediment to
+achieving such experience, as text input in virtual reality is
+significantly slower than on a physical keyboard. We present an
+asymmetric live-coding environment, in which a performance can benefit
+from both the fluid and flexible direct manipulation capabilities of
+virtual reality and the expressive power of text-based code.Here, one
+performer interacts with parameters and code blocks of the system using
+their hands in virtual reality, but is ultimately constrained by the
+code defined by another performer immersed in a dedicate programming and
+runtime environment with full access to the source of the system. We
+present a proof-of-concept implementation of such a system and describe
+future directions for its development.
+
+
+\subsubsection{Be Brief: Convergences and Possibilities of Live Coding And
+sctweeting}\label{be-brief-convergences-and-possibilities-of-live-coding-and-sctweeting}
+
+\textbf{\href{/2023/catalogue/person/m-martins-fellipe.html}{Fellipe~M.~Martins},
+\href{/2023/catalogue/person/padovani-jose-henrique.html}{José~Henrique~Padovani}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-2.html}{\textbf{Paper
+  Session 2}\\
+  Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=9752s}{Live Stream Recording (YouTube)}} -- \\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=9752s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=9752s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843864}{\textbf{https://doi.org/10.5281/zenodo.7843864}}
+
+\paragraph{Abstract}\label{abstract-2}
+
+With the advent of real-time computer music programming languages,
+specialized practices have arisen. Live coding (LC) and SCTweeting (SCT)
+are significant examples of creative constraint-coding approaches to
+computer music. The former consists of improvised live-electronic music
+in which performers project their coding screen. The latter is the
+practice of code golfing for creating (and sharing on social media)
+140-character codes that generate complex sounds. In this paper we seek
+to approximate these two, drawing a comparative conceptualization and
+outlining possible artistic and contextual bonds between them. We
+analyze how both scenes, being new forms of artistic practices, propose
+radical and non-traditional approaches to coding. For that, LC and SCT
+are associated with the concepts and theoretical elaborations of
+cybernetics and mechanology, such as \emph{feedback loops} as well as
+the \emph{isodynamism} between technical behavior and human thought.
+Thereupon, we discuss how constraints play an important role in LC and
+SCT to develop ideas and achieve idiosyncratic artistic results.
+Finally, we outline some possible interweaving and didactic potential
+that have been latent in both practices.
+
+
+\subsubsection{Floating Gold: an International Collaboration through
+Estuary.}\label{floating-gold-an-international-collaboration-through-estuary.}
+
+\textbf{\href{/2023/catalogue/person/candra-rini-peni.html}{Peni~Candra~Rini},
+\href{/2023/catalogue/person/purnama-aji-rangga.html}{Rangga~Purnama~Aji},
+\href{/2023/catalogue/person/sewell-sen.html}{Sen~Sewell},
+\href{/2023/catalogue/person/strohschein-heather.html}{Heather~Strohschein},
+\href{/2023/catalogue/person/van-der-walt-j-simon.html}{J.~Simon~van~der~Walt},
+\href{/2023/catalogue/person/whitmer-bill.html}{Bill~Whitmer}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-2.html}{\textbf{Paper
+  Session 2}\\
+  Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=7236s}{Live Stream Recording (YouTube)}} -- \\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=7236s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=7236s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843575}{\textbf{https://doi.org/10.5281/zenodo.7843575}}
+
+\paragraph{Abstract}\label{abstract-3}
+
+Between December 2020 and November 2022 the Glasgow-based community
+group Gamelan Naga Mas worked remotely with two Indonesian musicians,
+Peni Candra Rini and Rangga Purnama Aji. This musical collaboration was
+made possible by the Estuary platform, which allowed for real-time
+livecoded improvisations between locations in Scotland, Indonesia, and
+the USA. In this paper we discuss and reflect upon the technical,
+musical, and human factors that have made this project a success and
+indicate some directions for future exploration.
+
+
+\subsubsection{Genny: Designing and Exploring a Live Coding Interface for
+Generative
+Models}\label{genny-designing-and-exploring-a-live-coding-interface-for-generative-models}
+
+\textbf{\href{/2023/catalogue/person/shimizu-junichi.html}{Junichi~Shimizu},
+\href{/2023/catalogue/person/fiebrink-rebecca.html}{Rebecca~Fiebrink}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
+  Session 3}\\
+  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=24240s}{Live Stream Recording (YouTube)}} -- \\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=24240s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=24240s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843500}{\textbf{https://doi.org/10.5281/zenodo.7843500}}
+
+\paragraph{Abstract}\label{abstract-4}
+
+We present Genny, a live coding interface for interacting with
+generative models. By implementing a streamlined generative model API
+within a Web-based live coding environment, we explore possibilities for
+how generative models can support live coding. We describe the
+implementation of our interface components and the backend system for
+working with generative models, show several design patterns with
+template code, and describe use of a practical generation method for
+live coding performance. The system currently enables the generation of
+two-bar rhythm patterns using lightweight models that support
+near-instantaneous inference, which are able to suggest and display
+alternative rhythm patterns based on live coders\textquotesingle{} own
+inputs. Finally, we discuss reflections on this implementation approach,
+its current limitations, and further possibilities.
+
+\subsubsection{LambDAW: Towards a Generative Audio
+Workstation}\label{lambdaw-towards-a-generative-audio-workstation}
+
+\textbf{\href{/2023/catalogue/person/clester-ian.html}{Ian~Clester},
+\href{/2023/catalogue/person/freeman-jason.html}{Jason~Freeman}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-4.html}{\textbf{Paper
+  Session 4}\\
+  Thursday, April 19th, 10:00, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=1270s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=1270s}{https://www.youtube.com/watch?v=\_Z71KQtWpMk\&t=1270s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7842002}{\textbf{https://doi.org/10.5281/zenodo.7842002}}
+
+\paragraph{Abstract}\label{abstract-5}
+
+We present LambDAW, a novel system for integrating computation and
+composition that brings code directly into the digital audio workstation
+(DAW). It allows the composer to freely mix static and dynamic materials
+by embedding short expressions of code in the DAW timeline that generate
+audio and MIDI on demand. LambDAW moves code out of the text editor and
+computation out of the effects chain, bringing both into the timeline
+where they can refer to and transform other items. We propose that this
+move makes code more tangible and enables the composer to easily bring
+generativity into their existing practices. Additionally, we discuss
+LambDAW\textquotesingle s affordances and implications for live coding.
+LambDAW takes the form of an open-source REAPER extension that executes
+Python code embedded in projects, enabling the user to benefit from both
+the existing REAPER and Python ecosystems.
+
+
+\subsubsection{LivecoderA Community
+Report}\label{livecodera-community-report}
+
+\textbf{\href{/2023/catalogue/person/champlin-alicia.html}{Alicia~Champlin},
+\href{/2023/catalogue/person/chicau-joana.html}{Joana~Chicau},
+\href{/2023/catalogue/person/corfiel-miki.html}{Miki~Corfiel},
+\href{/2023/catalogue/person/knotts-shelly.html}{Shelly~Knotts},
+\href{/2023/catalogue/person/marie-mynah.html}{Mynah~Marie},
+\href{/2023/catalogue/person/saladino-iris.html}{Iris~Saladino},
+\href{/2023/catalogue/person/xambo-anna.html}{Anna~Xambó}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/community-session-2.html}{\textbf{Community
+  Report Session 2}\\
+  Friday, April 21st, 11:15, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=5493s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=5493s}{https://www.youtube.com/watch?v=FSBtvtxP008\&t=5493s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7845610}{\textbf{https://doi.org/10.5281/zenodo.7845610}}
+
+\paragraph{Abstract}\label{abstract-6}
+
+In March of 2022, LivecoderA, a new live coding community came into
+being, coalescing around the need to recognize a specific cohort of live
+coders who identify as women. The group is inherently feminist and
+intersectional, and its creation was motivated by many desires. Among
+them: solidarity and visibility, to be counted as sisters, and to
+reflect to each other the strength of our numbers. A manifesto and
+several events have since been produced, and the community is active
+online while also making more in-person connections whenever possible
+through the coordination of gigs, residencies and meetups. At the time
+of publishing, the community connects through Telegram and Discord, with
+channels consisting of 48 and 27 members respectively.
+
+\begin{itemize}
+\tightlist
+\item
+  LivecoderA manifesto: \url{https://livecodera.glitch.me/}
+\item
+  Invitation to join: \url{https://t.me/livecodera}
+\end{itemize}
+
+
+\subsubsection{Live Coding and Education. A Practical
+Experience.}\label{live-coding-and-education.-a-practical-experience.}
+
+\textbf{\href{/2023/catalogue/person/corvi-francesco.html}{Francesco~Corvi},
+\href{/2023/catalogue/person/mori-giovanni.html}{Giovanni~Mori},
+\href{/2023/catalogue/person/nulli-giovanni.html}{Giovanni~Nulli}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-5.html}{\textbf{Paper
+  Session 5}\\
+  Thursday, April 19th, 11:30, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=4952s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=4952s}{https://www.youtube.com/watch?v=\_Z71KQtWpMk\&t=4952s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843819}{\textbf{https://doi.org/10.5281/zenodo.7843819}}
+
+\paragraph{Abstract}\label{abstract-7}
+
+This paper presents an explorative research on the introduction of live
+coding into the Italian music curriculum in middle school with the aim
+to offer teachers a multidisciplinary didactic tool that can enhance the
+learning experience of students. The research focuses on the challenges
+that music teachers face when introducing live coding into their
+curricular activity and the type of training that can prepare them for
+it. The paper covers three main points: the training of teachers, the
+pedagogical strategies employed in the classrooms, and an overview of
+the results of the first year of experimentation. Overall, the paper
+aims to offer insight into the potential benefits and challenges of
+using live coding as a teaching tool in music education and highlights
+its potential for multidisciplinary applications, while also showing
+possible paths for future work and improvement.
+
+
+\subsubsection{MosAIck: Staging Contemporary AI Performance - Reflections
+on Connecting Live Coding, e-Textile and
+Movement}\label{mosaick-staging-contemporary-ai-performance---reflections-on-connecting-live-coding-e-textile-and-movement}
+
+\textbf{\href{/2023/catalogue/person/wilson-elizabeth.html}{Elizabeth~Wilson},
+\href{/2023/catalogue/person/schubert-deva.html}{Deva~Schubert},
+\href{/2023/catalogue/person/satomi-mika.html}{Mika~Satomi},
+\href{/2023/catalogue/person/mclean-alex.html}{Alex~McLean},
+\href{/2023/catalogue/person/felipe-amaya-gonzalez-juan.html}{Juan~Felipe~Amaya~Gonzalez}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-2.html}{\textbf{Paper
+  Session 2}\\
+  Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=8562s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=8562s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=8562s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843540}{\textbf{https://doi.org/10.5281/zenodo.7843540}}
+
+\paragraph{Abstract}\label{abstract-8}
+
+This paper introduces our collective work ``Patterns in Between
+Intelligences\textquotesingle\textquotesingle, a performance piece that
+builds an artistic practice between live coding sounds and coding
+through dance, mediated and shaped through e-textile sensors. This
+creates a networked system of which both live coded processes and human
+bodies are part. The paper describes in detail the implementations of
+technology used in the prototype performance performed at No Bounds
+Festival in Sheffield UK, October 2022, as well as discussions and
+concerns the team had related to the use of AI technology on stage. The
+paper concludes with a narrative reflection on the Sheffield
+performance, and reflections on it.
+
+\subsubsection{NL\_CL Community Report}\label{nl_cl-community-report}
+
+\textbf{\href{/2023/catalogue/person/hoogland-timo.html}{Timo~Hoogland},
+\href{/2023/catalogue/person/chicau-joana.html}{Joana~Chicau},
+\href{/2023/catalogue/person/reus-jonathan.html}{Jonathan~Reus},
+\href{/2023/catalogue/person/andrade-rafaele.html}{Rafaele~Andrade},
+\href{/2023/catalogue/person/corvi-francesco.html}{Francesco~Corvi},
+\href{/2023/catalogue/person/van-sluijs-fabian.html}{Fabian~van~Sluijs},
+\href{/2023/catalogue/person/noriega-alcaraz-felipe-ignacio.html}{Felipe~Ignacio~Noriega~Alcaraz},
+\href{/2023/catalogue/person/van-de-zandschulp-klasien.html}{Klasien~van~de~Zandschulp},
+\href{/2023/catalogue/person/freeke-saskia.html}{Saskia~Freeke},
+\href{/2023/catalogue/person/verhage-sabrina.html}{Sabrina~Verhage},
+\href{/2023/catalogue/person/paz-ivan.html}{Iván~Paz}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/community-session-1.html}{\textbf{Community
+  Report Session 1}\\
+  Friday, April 21st, 10:00, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=2683s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=2683s}{https://www.youtube.com/watch?v=FSBtvtxP008\&t=2683s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7842288}{\textbf{https://doi.org/10.5281/zenodo.7842288}}
+
+\paragraph{Abstract}\label{abstract-9}
+
+The Netherlands Coding Live a.k.a. NL\_CL is a "pop-up" phygital space
+for engaging with live coding through practice, experimentation,
+openness, discussions and performance. Series of live coding sessions,
+discussions, workshops and more have been organized by live coders based
+in The Netherlands and hosted in various cities across the country. Many
+members of NL\_CL are also employed or in close contact with other
+platforms, foundations or institutes such as the instrument inventors
+initiative (iii) in The Hague, Creative Coding Utrecht (CCU), Varia in
+Rotterdam, Creative Coding Amsterdam (CCA), The Institute of Sonology in
+The Hague, The HKU University of the Arts Utrecht and the Conservatory
+of Amsterdam (CvA). By applying for subsidy at different funds like
+Creative Industries Fund NL (SCI) and Fund Performing Arts (FPK) NL\_CL
+has been able to organize many events such as concerts and workshops in
+collaboration or via these parties. NL\_CL is an open community where
+everyone with an interest in coding is welcome to join. The community
+has a diverse practice of disciplines in which live coding is applied.
+These disciplines range from programming music (in the broadest
+definition possible) and visuals to working with choreography and
+embodiment or building, augmenting and designing acoustic and physical
+instruments. Much of the tools and research by the community are also
+published and shared. Furthermore the community is quite diverse in
+nationalities with members from for example Brazil, Argentina, Slovenia,
+USA, Mexico, Portugal, Italy and of course The Netherlands.
+
+
+\subsubsection{Reproducible Musical Analysis of Live Coding Performances
+Using Information Retrieval: A Case Study on the Algorave 10th
+Anniversary}\label{reproducible-musical-analysis-of-live-coding-performances-using-information-retrieval-a-case-study-on-the-algorave-10th-anniversary}
+
+\textbf{\href{/2023/catalogue/person/diapoulis-georgios.html}{Georgios~Diapoulis},
+\href{/2023/catalogue/person/carle-martin.html}{Martin~Carlé}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
+  Session 3}\\
+  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=20919s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=20919s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=20919s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843813}{\textbf{https://doi.org/10.5281/zenodo.7843813}}
+
+\paragraph{Abstract}\label{abstract-10}
+
+We present a reproducible music information retrieval (MIR) study on 133
+performances from the 10th anniversary of Algorave. Our aim in this
+paper is to provide a reproducible framework for computational analysis
+of musical performances. Here, we present a tool for analysing
+acoustical characteristics and for visualizing the musical structure
+from performances of one algorave event. Our musical analysis of the
+live coding performances highlights the musical diversity within the
+live coding community to a broader scientific audience. At the same
+time, we expect that the algoravers will gain insights on their own
+musical practices through the computational analysis of the musical
+structure of their performances. In concerning ourselves with
+reproducibility, our intention is to motivate more researchers to
+analyse musical practices of other under-represented music communities.
+As a basic tool for reproducibility we construct a pipeline for
+analysing performances using Python within a Jupyter notebook. To make
+this reproducible on different computers we wrapped the whole workflow
+setup into a docker image. We represent the results of our analysis as a
+series of plots of different kinds. These plots present both overviews
+of the entire repertory in compact form, and comparisons of individual
+pieces in more detail. In learning one can use such visualization as a
+means for raising awareness on one\textquotesingle s evolution of the
+musical outcome. In performance this visualization can be developed to a
+real-time and possibly an interactive tool which informs the coder about
+the musical outcome of a live set on-the-fly. Finally, we reflect on how
+and to what extent such MIR studies can provide valuable insights in
+live coding performance practices, while also considering the
+limitations faced when dealing with such large parameter spaces in human
+machine musicianship.
+
+
+\subsubsection{Sardine: A Modular Python Live Coding
+Environment}\label{sardine-a-modular-python-live-coding-environment}
+
+\textbf{\href{/2023/catalogue/person/forment-raphael-maurice.html}{Raphaël~Maurice~Forment},
+\href{/2023/catalogue/person/armitage-jack.html}{Jack~Armitage}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-1.html}{\textbf{Welcome \&
+  Paper Session 1}\\
+  Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=1548s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=1548s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=1548s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843817}{\textbf{https://doi.org/10.5281/zenodo.7843817}}
+
+\paragraph{Abstract}\label{abstract-11}
+
+\textbf{Sardine} is a live coding environment and library for Python
+3.10+ focusing on the modularity and extensibility of several base
+components (clocks, parsers, handlers). \textbf{Sardine} has been
+designed to be easily integrated with existing live coding environments
+as both a tool for experimentation, and a demonstration of various live
+coding techniques: temporal recursion, patterning, integration in
+various hardware and software setups. Although the tool is still in
+active early development, it has already been used in multiple public
+performances and algoraves, partly enabled by its support for MIDI
+IN/Out, OSC IN/Out and \emph{SuperCollider/SuperDirt} one-way
+communication through OSC.This paper is dedicated to the introduction of
+the \textbf{Sardine} system, and the explanation of the main guidelines
+currently followed by contributors to the project. It will also present
+the preliminary results of our work through practical realisations that
+served as experimental validation during the early stages of
+development.
+
+
+\subsubsection{Strudel: Live Coding Patterns on the
+Web}\label{strudel-live-coding-patterns-on-the-web}
+
+\textbf{\href{/2023/catalogue/person/roos-felix.html}{Felix~Roos},
+\href{/2023/catalogue/person/mclean-alex.html}{Alex~McLean}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-1.html}{\textbf{Welcome \&
+  Paper Session 1}\\
+  Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=2805s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=2805s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=2805s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7842142}{\textbf{https://doi.org/10.5281/zenodo.7842142}}
+
+\paragraph{Abstract}\label{abstract-12}
+
+This paper introduces Strudel, which faithfully ports the TidalCycles
+approach to live coding algorithmic patterns to native JavaScript and
+the web. We begin by giving a little background of the first year of
+development, before sharing some detail about its implementation and
+examples of use. We go on to outline the wide range of synthesis and
+other outputs available in Strudel, including WebAudio, MIDI, OSC (for
+SuperDirt), WebSerial and CSound, and introduce
+Strudel\textquotesingle s REPL live editor, including its built-in
+visualisations. We then compare Strudel with Tidal, the trade-offs
+involved between JavaScript and Haskell, and the unique capabilities
+offered by Strudel for aligning patterns, before concluding with some
+thoughts about the future.
+
+
+\subsubsection{The Meaning of Live: From Art Without Audience to Programs
+Without
+Users}\label{the-meaning-of-live-from-art-without-audience-to-programs-without-users}
+
+\textbf{\href{/2023/catalogue/person/mclean-alex.html}{Alex~McLean},
+\href{/2023/catalogue/person/rohrhuber-julian.html}{Julian~Rohrhuber},
+\href{/2023/catalogue/person/wieser-renate.html}{Renate~Wieser}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-5.html}{\textbf{Paper
+  Session 5}\\
+  Thursday, April 19th, 11:30, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=7726s}{Live Stream Recording (YouTube)}} -- \\
+\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=7726s}{https://www.youtube.com/watch?v=\_Z71KQtWpMk\&t=7726s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843567}{\textbf{https://doi.org/10.5281/zenodo.7843567}}
+
+\paragraph{Abstract}\label{abstract-13}
+
+The concept of an \textquotesingle art without
+audience\textquotesingle{} has informed live coding since its
+beginnings. Live Coding concentrates on collective work and questions
+the division between producers and consumers. This understanding of art
+has enabled a parallel strategy in the understanding of programming:
+just as an audience is not necessary for art, a user isn't necessary for
+programming. In the same sense as we question the separation between
+developer and user, we question the juxtaposition of artist and
+audience. This gives us occasion to recall some aspects of live coding
+which we have always found central to this practice: the displacement of
+the relation between programmers and programs, and the emancipatory
+potential of public thought.
+
+
+\subsubsection{The Physical and Cultural Infrastructure Supporting
+LiveCode.NYC: A Community
+Report}\label{the-physical-and-cultural-infrastructure-supporting-livecode.nyc-a-community-report}
+
+\textbf{\href{/2023/catalogue/person/srinivasan-sumanth.html}{Sumanth~Srinivasan}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/community-session-2.html}{\textbf{Community
+  Report Session 2}\\
+  Friday, April 21st, 11:15, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=4102s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=4102s}{https://www.youtube.com/watch?v=FSBtvtxP008\&t=4102s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7842304}{\textbf{https://doi.org/10.5281/zenodo.7842304}}
+
+\paragraph{Abstract}\label{abstract-14}
+
+LivecodeNYC is New York City\textquotesingle s community of nerds and
+artists writing software on stage to make music, visuals, games and
+other live art in front of audiences. This community report offers a
+look into the various factors that make up the ground reality of running
+a live coding community in New York City, and how it influences our ways
+of working, successes and challenges.
+
+
+\subsubsection{TOPLAP Barcelona Community Report
+2023}\label{toplap-barcelona-community-report-2023}
+
+\textbf{\href{/2023/catalogue/person/fraser-glen.html}{Glen~Fraser},
+\href{/2023/catalogue/person/paz-ivan.html}{Iván~Paz},
+\href{/2023/catalogue/person/bautista-rodriguez-lina.html}{Lina~Bautista~Rodríguez},
+\href{/2023/catalogue/person/reppel-niklas.html}{Niklas~Reppel},
+\href{/2023/catalogue/person/pibernat-trias-roger.html}{Roger~Pibernat~Trias},
+\href{/2023/catalogue/person/casamajo-ramon.html}{Ramon~Casamajó~(QBRNTHSS)}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/community-session-1.html}{\textbf{Community
+  Report Session 1}\\
+  Friday, April 21st, 10:00, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=2019s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=FSBtvtxP008&t=2019s}{https://www.youtube.com/watch?v=FSBtvtxP008\&t=2019s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843519}{\textbf{https://doi.org/10.5281/zenodo.7843519}}
+
+\paragraph{Abstract}\label{abstract-15}
+
+Barcelona has developed an active community of live coders. This report
+traces back the history and development of the TOPLAP Barcelona node,
+from its predecessors and roots, through its founding as a collective,
+to the present day. In addition, it presents its ongoing activities and
+how they shape the character of the community as we can see it today.
+
+
+\subsubsection{Towards Another Transdiscipline: Art, (Techno)Science and
+Emancipation as Promise and Provocation for Live
+Coding}\label{towards-another-transdiscipline-art-technoscience-and-emancipation-as-promise-and-provocation-for-live-coding}
+
+\textbf{\href{/2023/catalogue/person/franco-briones-alejandro.html}{Alejandro~Franco~Briones}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-5.html}{\textbf{Paper
+  Session 5}\\
+  Thursday, April 19th, 11:30, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=6404s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=6404s}{https://www.youtube.com/watch?v=\_Z71KQtWpMk\&t=6404s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7842097}{\textbf{https://doi.org/10.5281/zenodo.7842097}}
+
+\paragraph{Abstract}\label{abstract-16}
+
+In this text I deploy Nancy Fraser\textquotesingle s theory of the
+\textquotesingle triple movement\textquotesingle{} to analyse and
+re-imagine the node of techno-scientific art practice, paying attention
+to the Mexican art context and the imagined (trans-national) community
+of live coding. From Fraser\textquotesingle s ideas, I provide an
+analysis of Actor-Network Theory and a general comment on technofeminism
+as a set of theoretical frameworks insufficient for integrating
+emancipation properly into artistic and scientific practices.
+
+
+\subsubsection{uSEQ: A LISPy Modular Sequencer for Eurorack with a
+Livecodable
+Microcontroller}\label{useq-a-lispy-modular-sequencer-for-eurorack-with-a-livecodable-microcontroller}
+
+\textbf{\href{/2023/catalogue/person/kyriakoudis-dimitris.html}{Dimitris~Kyriakoudis},
+\href{/2023/catalogue/person/kiefer-chris.html}{Chris~Kiefer}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-4.html}{\textbf{Paper
+  Session 4}\\
+  Thursday, April 19th, 10:00, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=2548s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=2548s}{https://www.youtube.com/watch?v=\_Z71KQtWpMk\&t=2548s}
+ 
+Publication:
+\href{https://doi.org/10.5281/zenodo.7843874}{\textbf{https://doi.org/10.5281/zenodo.7843874}}
+
+\paragraph{Abstract}\label{abstract-17}
+
+\emph{uSEQ} is a new livecodable sequencer module for the Eurorack
+modular synthesiser ecosystem. It draws inspiration from both the
+practices of live coding and hardware modular synthesis, aiming to
+examine and combine their respective ergodynamic strengths and
+weaknesses into a new, hybrid practice. It embeds \emph{uLisp}, a tiny
+interpreter for the general-purpose language with a small-enough
+footprint to run even on inexpensive microcontrollers. The
+interpreter\textquotesingle s REPL has been modified for the purposes of
+live coding, and its reader has been "hacked" to the limited resources
+of the sub-£5 microcontroller at the heart of the module. On top of the
+Lisp general-purpose language, a minimal DSL layer has been designed to
+take full advantage of the linguistic flexibility of the underlying
+language. Simultaneously, the semantics of this DSL tries to stay close
+to one of the central philosophies of modular synthesis: everything is a
+signal, and sequences are no exception. Its open-source firmware and
+design files (PCB and 3D-printable faceplate), with an approximate total
+cost of £20 in parts, \emph{uSEQ} is highly DIY-friendly can be built as
+a weekend project. It provides multiple input and output interfaces to
+the rest of the Eurorack ecosystem, and can be controlled from a mobile
+phone, tablet, or any (micro)computer with a USB port. The prototyping
+of this module is a practical exploration into the ways in which the
+ergonomic and ergodynamic tensions between the practices of livecoding
+and modular synthesis can be successfully addressed when bridging the
+two worlds, following a practice-led, research-through-design approach.
+
+
+\subsubsection{Ziffers: Numbered Notation for Algorithmic
+Composition}\label{ziffers-numbered-notation-for-algorithmic-composition}
+
+\textbf{\href{/2023/catalogue/person/alonen-miika.html}{Miika~Alonen},
+\href{/2023/catalogue/person/forment-raphael-maurice.html}{Raphaël~Maurice~Forment}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
+  Session 3}\\
+  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=22468s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=22468s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=22468s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7841945}{\textbf{https://doi.org/10.5281/zenodo.7841945}}
+
+\paragraph{Abstract}\label{abstract-18}
+
+Ziffers is an algorithmic number based musical notation for live coding.
+It offers concise syntax to support composition and improvisation with
+complex melodies and rhythms. Ziffers is the result of experiments in
+unifying several types of musical notation centred around the use of
+symbols and numbers. It is inspired by the older numbered musical
+notations (\emph{Ziffersystem}, \emph{Jianpu}), contemporary music
+theory (pitch-class sets, post-tonal music analysis, serialism) and
+shorthand notations used in live-coding. Ziffers aims for a balance
+between fixed media music notation and generative notations for live
+coding performance. In this article, we propose an implementation
+agnostic numbered notation for algorithmic composition and live coding.
+As a proof of concept, this article will also present a live-coding
+framework for Ziffers notation and an export plugin for a general
+purpose scorewriter. In doing so, we hope to highlight the versatility
+of our approach in using unified syntax for different contexts of
+execution and interpretation.
+
+\subsubsection{Živa: Easy Live Coding With
+SuperCollider}\label{ux17eiva-easy-live-coding-with-supercollider}
+
+\textbf{\href{/2023/catalogue/person/pibernat-trias-roger.html}{Roger~Pibernat~Trias}}
+
+Was presented at:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{/2023/catalogue/event/paper-session-1.html}{\textbf{Welcome \&
+  Paper Session 1}\\
+  Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
+\end{itemize}
+
+
+\textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=4019s}{Live Stream Recording (YouTube)}} --\\
+\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=4019s}{https://www.youtube.com/watch?v=ZzDSW08IAdU\&t=4019s}
+
+Publication:
+\href{https://doi.org/10.5281/zenodo.7842215}{\textbf{https://doi.org/10.5281/zenodo.7842215}}
+
+\paragraph{Abstract}\label{abstract-19}
+
+Živa is a quark aimed to simplify the live coding experience in
+SuperCollider, both to quickly set up the environment and to code in a
+sparse and clear syntax.
+
+This paper describes the reasons that led the author to develop it and
+his procedures in doing so. The paper introduces the problems
+encountered when using other languages, and the solutions found in
+SuperCollider to solve them. This is not a research paper, but a report
+of the motivation, proceedings and achieved results of the
+developer\textquotesingle s experience in creating this subset of tools
+for SuperCollider.
