@@ -1,121 +1,121 @@
 \subsection{Community Report Videos}\label{community-report-videos}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\begin{minipage}[t]{\linewidth}\raggedright
+    >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/av-club-sf-community-report.html}{\emph{AV
-Club SF Community Report}}}
-\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
-\href{/2023/catalogue/person/gorelick-dan.html}{Dan~Gorelick~(dan.dog)}\\
-\href{/2023/catalogue/person/mclaughlin-tyler.html}{Tyler~McLaughlin~(R~Tyler)}\\
-\href{/2023/catalogue/person/hanson-don.html}{Don~Hanson~(d0n.xyz)}\\
-\href{/2023/catalogue/person/folz-rodney.html}{Rodney~Folz~(haute.rod)}\strut
-\end{minipage} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/av-club-sf-community-report}{\emph{AV
+        Club SF Community Report}}}
+  \end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+    \href{gorelick-dan}{Dan~Gorelick~(dan.dog)}\\
+    \href{mclaughlin-tyler}{Tyler~McLaughlin~(R~Tyler)}\\
+    \href{hanson-don}{Don~Hanson~(d0n.xyz)}\\
+    \href{folz-rodney}{Rodney~Folz~(haute.rod)}\strut
+  \end{minipage} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/livecode-nyc-over-the-years-a-community-portrait.html}{\emph{LiveCode.NYC
-Over the Years: A Community Portrait}}}
-\end{minipage} &
-\href{/2023/catalogue/person/loveless-melody.html}{Melody~Loveless} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/livecode-nyc-over-the-years-a-community-portrait}{\emph{LiveCode.NYC
+        Over the Years: A Community Portrait}}}
+  \end{minipage} &
+  \href{loveless-melody}{Melody~Loveless} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/on-the-fly-documentary.html}{\emph{on-the-fly
-Documentary}}}
-\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
-\href{/2023/catalogue/person/bautista-rodriguez-lina.html}{Lina~Bautista~Rodríguez}\\
-\href{/2023/catalogue/person/noriega-alcaraz-felipe-ignacio.html}{Felipe~Ignacio~Noriega~Alcaraz}\\
-\href{/2023/catalogue/person/knotts-shelly.html}{Shelly~Knotts}\\
-\href{/2023/catalogue/person/jack-olivia.html}{Olivia~Jack}\\
-\href{/2023/catalogue/person/borgeat-patrick.html}{Patrick~Borgeat}\\
-\href{/2023/catalogue/person/paz-ivan.html}{Iván~Paz}\\
-\href{/2023/catalogue/person/frelih-luka.html}{Luka~Frelih}\\
-\href{/2023/catalogue/person/michelin-ludovica.html}{Ludovica~Michelin}\\
-\href{/2023/catalogue/person/hofmann-yannick.html}{Yannick~Hofmann}\\
-\href{/2023/catalogue/person/van-sluijs-fabian.html}{Fabian~van~Sluijs}\strut
-\end{minipage} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/on-the-fly-documentary}{\emph{on-the-fly
+        Documentary}}}
+  \end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+    \href{bautista-rodriguez-lina}{Lina~Bautista~Rodríguez}\\
+    \href{noriega-alcaraz-felipe-ignacio}{Felipe~Ignacio~Noriega~Alcaraz}\\
+    \href{knotts-shelly}{Shelly~Knotts}\\
+    \href{jack-olivia}{Olivia~Jack}\\
+    \href{borgeat-patrick}{Patrick~Borgeat}\\
+    \href{paz-ivan}{Iván~Paz}\\
+    \href{frelih-luka}{Luka~Frelih}\\
+    \href{michelin-ludovica}{Ludovica~Michelin}\\
+    \href{hofmann-yannick}{Yannick~Hofmann}\\
+    \href{van-sluijs-fabian}{Fabian~van~Sluijs}\strut
+  \end{minipage} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/toplap-karlsruhe.html}{\emph{\_\textbackslash\textbar/\_
-TOPLAP Karlsruhe}}}
-\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
-\href{/2023/catalogue/person/weber-anselm.html}{Anselm~Weber}\\
-\href{/2023/catalogue/person/hopfner-daniel.html}{Daniel~Höpfner}\\
-\href{/2023/catalogue/person/schreiber-jakob.html}{Jakob~Schreiber}\\
-\href{/2023/catalogue/person/liu-jia.html}{Jia~Liu~(刘佳)}\\
-\href{/2023/catalogue/person/jaudzems-kaspars.html}{Kaspars~Jaudzems}\\
-\href{/2023/catalogue/person/samarotto-michele.html}{Michele~Samarotto}\\
-\href{/2023/catalogue/person/borgeat-patrick.html}{Patrick~Borgeat}\strut
-\end{minipage} \\
+    \textbf{\href{/2023/catalogue/video/toplap-karlsruhe}{\emph{\_\textbackslash\textbar/\_
+        TOPLAP Karlsruhe}}}
+  \end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+    \href{weber-anselm}{Anselm~Weber}\\
+    \href{hopfner-daniel}{Daniel~Höpfner}\\
+    \href{schreiber-jakob}{Jakob~Schreiber}\\
+    \href{liu-jia}{Jia~Liu~(刘佳)}\\
+    \href{jaudzems-kaspars}{Kaspars~Jaudzems}\\
+    \href{samarotto-michele}{Michele~Samarotto}\\
+    \href{borgeat-patrick}{Patrick~Borgeat}\strut
+  \end{minipage} \\
 \end{longtable}
 
 \subsection{Video Gallery}\label{video-gallery}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\begin{minipage}[t]{\linewidth}\raggedright
+    >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+    >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+  \toprule\noalign{}
+  \endhead
+  \bottomrule\noalign{}
+  \endlastfoot
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/atari-2600-video-remix.html}{\emph{Atari
-2600 Video Remix}}}
-\end{minipage} &
-\href{/2023/catalogue/person/marques-da-costa-joenio.html}{Joenio~Marques~Da~Costa} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/atari-2600-video-remix}{\emph{Atari
+        2600 Video Remix}}}
+  \end{minipage} &
+  \href{marques-da-costa-joenio}{Joenio~Marques~Da~Costa} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/a-quad-entropic-conversation.html}{\emph{A
-Quad Entropic Conversation}}}
-\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
-\href{/2023/catalogue/person/imrisek-sarah.html}{Sarah~Imrisek~(@cymatiste)}\\
-\href{/2023/catalogue/person/gordon-marcus.html}{Marcus~Gordon~(magfoto)}\\
-\href{/2023/catalogue/person/briede-ilze.html}{Ilze~Briede~(Kavi)}\\
-\href{/2023/catalogue/person/maheras-hrysovalanti.html}{Hrysovalanti~Maheras~(hryso)}\strut
-\end{minipage} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/a-quad-entropic-conversation}{\emph{A
+        Quad Entropic Conversation}}}
+  \end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+    \href{imrisek-sarah}{Sarah~Imrisek~(@cymatiste)}\\
+    \href{gordon-marcus}{Marcus~Gordon~(magfoto)}\\
+    \href{briede-ilze}{Ilze~Briede~(Kavi)}\\
+    \href{maheras-hrysovalanti}{Hrysovalanti~Maheras~(hryso)}\strut
+  \end{minipage} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/der-dritte-korper.html}{\emph{Der
-dritte Körper}}}
-\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
-\href{/2023/catalogue/person/tan-shuoxin.html}{Shuoxin~Tan~(谭硕欣)}\\
-\href{/2023/catalogue/person/li-song.html}{Song~Li~(李松)}\\
-\href{/2023/catalogue/person/liu-jia.html}{Jia~Liu~(刘佳)}\strut
-\end{minipage} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/der-dritte-korper}{\emph{Der
+        dritte Körper}}}
+  \end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+    \href{tan-shuoxin}{Shuoxin~Tan~(谭硕欣)}\\
+    \href{li-song}{Song~Li~(李松)}\\
+    \href{liu-jia}{Jia~Liu~(刘佳)}\strut
+  \end{minipage} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/direction-to-nowhere.html}{\emph{Direction
-To NoWhere}}}
-\end{minipage} &
-\href{/2023/catalogue/person/oduro-kofi.html}{Kofi~Oduro~(illestpreacha)} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/direction-to-nowhere}{\emph{Direction
+        To NoWhere}}}
+  \end{minipage} &
+  \href{oduro-kofi}{Kofi~Oduro~(illestpreacha)} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/floating-gold-ibu-bhumi.html}{\emph{Floating
-Gold -- Ibu Bhumi}}}
-\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
-\href{/2023/catalogue/person/candra-rini-peni.html}{Peni~Candra~Rini}\\
-\href{/2023/catalogue/person/purnama-aji-rangga.html}{Rangga~Purnama~Aji}\\
-\href{/2023/catalogue/person/sewell-sen.html}{Sen~Sewell}\\
-\href{/2023/catalogue/person/strohschein-heather.html}{Heather~Strohschein}\\
-\href{/2023/catalogue/person/van-der-walt-j-simon.html}{J.~Simon~van~der~Walt}\\
-\href{/2023/catalogue/person/whitmer-bill.html}{Bill~Whitmer}\strut
-\end{minipage} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/floating-gold-ibu-bhumi}{\emph{Floating
+        Gold -- Ibu Bhumi}}}
+  \end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+    \href{candra-rini-peni}{Peni~Candra~Rini}\\
+    \href{purnama-aji-rangga}{Rangga~Purnama~Aji}\\
+    \href{sewell-sen}{Sen~Sewell}\\
+    \href{strohschein-heather}{Heather~Strohschein}\\
+    \href{van-der-walt-j-simon}{J.~Simon~van~der~Walt}\\
+    \href{whitmer-bill}{Bill~Whitmer}\strut
+  \end{minipage} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/live-rendering-and-coding-evolved-sounds.html}{\emph{Live
-Rendering and -Coding Evolved Sounds}}}
-\end{minipage} &
-\href{/2023/catalogue/person/jonsson-bjorn-thor.html}{Björn~Þór~Jónsson} \\
-\begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{\href{/2023/catalogue/video/live-rendering-and-coding-evolved-sounds}{\emph{Live
+        Rendering and -Coding Evolved Sounds}}}
+  \end{minipage} &
+  \href{jonsson-bjorn-thor}{Björn~Þór~Jónsson} \\
+  \begin{minipage}[t]{\linewidth}\raggedright
 
-\textbf{\href{/2023/catalogue/video/on-a-thin-string-live-coding-with-lick-the-toad.html}{\emph{On
-a thin string (Live Coding with Lick the Toad)}}}
-\end{minipage} &
-\href{/2023/catalogue/person/vasilakos-konstantinos.html}{Konstantinos~Vasilakos} \\
+    \textbf{\href{/2023/catalogue/video/on-a-thin-string-live-coding-with-lick-the-toad}{\emph{On
+        a thin string (Live Coding with Lick the Toad)}}}
+  \end{minipage} &
+  \href{vasilakos-konstantinos}{Konstantinos~Vasilakos} \\
 \end{longtable}

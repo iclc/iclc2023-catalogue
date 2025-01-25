@@ -1,9 +1,7 @@
+\subsubsection{Animatron Workshop: Live Coding Visual Poetry}\label{animatron-workshop-live-coding-visual-poetry}
 
-\subsubsection{Animatron Workshop: Live Coding Visual
-Poetry}\label{animatron-workshop-live-coding-visual-poetry}
-
-\textbf{\href{/2023/catalogue/person/pibernat-trias-roger.html}{Roger~Pibernat~Trias},
-\href{/2023/catalogue/person/fraser-glen.html}{Glen~Fraser}}
+\textbf{\href{pibernat-trias-roger}{Roger~Pibernat~Trias},
+  \href{fraser-glen}{Glen~Fraser}}
 
 Animatron is an experimental environment (very much ``work in
 progress'') that enables creation of ``visual poetry'' in the form of
@@ -25,10 +23,10 @@ required, although proficiency in any live coding language that supports
 OSC is welcome.
 
 \subsubsection{Easy Stochastic Live Coding with Mégra
-3}\label{easy-stochastic-live-coding-with-muxe9gra-3}
+  3}\label{easy-stochastic-live-coding-with-muxe9gra-3}
 
-\textbf{\href{/2023/catalogue/person/champlin-alicia.html}{Alicia~Champlin},
-\href{/2023/catalogue/person/reppel-niklas.html}{Niklas~Reppel}}
+\textbf{\href{champlin-alicia}{Alicia~Champlin},
+  \href{reppel-niklas}{Niklas~Reppel}}
 
 Mégra is a mini-language to make music with variable-order markov chains
 and some other stochastic shenanigans. This workshop offers a hands-on
@@ -40,9 +38,9 @@ headphones, and optionally a small microphone.
 
 
 \subsubsection{Expressing Oneself with Code and World
-Building}\label{expressing-oneself-with-code-and-world-building}
+  Building}\label{expressing-oneself-with-code-and-world-building}
 
-\textbf{\href{/2023/catalogue/person/oduro-kofi.html}{Kofi~Oduro~(illestpreacha)}}
+\textbf{\href{oduro-kofi}{Kofi~Oduro~(illestpreacha)}}
 
 In this workshop, participants will see how coding can be used in
 musical, performative and literary arts, by using tools such as
@@ -55,9 +53,9 @@ writing or producing work.
 
 
 \subsubsection{Introduction to Nix for Live Coding Software
-Packaging}\label{introduction-to-nix-for-live-coding-software-packaging}
+  Packaging}\label{introduction-to-nix-for-live-coding-software-packaging}
 
-\textbf{\href{/2023/catalogue/person/sanchez-medina-alejandro.html}{Alejandro~Sánchez~Medina}}
+\textbf{\href{sanchez-medina-alejandro}{Alejandro~Sánchez~Medina}}
 
 This workshop will provide a guided introduction to Nix
 (https://nixos.org/), a functional package manager for declarative
@@ -65,7 +63,7 @@ configuration of general software dependencies. The workshop will
 consist of:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
   An introduction to the principles of declarative software dependency
   management.
@@ -90,10 +88,10 @@ to make it work in a specific setup.
 
 
 \subsubsection{Live Cinema Coding with Tidal Cycles, Processing and Unreal
-Engine}\label{live-cinema-coding-with-tidal-cycles-processing-and-unreal-engine}
+  Engine}\label{live-cinema-coding-with-tidal-cycles-processing-and-unreal-engine}
 
-\textbf{\href{/2023/catalogue/person/abreu-ivan.html}{Iván~Abreu},
-\href{/2023/catalogue/person/cortes-malitzin.html}{Malitzin~Cortés~(CNDSD)}}
+\textbf{\href{abreu-ivan}{Iván~Abreu},
+  \href{cortes-malitzin}{Malitzin~Cortés~(CNDSD)}}
 
 We define Live Cinema Coding as a performative practice (heir to Live
 cinema) that uses live coding to sequence cinematographic shots,
@@ -121,10 +119,10 @@ explained the resources that will be available on GitHub.
 
 
 \subsubsection{Live Coding Latin Dance Music With
-Seis8s}\label{live-coding-latin-dance-music-with-seis8s}
+  Seis8s}\label{live-coding-latin-dance-music-with-seis8s}
 
-\textbf{\href{/2023/catalogue/person/n-del-angel-luis.html}{Luis~N.~Del~Angel},
-\href{/2023/catalogue/person/mugica-julia.html}{Julia~Múgica}}
+\textbf{\href{n-del-angel-luis}{Luis~N.~Del~Angel},
+  \href{mugica-julia}{Julia~Múgica}}
 
 Seis8s is a web-based live coding language that allows real-time
 interaction with digital audio and localized music knowledge. Seis8s
@@ -146,7 +144,7 @@ present to guide you.
 
 \subsubsection{LiveLily Workshop}\label{livelily-workshop}
 
-\textbf{\href{/2023/catalogue/person/drymonitis-alexandros.html}{Drymonitis~Alexandros}}
+\textbf{\href{drymonitis-alexandros}{Drymonitis~Alexandros}}
 
 LiveLily is a workshop on the software with the same name. This is a
 Live Sequencing and Live Scoring software through live coding with a
@@ -163,9 +161,9 @@ electronic music, or even a combination of these two.
 
 
 \subsubsection{Nodysseus.THREE: Live Lowcoding THREE.js Visuals in the
-Browser}\label{nodysseus.three-live-lowcoding-three.js-visuals-in-the-browser}
+  Browser}\label{nodysseus.three-live-lowcoding-three.js-visuals-in-the-browser}
 
-\textbf{\href{/2023/catalogue/person/popple-ulysses.html}{Ulysses~Popple}}
+\textbf{\href{popple-ulysses}{Ulysses~Popple}}
 
 Using Nodysseus, a node-editor for the browser, we\textquotesingle ll
 explore creating and using reusable node networks with 3D objects. This
@@ -177,9 +175,9 @@ revisit at any time.
 
 
 \subsubsection{P5LIVE: A p5.js Collaborative Live Coding VJ
-Environment}\label{p5live-a-p5.js-collaborative-live-coding-vj-environment}
+  Environment}\label{p5live-a-p5.js-collaborative-live-coding-vj-environment}
 
-\textbf{\href{/2023/catalogue/person/davis-ted.html}{Ted~Davis}}
+\textbf{\href{davis-ted}{Ted~Davis}}
 
 This workshop will introduce participants to P5LIVE, a collaborative
 live-coding vj environment for p5.js. Hosted by the
@@ -189,11 +187,11 @@ collaboration, and how it can be useful in a teaching environment.
 
 
 \subsubsection{Scorch: A New Programming Language For
-Music}\label{scorch-a-new-programming-language-for-music}
+  Music}\label{scorch-a-new-programming-language-for-music}
 
-\textbf{\href{/2023/catalogue/person/lorway-norah.html}{Norah~Lorway},
-\href{/2023/catalogue/person/powley-edward.html}{Edward~Powley},
-\href{/2023/catalogue/person/wilson-arthur.html}{Arthur~Wilson}}
+\textbf{\href{lorway-norah}{Norah~Lorway},
+  \href{powley-edward}{Edward~Powley},
+  \href{wilson-arthur}{Arthur~Wilson}}
 
 Scorch is a new domain specific music programming language designed by
 Norah Lorway, Edward Powley and Arthur Wilson with the intention of
@@ -214,11 +212,10 @@ audience feedback. Originally developed for use with SuperCollider, this
 workshop will be the debut of the version of Autopia developed for use
 with Scorch.
 
-
 \subsubsection{The Craft of (Algorave)
-Documentation}\label{the-craft-of-algorave-documentation}
+  Documentation}\label{the-craft-of-algorave-documentation}
 
-\textbf{\href{/2023/catalogue/person/gorelick-dan.html}{Dan~Gorelick~(dan.dog)}}
+\textbf{\href{gorelick-dan}{Dan~Gorelick~(dan.dog)}}
 
 On top of all of the chaos that goes into organizing a show, the
 logistics involved in documenting can feel like an expendable effort.
@@ -240,10 +237,10 @@ performances.
 
 \subsubsection{Visualists Meetup}\label{visualists-meetup}
 
-\textbf{\href{/2023/catalogue/person/groff-hennigh-palermo-sarah.html}{Sarah~Groff~Hennigh-Palermo},
-\href{/2023/catalogue/person/jack-olivia.html}{Olivia~Jack},
-\href{/2023/catalogue/person/john-guy.html}{Guy~John},
-\href{/2023/catalogue/person/roberts-antonio.html}{Antonio~Roberts}}
+\textbf{\href{groff-hennigh-palermo-sarah}{Sarah~Groff~Hennigh-Palermo},
+  \href{jack-olivia}{Olivia~Jack},
+  \href{john-guy}{Guy~John},
+  \href{roberts-antonio}{Antonio~Roberts}}
 
 Are you the person at the alogorave asking for the HDMI cable? (Do you
 secretly have a 10m one in your bag already?) Are you sick of everyone

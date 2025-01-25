@@ -1,17 +1,17 @@
 \subsubsection{Addressing Accessibility for Blind and Visually Impaired Live Coders}\label{addressing-accessibility-for-blind-and-visually-impaired-live-coders}
 
-\textbf{\href{/2023/catalogue/person/kaney-matthew.html}{Matthew~Kaney},
-\href{/2023/catalogue/person/payne-william-christopher.html}{William~Christopher~Payne},
-\href{/2023/catalogue/person/hurst-amy.html}{Amy~Hurst}}
+\textbf{\href{kaney-matthew}{Matthew~Kaney},
+  \href{payne-william-christopher}{William~Christopher~Payne},
+  \href{hurst-amy}{Amy~Hurst}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
-  Session 3}\\
-  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-3}{\textbf{Paper
+      Session 3}\\
+    Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
 \end{itemize}
 
 \textbf{\href{https://www.youtube.com/watch?v=ZzDSW08IAdU&t=26344s}{Live Stream Recording (YouTube)}} -- \\
@@ -36,21 +36,21 @@ learning environment and building a custom, collaborative text editor,
 text.management.
 
 \subsubsection{Asymmetric Performance in Virtual Reality and
-Code}\label{asymmetric-performance-in-virtual-reality-and-code}
+  Code}\label{asymmetric-performance-in-virtual-reality-and-code}
 
-\textbf{\href{/2023/catalogue/person/geier-leonard.html}{Leonard~Geier},
-\href{/2023/catalogue/person/methfessel-paul.html}{Paul~Methfessel},
-\href{/2023/catalogue/person/beckmann-tom.html}{Tom~Beckmann},
-\href{/2023/catalogue/person/hirschfeld-robert.html}{Robert~Hirschfeld}}
+\textbf{\href{geier-leonard}{Leonard~Geier},
+  \href{methfessel-paul}{Paul~Methfessel},
+  \href{beckmann-tom}{Tom~Beckmann},
+  \href{hirschfeld-robert}{Robert~Hirschfeld}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-4.html}{\textbf{Paper
-  Session 4}\\
-  Thursday, April 19th, 10:00, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-4}{\textbf{Paper
+      Session 4}\\
+    Thursday, April 19th, 10:00, \emph{VOGELFREI}}
 \end{itemize}
 
 \textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=65s}{Live Stream Recording (YouTube)}} -- \\
@@ -78,19 +78,19 @@ future directions for its development.
 
 
 \subsubsection{Be Brief: Convergences and Possibilities of Live Coding And
-sctweeting}\label{be-brief-convergences-and-possibilities-of-live-coding-and-sctweeting}
+  sctweeting}\label{be-brief-convergences-and-possibilities-of-live-coding-and-sctweeting}
 
-\textbf{\href{/2023/catalogue/person/m-martins-fellipe.html}{Fellipe~M.~Martins},
-\href{/2023/catalogue/person/padovani-jose-henrique.html}{José~Henrique~Padovani}}
+\textbf{\href{m-martins-fellipe}{Fellipe~M.~Martins},
+  \href{padovani-jose-henrique}{José~Henrique~Padovani}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-2.html}{\textbf{Paper
-  Session 2}\\
-  Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-2}{\textbf{Paper
+      Session 2}\\
+    Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -123,23 +123,23 @@ that have been latent in both practices.
 
 
 \subsubsection{Floating Gold: an International Collaboration through
-Estuary.}\label{floating-gold-an-international-collaboration-through-estuary.}
+  Estuary.}\label{floating-gold-an-international-collaboration-through-estuary.}
 
-\textbf{\href{/2023/catalogue/person/candra-rini-peni.html}{Peni~Candra~Rini},
-\href{/2023/catalogue/person/purnama-aji-rangga.html}{Rangga~Purnama~Aji},
-\href{/2023/catalogue/person/sewell-sen.html}{Sen~Sewell},
-\href{/2023/catalogue/person/strohschein-heather.html}{Heather~Strohschein},
-\href{/2023/catalogue/person/van-der-walt-j-simon.html}{J.~Simon~van~der~Walt},
-\href{/2023/catalogue/person/whitmer-bill.html}{Bill~Whitmer}}
+\textbf{\href{candra-rini-peni}{Peni~Candra~Rini},
+  \href{purnama-aji-rangga}{Rangga~Purnama~Aji},
+  \href{sewell-sen}{Sen~Sewell},
+  \href{strohschein-heather}{Heather~Strohschein},
+  \href{van-der-walt-j-simon}{J.~Simon~van~der~Walt},
+  \href{whitmer-bill}{Bill~Whitmer}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-2.html}{\textbf{Paper
-  Session 2}\\
-  Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-2}{\textbf{Paper
+      Session 2}\\
+    Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -162,20 +162,20 @@ indicate some directions for future exploration.
 
 
 \subsubsection{Genny: Designing and Exploring a Live Coding Interface for
-Generative
-Models}\label{genny-designing-and-exploring-a-live-coding-interface-for-generative-models}
+  Generative
+  Models}\label{genny-designing-and-exploring-a-live-coding-interface-for-generative-models}
 
-\textbf{\href{/2023/catalogue/person/shimizu-junichi.html}{Junichi~Shimizu},
-\href{/2023/catalogue/person/fiebrink-rebecca.html}{Rebecca~Fiebrink}}
+\textbf{\href{shimizu-junichi}{Junichi~Shimizu},
+  \href{fiebrink-rebecca}{Rebecca~Fiebrink}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
-  Session 3}\\
-  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-3}{\textbf{Paper
+      Session 3}\\
+    Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -202,19 +202,19 @@ inputs. Finally, we discuss reflections on this implementation approach,
 its current limitations, and further possibilities.
 
 \subsubsection{LambDAW: Towards a Generative Audio
-Workstation}\label{lambdaw-towards-a-generative-audio-workstation}
+  Workstation}\label{lambdaw-towards-a-generative-audio-workstation}
 
-\textbf{\href{/2023/catalogue/person/clester-ian.html}{Ian~Clester},
-\href{/2023/catalogue/person/freeman-jason.html}{Jason~Freeman}}
+\textbf{\href{clester-ian}{Ian~Clester},
+  \href{freeman-jason}{Jason~Freeman}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-4.html}{\textbf{Paper
-  Session 4}\\
-  Thursday, April 19th, 10:00, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-4}{\textbf{Paper
+      Session 4}\\
+    Thursday, April 19th, 10:00, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -242,24 +242,24 @@ the existing REAPER and Python ecosystems.
 
 
 \subsubsection{LivecoderA Community
-Report}\label{livecodera-community-report}
+  Report}\label{livecodera-community-report}
 
-\textbf{\href{/2023/catalogue/person/champlin-alicia.html}{Alicia~Champlin},
-\href{/2023/catalogue/person/chicau-joana.html}{Joana~Chicau},
-\href{/2023/catalogue/person/corfiel-miki.html}{Miki~Corfiel},
-\href{/2023/catalogue/person/knotts-shelly.html}{Shelly~Knotts},
-\href{/2023/catalogue/person/marie-mynah.html}{Mynah~Marie},
-\href{/2023/catalogue/person/saladino-iris.html}{Iris~Saladino},
-\href{/2023/catalogue/person/xambo-anna.html}{Anna~Xambó}}
+\textbf{\href{champlin-alicia}{Alicia~Champlin},
+  \href{chicau-joana}{Joana~Chicau},
+  \href{corfiel-miki}{Miki~Corfiel},
+  \href{knotts-shelly}{Shelly~Knotts},
+  \href{marie-mynah}{Mynah~Marie},
+  \href{saladino-iris}{Iris~Saladino},
+  \href{xambo-anna}{Anna~Xambó}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/community-session-2.html}{\textbf{Community
-  Report Session 2}\\
-  Friday, April 21st, 11:15, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/community-session-2}{\textbf{Community
+      Report Session 2}\\
+    Friday, April 21st, 11:15, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -284,7 +284,7 @@ of publishing, the community connects through Telegram and Discord, with
 channels consisting of 48 and 27 members respectively.
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
   LivecoderA manifesto: \url{https://livecodera.glitch.me/}
 \item
@@ -293,20 +293,20 @@ channels consisting of 48 and 27 members respectively.
 
 
 \subsubsection{Live Coding and Education. A Practical
-Experience.}\label{live-coding-and-education.-a-practical-experience.}
+  Experience.}\label{live-coding-and-education.-a-practical-experience.}
 
-\textbf{\href{/2023/catalogue/person/corvi-francesco.html}{Francesco~Corvi},
-\href{/2023/catalogue/person/mori-giovanni.html}{Giovanni~Mori},
-\href{/2023/catalogue/person/nulli-giovanni.html}{Giovanni~Nulli}}
+\textbf{\href{corvi-francesco}{Francesco~Corvi},
+  \href{mori-giovanni}{Giovanni~Mori},
+  \href{nulli-giovanni}{Giovanni~Nulli}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-5.html}{\textbf{Paper
-  Session 5}\\
-  Thursday, April 19th, 11:30, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-5}{\textbf{Paper
+      Session 5}\\
+    Thursday, April 19th, 11:30, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -334,23 +334,23 @@ possible paths for future work and improvement.
 
 
 \subsubsection{MosAIck: Staging Contemporary AI Performance - Reflections
-on Connecting Live Coding, e-Textile and
-Movement}\label{mosaick-staging-contemporary-ai-performance---reflections-on-connecting-live-coding-e-textile-and-movement}
+  on Connecting Live Coding, e-Textile and
+  Movement}\label{mosaick-staging-contemporary-ai-performance---reflections-on-connecting-live-coding-e-textile-and-movement}
 
-\textbf{\href{/2023/catalogue/person/wilson-elizabeth.html}{Elizabeth~Wilson},
-\href{/2023/catalogue/person/schubert-deva.html}{Deva~Schubert},
-\href{/2023/catalogue/person/satomi-mika.html}{Mika~Satomi},
-\href{/2023/catalogue/person/mclean-alex.html}{Alex~McLean},
-\href{/2023/catalogue/person/felipe-amaya-gonzalez-juan.html}{Juan~Felipe~Amaya~Gonzalez}}
+\textbf{\href{wilson-elizabeth}{Elizabeth~Wilson},
+  \href{schubert-deva}{Deva~Schubert},
+  \href{satomi-mika}{Mika~Satomi},
+  \href{mclean-alex}{Alex~McLean},
+  \href{felipe-amaya-gonzalez-juan}{Juan~Felipe~Amaya~Gonzalez}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-2.html}{\textbf{Paper
-  Session 2}\\
-  Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-2}{\textbf{Paper
+      Session 2}\\
+    Wednesday, April 19th, 11:30, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -376,26 +376,26 @@ performance, and reflections on it.
 
 \subsubsection{NL\_CL Community Report}\label{nl_cl-community-report}
 
-\textbf{\href{/2023/catalogue/person/hoogland-timo.html}{Timo~Hoogland},
-\href{/2023/catalogue/person/chicau-joana.html}{Joana~Chicau},
-\href{/2023/catalogue/person/reus-jonathan.html}{Jonathan~Reus},
-\href{/2023/catalogue/person/andrade-rafaele.html}{Rafaele~Andrade},
-\href{/2023/catalogue/person/corvi-francesco.html}{Francesco~Corvi},
-\href{/2023/catalogue/person/van-sluijs-fabian.html}{Fabian~van~Sluijs},
-\href{/2023/catalogue/person/noriega-alcaraz-felipe-ignacio.html}{Felipe~Ignacio~Noriega~Alcaraz},
-\href{/2023/catalogue/person/van-de-zandschulp-klasien.html}{Klasien~van~de~Zandschulp},
-\href{/2023/catalogue/person/freeke-saskia.html}{Saskia~Freeke},
-\href{/2023/catalogue/person/verhage-sabrina.html}{Sabrina~Verhage},
-\href{/2023/catalogue/person/paz-ivan.html}{Iván~Paz}}
+\textbf{\href{hoogland-timo}{Timo~Hoogland},
+  \href{chicau-joana}{Joana~Chicau},
+  \href{reus-jonathan}{Jonathan~Reus},
+  \href{andrade-rafaele}{Rafaele~Andrade},
+  \href{corvi-francesco}{Francesco~Corvi},
+  \href{van-sluijs-fabian}{Fabian~van~Sluijs},
+  \href{noriega-alcaraz-felipe-ignacio}{Felipe~Ignacio~Noriega~Alcaraz},
+  \href{van-de-zandschulp-klasien}{Klasien~van~de~Zandschulp},
+  \href{freeke-saskia}{Saskia~Freeke},
+  \href{verhage-sabrina}{Sabrina~Verhage},
+  \href{paz-ivan}{Iván~Paz}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/community-session-1.html}{\textbf{Community
-  Report Session 1}\\
-  Friday, April 21st, 10:00, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/community-session-1}{\textbf{Community
+      Report Session 1}\\
+    Friday, April 21st, 10:00, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -433,20 +433,20 @@ USA, Mexico, Portugal, Italy and of course The Netherlands.
 
 
 \subsubsection{Reproducible Musical Analysis of Live Coding Performances
-Using Information Retrieval: A Case Study on the Algorave 10th
-Anniversary}\label{reproducible-musical-analysis-of-live-coding-performances-using-information-retrieval-a-case-study-on-the-algorave-10th-anniversary}
+  Using Information Retrieval: A Case Study on the Algorave 10th
+  Anniversary}\label{reproducible-musical-analysis-of-live-coding-performances-using-information-retrieval-a-case-study-on-the-algorave-10th-anniversary}
 
-\textbf{\href{/2023/catalogue/person/diapoulis-georgios.html}{Georgios~Diapoulis},
-\href{/2023/catalogue/person/carle-martin.html}{Martin~Carlé}}
+\textbf{\href{diapoulis-georgios}{Georgios~Diapoulis},
+  \href{carle-martin}{Martin~Carlé}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
-  Session 3}\\
-  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-3}{\textbf{Paper
+      Session 3}\\
+    Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -489,19 +489,19 @@ machine musicianship.
 
 
 \subsubsection{Sardine: A Modular Python Live Coding
-Environment}\label{sardine-a-modular-python-live-coding-environment}
+  Environment}\label{sardine-a-modular-python-live-coding-environment}
 
-\textbf{\href{/2023/catalogue/person/forment-raphael-maurice.html}{Raphaël~Maurice~Forment},
-\href{/2023/catalogue/person/armitage-jack.html}{Jack~Armitage}}
+\textbf{\href{forment-raphael-maurice}{Raphaël~Maurice~Forment},
+  \href{armitage-jack}{Jack~Armitage}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-1.html}{\textbf{Welcome \&
-  Paper Session 1}\\
-  Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-1}{\textbf{Welcome \&
+      Paper Session 1}\\
+    Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -532,19 +532,19 @@ development.
 
 
 \subsubsection{Strudel: Live Coding Patterns on the
-Web}\label{strudel-live-coding-patterns-on-the-web}
+  Web}\label{strudel-live-coding-patterns-on-the-web}
 
-\textbf{\href{/2023/catalogue/person/roos-felix.html}{Felix~Roos},
-\href{/2023/catalogue/person/mclean-alex.html}{Alex~McLean}}
+\textbf{\href{roos-felix}{Felix~Roos},
+  \href{mclean-alex}{Alex~McLean}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-1.html}{\textbf{Welcome \&
-  Paper Session 1}\\
-  Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-1}{\textbf{Welcome \&
+      Paper Session 1}\\
+    Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -571,21 +571,21 @@ thoughts about the future.
 
 
 \subsubsection{The Meaning of Live: From Art Without Audience to Programs
-Without
-Users}\label{the-meaning-of-live-from-art-without-audience-to-programs-without-users}
+  Without
+  Users}\label{the-meaning-of-live-from-art-without-audience-to-programs-without-users}
 
-\textbf{\href{/2023/catalogue/person/mclean-alex.html}{Alex~McLean},
-\href{/2023/catalogue/person/rohrhuber-julian.html}{Julian~Rohrhuber},
-\href{/2023/catalogue/person/wieser-renate.html}{Renate~Wieser}}
+\textbf{\href{mclean-alex}{Alex~McLean},
+  \href{rohrhuber-julian}{Julian~Rohrhuber},
+  \href{wieser-renate}{Renate~Wieser}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-5.html}{\textbf{Paper
-  Session 5}\\
-  Thursday, April 19th, 11:30, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-5}{\textbf{Paper
+      Session 5}\\
+    Thursday, April 19th, 11:30, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -612,19 +612,19 @@ potential of public thought.
 
 
 \subsubsection{The Physical and Cultural Infrastructure Supporting
-LiveCode.NYC: A Community
-Report}\label{the-physical-and-cultural-infrastructure-supporting-livecode.nyc-a-community-report}
+  LiveCode.NYC: A Community
+  Report}\label{the-physical-and-cultural-infrastructure-supporting-livecode.nyc-a-community-report}
 
-\textbf{\href{/2023/catalogue/person/srinivasan-sumanth.html}{Sumanth~Srinivasan}}
+\textbf{\href{srinivasan-sumanth}{Sumanth~Srinivasan}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/community-session-2.html}{\textbf{Community
-  Report Session 2}\\
-  Friday, April 21st, 11:15, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/community-session-2}{\textbf{Community
+      Report Session 2}\\
+    Friday, April 21st, 11:15, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -645,23 +645,23 @@ of working, successes and challenges.
 
 
 \subsubsection{TOPLAP Barcelona Community Report
-2023}\label{toplap-barcelona-community-report-2023}
+  2023}\label{toplap-barcelona-community-report-2023}
 
-\textbf{\href{/2023/catalogue/person/fraser-glen.html}{Glen~Fraser},
-\href{/2023/catalogue/person/paz-ivan.html}{Iván~Paz},
-\href{/2023/catalogue/person/bautista-rodriguez-lina.html}{Lina~Bautista~Rodríguez},
-\href{/2023/catalogue/person/reppel-niklas.html}{Niklas~Reppel},
-\href{/2023/catalogue/person/pibernat-trias-roger.html}{Roger~Pibernat~Trias},
-\href{/2023/catalogue/person/casamajo-ramon.html}{Ramon~Casamajó~(QBRNTHSS)}}
+\textbf{\href{fraser-glen}{Glen~Fraser},
+  \href{paz-ivan}{Iván~Paz},
+  \href{bautista-rodriguez-lina}{Lina~Bautista~Rodríguez},
+  \href{reppel-niklas}{Niklas~Reppel},
+  \href{pibernat-trias-roger}{Roger~Pibernat~Trias},
+  \href{casamajo-ramon}{Ramon~Casamajó~(QBRNTHSS)}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/community-session-1.html}{\textbf{Community
-  Report Session 1}\\
-  Friday, April 21st, 10:00, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/community-session-1}{\textbf{Community
+      Report Session 1}\\
+    Friday, April 21st, 10:00, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -681,19 +681,19 @@ how they shape the character of the community as we can see it today.
 
 
 \subsubsection{Towards Another Transdiscipline: Art, (Techno)Science and
-Emancipation as Promise and Provocation for Live
-Coding}\label{towards-another-transdiscipline-art-technoscience-and-emancipation-as-promise-and-provocation-for-live-coding}
+  Emancipation as Promise and Provocation for Live
+  Coding}\label{towards-another-transdiscipline-art-technoscience-and-emancipation-as-promise-and-provocation-for-live-coding}
 
-\textbf{\href{/2023/catalogue/person/franco-briones-alejandro.html}{Alejandro~Franco~Briones}}
+\textbf{\href{franco-briones-alejandro}{Alejandro~Franco~Briones}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-5.html}{\textbf{Paper
-  Session 5}\\
-  Thursday, April 19th, 11:30, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-5}{\textbf{Paper
+      Session 5}\\
+    Thursday, April 19th, 11:30, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -716,26 +716,26 @@ emancipation properly into artistic and scientific practices.
 
 
 \subsubsection{uSEQ: A LISPy Modular Sequencer for Eurorack with a
-Livecodable
-Microcontroller}\label{useq-a-lispy-modular-sequencer-for-eurorack-with-a-livecodable-microcontroller}
+  Livecodable
+  Microcontroller}\label{useq-a-lispy-modular-sequencer-for-eurorack-with-a-livecodable-microcontroller}
 
-\textbf{\href{/2023/catalogue/person/kyriakoudis-dimitris.html}{Dimitris~Kyriakoudis},
-\href{/2023/catalogue/person/kiefer-chris.html}{Chris~Kiefer}}
+\textbf{\href{kyriakoudis-dimitris}{Dimitris~Kyriakoudis},
+  \href{kiefer-chris}{Chris~Kiefer}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-4.html}{\textbf{Paper
-  Session 4}\\
-  Thursday, April 19th, 10:00, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-4}{\textbf{Paper
+      Session 4}\\
+    Thursday, April 19th, 10:00, \emph{VOGELFREI}}
 \end{itemize}
 
 
 \textbf{\href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=2548s}{Live Stream Recording (YouTube)}} --\\
 \href{https://www.youtube.com/watch?v=_Z71KQtWpMk&t=2548s}{https://www.youtube.com/watch?v=\_Z71KQtWpMk\&t=2548s}
- 
+
 Publication:
 \href{https://doi.org/10.5281/zenodo.7843874}{\textbf{https://doi.org/10.5281/zenodo.7843874}}
 
@@ -768,19 +768,19 @@ two worlds, following a practice-led, research-through-design approach.
 
 
 \subsubsection{Ziffers: Numbered Notation for Algorithmic
-Composition}\label{ziffers-numbered-notation-for-algorithmic-composition}
+  Composition}\label{ziffers-numbered-notation-for-algorithmic-composition}
 
-\textbf{\href{/2023/catalogue/person/alonen-miika.html}{Miika~Alonen},
-\href{/2023/catalogue/person/forment-raphael-maurice.html}{Raphaël~Maurice~Forment}}
+\textbf{\href{alonen-miika}{Miika~Alonen},
+  \href{forment-raphael-maurice}{Raphaël~Maurice~Forment}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-3.html}{\textbf{Paper
-  Session 3}\\
-  Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-3}{\textbf{Paper
+      Session 3}\\
+    Wednesday, April 19th, 15:15, \emph{VOGELFREI}}
 \end{itemize}
 
 
@@ -810,18 +810,18 @@ of our approach in using unified syntax for different contexts of
 execution and interpretation.
 
 \subsubsection{Živa: Easy Live Coding With
-SuperCollider}\label{ux17eiva-easy-live-coding-with-supercollider}
+  SuperCollider}\label{ux17eiva-easy-live-coding-with-supercollider}
 
-\textbf{\href{/2023/catalogue/person/pibernat-trias-roger.html}{Roger~Pibernat~Trias}}
+\textbf{\href{pibernat-trias-roger}{Roger~Pibernat~Trias}}
 
 Was presented at:
 
 \begin{itemize}
-\tightlist
+  \tightlist
 \item
-  \href{/2023/catalogue/event/paper-session-1.html}{\textbf{Welcome \&
-  Paper Session 1}\\
-  Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
+  \href{/2023/catalogue/event/paper-session-1}{\textbf{Welcome \&
+      Paper Session 1}\\
+    Wednesday, April 19th, 09:45, \emph{VOGELFREI}}
 \end{itemize}
 
 
