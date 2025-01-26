@@ -36,6 +36,7 @@ and free play.
 Any skill level. Windows/MacOS/Linux. Participants should bring laptops,
 headphones, and optionally a small microphone.
 
+\newpage
 
 \subsubsection{Expressing Oneself with Code and World
   Building}\label{expressing-oneself-with-code-and-world-building}
@@ -50,7 +51,6 @@ of seeing how it can be use in a collaborative setting. Participants
 will see how improvised writing and coding can lead to various outcomes,
 musically, as well as how to use network elements to your advantage when
 writing or producing work.
-
 
 \subsubsection{Introduction to Nix for Live Coding Software
   Packaging}\label{introduction-to-nix-for-live-coding-software-packaging}
@@ -111,11 +111,9 @@ For the workshop it is necessary to have Tidal Cycles (supercollider),
 Processing and Unreal Engine already installed and the student will be
 explained the resources that will be available on GitHub.
 
-\href{https://tidalcycles.org/}{Tidal Cycles}
-
-\href{https://processing.org/download}{Processing}
-
-\href{https://www.unrealengine.com/en-US/download}{Unreal Engine}
+\url{https://tidalcycles.org/}\\
+\url{https://processing.org/download}\\
+\url{https://www.unrealengine.com/en-US/download}\\
 
 
 \subsubsection{Live Coding Latin Dance Music With
